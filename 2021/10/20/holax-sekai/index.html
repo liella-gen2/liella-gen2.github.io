@@ -14,7 +14,7 @@
 <meta property="og:description" content="初始页面">
 <meta property="og:locale">
 <meta property="article:published_time" content="2021-10-20T07:05:01.000Z">
-<meta property="article:modified_time" content="2021-10-20T07:08:15.920Z">
+<meta property="article:modified_time" content="2021-10-21T04:15:43.223Z">
 <meta name="twitter:card" content="summary">
     
     
@@ -47,14 +47,23 @@
     
 	<!-- mathjax -->
 	
+		<script type="text/x-mathjax-config">
+		  MathJax.Hub.Config({
+			tex2jax: {
+			  skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+			  inlineMath: [['$','$']]
+			}
+		  });
+		</script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+	
 <meta name="generator" content="Hexo 5.4.0"></head>
 
-<body class="max-width mx-auto px3 ltr">
-    
+<body class="max-width mx-auto px3 ltr">    
       <div id="header-post">
-  <a id="menu-icon" href="#" aria-label="Menu(目录)"><i class="fas fa-bars fa-lg"></i></a>
-  <a id="menu-icon-tablet" href="#" aria-label="Menu(目录)"><i class="fas fa-bars fa-lg"></i></a>
-  <a id="top-icon-tablet" href="#" aria-label="Top(顶端)" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <a id="menu-icon" href="#" aria-label="Menu (目录)"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#" aria-label="Menu (目录)"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" aria-label="Top (顶端)" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
   <span id="menu">
     <span id="nav">
       <ul>
@@ -65,11 +74,7 @@
      --><!--
        --><li><a href="/archives/">Writing(归档)</a></li><!--
      --><!--
-       --><li><a target="_blank" rel="noopener" href="https://github.com/liella-gen2/">Projects(项目)</a></li><!--
-     --><!--
        --><li><a href="/tags/">Tag(标签)</a></li><!--
-     --><!--
-       --><li><a href="/categories/">Category(分类)</a></li><!--
      --><!--
        --><li><a href="/search/">Search(搜索)</a></li><!--
      -->
@@ -79,16 +84,16 @@
     <span id="actions">
       <ul>
         
-        <li><a class="icon" aria-label="Prev(上一篇)" href="/2021/10/20/test/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        <li><a class="icon" aria-label="Prev (上一篇)" href="/2021/10/20/test1/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
         
         
-        <li><a class="icon" aria-label="Top(返回顶部)" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
-        <li><a class="icon" aria-label="Share(分享文章)" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+        <li><a class="icon" aria-label="Top (返回顶部)" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" aria-label="Share (分享文章)" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
       </ul>
-      <span id="i-prev" class="info" style="display:none;">Prev(上一篇)</span>
-      <span id="i-next" class="info" style="display:none;">Next(下一篇)</span>
-      <span id="i-top" class="info" style="display:none;">Top(返回顶部)</span>
-      <span id="i-share" class="info" style="display:none;">Share(分享文章)</span>
+      <span id="i-prev" class="info" style="display:none;">Prev (上一篇)</span>
+      <span id="i-next" class="info" style="display:none;">Next (下一篇)</span>
+      <span id="i-top" class="info" style="display:none;">Top (返回顶部)</span>
+      <span id="i-share" class="info" style="display:none;">Share (分享文章)</span>
     </span>
     <br/>
     <div id="share" style="display: none">
@@ -166,11 +171,7 @@
          
           <li><a href="/archives/">Writing(归档)</a></li>
          
-          <li><a target="_blank" rel="noopener" href="https://github.com/liella-gen2/">Projects(项目)</a></li>
-         
           <li><a href="/tags/">Tag(标签)</a></li>
-         
-          <li><a href="/categories/">Category(分类)</a></li>
          
           <li><a href="/search/">Search(搜索)</a></li>
         
@@ -199,10 +200,10 @@
     </div>
 
     <div id="actions-footer">
-        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu(菜单)</a>
-        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC(目录)</a>
-        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share(分享)</a>
-        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top(返回顶部)</a>
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu (菜单)</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC (目录)</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share (分享)</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top (返回顶部)</a>
     </div>
 
   </div>
@@ -217,6 +218,9 @@
     2016-2021
     Liella! Generation II
   </div>
+  <div>
+    <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">Hexo</a>大法好!
+  </div>
   <div class="footer-right">
     <nav>
       <ul>
@@ -227,11 +231,7 @@
      --><!--
        --><li><a href="/archives/">Writing(归档)</a></li><!--
      --><!--
-       --><li><a target="_blank" rel="noopener" href="https://github.com/liella-gen2/">Projects(项目)</a></li><!--
-     --><!--
        --><li><a href="/tags/">Tag(标签)</a></li><!--
-     --><!--
-       --><li><a href="/categories/">Category(分类)</a></li><!--
      --><!--
        --><li><a href="/search/">Search(搜索)</a></li><!--
      -->
@@ -277,7 +277,7 @@
   <script type="text/javascript">
   $(function() {
     // copy-btn HTML
-    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"复制到粘贴板!\">";
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"Copy to clipboard\n复制到粘贴板\">";
     btn += '<i class="far fa-clone"></i>';
     btn += '</span>'; 
     // mount it!
@@ -288,7 +288,7 @@
       }
     });
     clip.on('success', function(e) {
-      e.trigger.setAttribute('aria-label', "复制成功!");
+      e.trigger.setAttribute('aria-label', "Copied!\n复制成功!");
       e.clearSelection();
     })
   })
@@ -310,5 +310,20 @@
 <!-- Disqus Comments -->
 
 
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>

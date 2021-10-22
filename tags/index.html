@@ -45,10 +45,19 @@
     
 	<!-- mathjax -->
 	
+		<script type="text/x-mathjax-config">
+		  MathJax.Hub.Config({
+			tex2jax: {
+			  skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+			  inlineMath: [['$','$']]
+			}
+		  });
+		</script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+	
 <meta name="generator" content="Hexo 5.4.0"></head>
 
-<body class="max-width mx-auto px3 ltr">
-    
+<body class="max-width mx-auto px3 ltr">    
     <div class="content index py4">
         
           <header id="header">
@@ -65,7 +74,7 @@
   <div id="nav">
     <ul>
       <li class="icon">
-        <a href="#" aria-label="Menu(目录)"><i class="fas fa-bars fa-2x"></i></a>
+        <a href="#" aria-label="Menu (目录)"><i class="fas fa-bars fa-2x"></i></a>
       </li>
       <!--
      --><li><a href="/">Home(首页)</a></li><!--
@@ -74,11 +83,7 @@
    --><!--
      --><li><a href="/archives/">Writing(归档)</a></li><!--
    --><!--
-     --><li><a target="_blank" rel="noopener" href="https://github.com/liella-gen2/">Projects(项目)</a></li><!--
-   --><!--
      --><li><a href="/tags/">Tag(标签)</a></li><!--
-   --><!--
-     --><li><a href="/categories/">Category(分类)</a></li><!--
    --><!--
      --><li><a href="/search/">Search(搜索)</a></li><!--
    -->
@@ -136,10 +141,14 @@
                     
                   
                 
+                  
+                    
+                  
+                
                 
             </div>
             <div class="tag-cloud-tags">
-              <a href="/tags/Chihori-%E6%B6%A9%E8%B0%B7-%E5%8D%83%E7%A9%97%E7%90%86/" style="font-size: 12px;">Chihori (涩谷 千穗理)</a> <a href="/tags/Chisato-%E5%B2%9A-%E5%8D%83%E7%A0%82%E9%83%BD/" style="font-size: 12px;">Chisato (岚 千砂都)</a> <a href="/tags/Kanako-%E6%B6%A9%E8%B0%B7-%E9%A6%99%E8%8F%9C%E5%AD%90/" style="font-size: 12px;">Kanako (涩谷 香菜子)</a> <a href="/tags/Kanon-%E6%B6%A9%E8%B0%B7-%E9%A6%99%E9%9F%B3/" style="font-size: 12px;">Kanon (涩谷 香音)</a> <a href="/tags/Kuku-%E5%94%90-%E5%8F%AF%E5%8F%AF/" style="font-size: 12px;">Kuku (唐 可可)</a> <a href="/tags/Otoha-%E6%B6%A9%E8%B0%B7-%E9%9F%B3%E7%BE%BD/" style="font-size: 12px;">Otoha (涩谷 音羽)</a> <a href="/tags/Ren-%E5%8F%B6%E6%9C%88-%E6%81%8B/" style="font-size: 12px;">Ren (叶月 恋)</a> <a href="/tags/Sou-%E5%B9%B3%E5%AE%89%E5%90%8D-%E8%96%AE/" style="font-size: 12px;">Sou (平安名 薮)</a> <a href="/tags/Sumire-%E5%B9%B3%E5%AE%89%E5%90%8D-%E5%A0%87/" style="font-size: 12px;">Sumire (平安名 堇)</a> <a href="/tags/tag4test-%E6%B8%AC%E8%A9%A6%E7%9A%84Tag/" style="font-size: 12px;">tag4test(測試的Tag!)</a>
+              <a href="/tags/Chihori-%E6%B6%A9%E8%B0%B7-%E5%8D%83%E7%A9%97%E7%90%86/" style="font-size: 12px;">Chihori (涩谷 千穗理)</a> <a href="/tags/Chisato-%E5%B2%9A-%E5%8D%83%E7%A0%82%E9%83%BD/" style="font-size: 12px;">Chisato (岚 千砂都)</a> <a href="/tags/Kanako-%E6%B6%A9%E8%B0%B7-%E9%A6%99%E8%8F%9C%E5%AD%90/" style="font-size: 12px;">Kanako (涩谷 香菜子)</a> <a href="/tags/Kanon-%E6%B6%A9%E8%B0%B7-%E9%A6%99%E9%9F%B3/" style="font-size: 12px;">Kanon (涩谷 香音)</a> <a href="/tags/Kuku-%E5%94%90-%E5%8F%AF%E5%8F%AF/" style="font-size: 12px;">Kuku (唐 可可)</a> <a href="/tags/Otoha-%E6%B6%A9%E8%B0%B7-%E9%9F%B3%E7%BE%BD/" style="font-size: 12px;">Otoha (涩谷 音羽)</a> <a href="/tags/Ren-%E5%8F%B6%E6%9C%88-%E6%81%8B/" style="font-size: 12px;">Ren (叶月 恋)</a> <a href="/tags/Sou-%E5%B9%B3%E5%AE%89%E5%90%8D-%E8%96%AE/" style="font-size: 12px;">Sou (平安名 薮)</a> <a href="/tags/Sumire-%E5%B9%B3%E5%AE%89%E5%90%8D-%E5%A0%87/" style="font-size: 12px;">Sumire (平安名 堇)</a> <a href="/tags/shiopomu/" style="font-size: 12px;">shiopomu</a> <a href="/tags/tag4test-%E6%B8%AC%E8%A9%A6%E7%9A%84Tag/" style="font-size: 30px;">tag4test(測試的Tag!)</a>
             </div>
           </div>
         
@@ -155,6 +164,9 @@
     2016-2021
     Liella! Generation II
   </div>
+  <div>
+    <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">Hexo</a>大法好!
+  </div>
   <div class="footer-right">
     <nav>
       <ul>
@@ -165,11 +177,7 @@
      --><!--
        --><li><a href="/archives/">Writing(归档)</a></li><!--
      --><!--
-       --><li><a target="_blank" rel="noopener" href="https://github.com/liella-gen2/">Projects(项目)</a></li><!--
-     --><!--
        --><li><a href="/tags/">Tag(标签)</a></li><!--
-     --><!--
-       --><li><a href="/categories/">Category(分类)</a></li><!--
      --><!--
        --><li><a href="/search/">Search(搜索)</a></li><!--
      -->
@@ -223,5 +231,20 @@
 <!-- Disqus Comments -->
 
 
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>

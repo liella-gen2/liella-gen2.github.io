@@ -11,6 +11,7 @@ if (!!$.prototype.justifiedGallery) {
 }
 
 $(document).ready(function() {
+  $(".hidiv").attr("title", "Watch your BACK!!\n你知道的过多了，当心你的后颈肉！");
 
   /**
    * Shows the responsive navigation menu on mobile.
