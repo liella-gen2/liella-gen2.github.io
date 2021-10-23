@@ -1,36 +1,182 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Holax Sekai</title>
-    <url>/2021/10/20/holax-sekai/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="初始页面"><a href="#初始页面" class="headerlink" title="初始页面"></a>初始页面</h1>]]></content>
+    <title>Highlight!</title>
+    <url>/2021/10/24/code-highlight/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>To make sure that all the code blocks highlighted correctly. All the code samples are come from the demo of <a href="https://highlightjs.org/">https://highlightjs.org/</a></p>
+<span id="more"></span>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#x27;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span><br></pre></td></tr></table></figure>
+<figure class="highlight rust"><table><tr><td class="code"><pre><span class="line"><span class="meta">#[derive(Debug)]</span></span><br><span class="line"><span class="keyword">pub</span> <span class="class"><span class="keyword">enum</span> <span class="title">State</span></span> &#123;</span><br><span class="line">    Start,</span><br><span class="line">    Transient,</span><br><span class="line">    Closed,</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">impl</span> <span class="built_in">From</span>&lt;&amp;<span class="symbol">&#x27;a</span> <span class="built_in">str</span>&gt; <span class="keyword">for</span> State &#123;</span><br><span class="line">    <span class="function"><span class="keyword">fn</span> <span class="title">from</span></span>(s: &amp;<span class="symbol">&#x27;a</span> <span class="built_in">str</span>) -&gt; <span class="keyword">Self</span> &#123;</span><br><span class="line">        <span class="keyword">match</span> s &#123;</span><br><span class="line">            <span class="string">&quot;start&quot;</span> =&gt; State::Start,</span><br><span class="line">            <span class="string">&quot;closed&quot;</span> =&gt; State::Closed,</span><br><span class="line">            _ =&gt; <span class="built_in">unreachable!</span>(),</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">[</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="attr">&quot;title&quot;</span>: <span class="string">&quot;apples&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;count&quot;</span>: [<span class="number">12000</span>, <span class="number">20000</span>],</span><br><span class="line">    <span class="attr">&quot;description&quot;</span>: &#123;<span class="attr">&quot;text&quot;</span>: <span class="string">&quot;...&quot;</span>, <span class="attr">&quot;sensitive&quot;</span>: <span class="literal">false</span>&#125;</span><br><span class="line">  &#125;,</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="attr">&quot;title&quot;</span>: <span class="string">&quot;oranges&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;count&quot;</span>: [<span class="number">17500</span>, <span class="literal">null</span>],</span><br><span class="line">    <span class="attr">&quot;description&quot;</span>: &#123;<span class="attr">&quot;text&quot;</span>: <span class="string">&quot;...&quot;</span>, <span class="attr">&quot;sensitive&quot;</span>: <span class="literal">false</span>&#125;</span><br><span class="line">  &#125;</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">@requires_authorization</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">somefunc</span>(<span class="params">param1=<span class="string">&#x27;&#x27;</span>, param2=<span class="number">0</span></span>):</span></span><br><span class="line">    <span class="string">r&#x27;&#x27;&#x27;A docstring&#x27;&#x27;&#x27;</span></span><br><span class="line">    <span class="keyword">if</span> param1 &gt; param2: <span class="comment"># interesting</span></span><br><span class="line">        <span class="built_in">print</span> <span class="string">&#x27;Gre\&#x27;ater&#x27;</span></span><br><span class="line">    <span class="keyword">return</span> (param2 - param1 + <span class="number">1</span> + <span class="number">0b10l</span>) <span class="keyword">or</span> <span class="literal">None</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">SomeClass</span>:</span></span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>message = <span class="string">&#x27;&#x27;&#x27;interpreter</span></span><br><span class="line"><span class="string"><span class="meta">... </span>prompt&#x27;&#x27;&#x27;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">title</span>&gt;</span>Title<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="css"><span class="selector-tag">body</span> &#123;<span class="attribute">width</span>: <span class="number">500px</span>;&#125;</span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;application/javascript&quot;</span>&gt;</span><span class="javascript"></span></span><br><span class="line"><span class="javascript">  <span class="function"><span class="keyword">function</span> <span class="title">$init</span>(<span class="params"></span>) </span>&#123;<span class="keyword">return</span> <span class="literal">true</span>;&#125;</span></span><br><span class="line"><span class="javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span> <span class="attr">checked</span> <span class="attr">class</span>=<span class="string">&quot;title&quot;</span> <span class="attr">id</span>=<span class="string">&#x27;title&#x27;</span>&gt;</span>Title<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">  <span class="comment">&lt;!-- here goes the rest of the page --&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">$initHighlight</span>(<span class="params">block, cls</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">try</span> &#123;</span><br><span class="line">    <span class="keyword">if</span> (cls.search(<span class="regexp">/\bno\-highlight\b/</span>) != -<span class="number">1</span>)</span><br><span class="line">      <span class="keyword">return</span> process(block, <span class="literal">true</span>, <span class="number">0x0F</span>) +</span><br><span class="line">             <span class="string">` class=&quot;<span class="subst">$&#123;cls&#125;</span>&quot;`</span>;</span><br><span class="line">  &#125; <span class="keyword">catch</span> (e) &#123;</span><br><span class="line">    <span class="comment">/* handle exception */</span></span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span> / <span class="number">2</span>; i &lt; classes.length; i++) &#123;</span><br><span class="line">    <span class="keyword">if</span> (checkCondition(classes[i]) === <span class="literal">undefined</span>)</span><br><span class="line">      <span class="built_in">console</span>.log(<span class="string">&#x27;undefined&#x27;</span>);</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">return</span> (</span><br><span class="line">    <span class="xml"><span class="tag">&lt;<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="xml">      <span class="tag">&lt;<span class="name">web-component</span>&gt;</span>&#123;block&#125;<span class="tag">&lt;/<span class="name">web-component</span>&gt;</span></span></span><br><span class="line"><span class="xml">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line">  )</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">export</span> $initHighlight;</span><br></pre></td></tr></table></figure>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">int</span> argc, <span class="keyword">char</span> *argv[])</span> </span>&#123;</span><br><span class="line">  <span class="comment">/* An annoying &quot;Hello World&quot; example */</span></span><br><span class="line">  <span class="keyword">for</span> (<span class="keyword">auto</span> i = <span class="number">0</span>; i &lt; <span class="number">0xFFFF</span>; i++)</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;Hello, World!&quot;</span> &lt;&lt; endl;</span><br><span class="line">  <span class="keyword">char</span> c = <span class="string">&#x27;\n&#x27;</span>;</span><br><span class="line">  unordered_map &lt;string, vector&lt;string&gt; &gt; m;</span><br><span class="line">  m[<span class="string">&quot;key&quot;</span>] = <span class="string">&quot;\\\\&quot;</span>; <span class="comment">// this is an error</span></span><br><span class="line">  <span class="keyword">return</span> <span class="number">-2e3</span> + <span class="number">12l</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> &quot;topic&quot; (</span><br><span class="line">    &quot;id&quot; serial <span class="keyword">NOT</span> <span class="keyword">NULL</span> <span class="keyword">PRIMARY</span> KEY,</span><br><span class="line">    &quot;forum_id&quot; <span class="type">integer</span> <span class="keyword">NOT</span> <span class="keyword">NULL</span>,</span><br><span class="line">    &quot;subject&quot; <span class="type">varchar</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span></span><br><span class="line">);</span><br><span class="line"><span class="keyword">ALTER</span> <span class="keyword">TABLE</span> &quot;topic&quot;</span><br><span class="line"><span class="keyword">ADD</span> <span class="keyword">CONSTRAINT</span> forum_id <span class="keyword">FOREIGN</span> KEY (&quot;forum_id&quot;)</span><br><span class="line"><span class="keyword">REFERENCES</span> &quot;forum&quot; (&quot;id&quot;);</span><br><span class="line"><span class="comment">-- Initials</span></span><br><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> &quot;topic&quot; (&quot;forum_id&quot;, &quot;subject&quot;)</span><br><span class="line"><span class="keyword">values</span> (<span class="number">2</span>, <span class="string">&#x27;D&#x27;&#x27;artagnian&#x27;</span>);</span><br></pre></td></tr></table></figure>
+<figure class="highlight objectivec"><table><tr><td class="code"><pre><span class="line"><span class="meta">#import <span class="meta-string">&lt;UIKit/UIKit.h&gt;</span></span></span><br><span class="line"><span class="meta">#import <span class="meta-string">&quot;Dependency.h&quot;</span></span></span><br><span class="line"><span class="class"><span class="keyword">@protocol</span> <span class="title">WorldDataSource</span></span></span><br><span class="line"><span class="keyword">@optional</span></span><br><span class="line">- (<span class="built_in">NSString</span>*)worldName;</span><br><span class="line"><span class="keyword">@required</span></span><br><span class="line">- (<span class="built_in">BOOL</span>)allowsToLive;</span><br><span class="line"><span class="keyword">@end</span></span><br><span class="line"><span class="keyword">@property</span> (<span class="keyword">nonatomic</span>, <span class="keyword">readonly</span>) <span class="built_in">NSString</span> *title;</span><br><span class="line">- (<span class="keyword">IBAction</span>) show;</span><br><span class="line"><span class="keyword">@end</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span> John Smith &lt;john.smith@example.com&gt;</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="keyword">package</span> l2f.gameserver.model;</span><br><span class="line"><span class="keyword">public</span> <span class="keyword">abstract</span> <span class="class"><span class="keyword">class</span> <span class="title">L2Char</span> <span class="keyword">extends</span> <span class="title">L2Object</span> </span>&#123;</span><br><span class="line">  <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> Short ERROR = <span class="number">0x0001</span>;</span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">moveTo</span><span class="params">(<span class="keyword">int</span> x, <span class="keyword">int</span> y, <span class="keyword">int</span> z)</span> </span>&#123;</span><br><span class="line">    _ai = <span class="keyword">null</span>;</span><br><span class="line">    log(<span class="string">&quot;Should not be called&quot;</span>);</span><br><span class="line">    <span class="keyword">if</span> (<span class="number">1</span> &gt; <span class="number">5</span>) &#123; <span class="comment">// wtf!?</span></span><br><span class="line">      <span class="keyword">return</span>;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> Foundation</span><br><span class="line"><span class="keyword">@objc</span> <span class="class"><span class="keyword">class</span> <span class="title">Person</span>: <span class="title">Entity</span> </span>&#123;</span><br><span class="line">  <span class="keyword">var</span> name: <span class="type">String</span>!</span><br><span class="line">  <span class="keyword">var</span> age:  <span class="type">Int</span>!</span><br><span class="line">  <span class="function"><span class="keyword">init</span>(<span class="params">name</span>: <span class="type">String</span>, <span class="params">age</span>: <span class="type">Int</span>)</span> &#123;</span><br><span class="line">    <span class="comment">/* <span class="comment">/* ... */</span> */</span></span><br><span class="line">  &#125;</span><br><span class="line">  <span class="comment">// Return a descriptive string for this person</span></span><br><span class="line">  <span class="function"><span class="keyword">func</span> <span class="title">description</span>(<span class="params">offset</span>: <span class="type">Int</span> <span class="operator">=</span> <span class="number">0</span>)</span> -&gt; <span class="type">String</span> &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="string">&quot;<span class="subst">\(name)</span> is <span class="subst">\(age <span class="operator">+</span> offset)</span> years old&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="keyword">@font-face</span> &#123;</span><br><span class="line">  <span class="attribute">font-family</span>: Chunkfive; <span class="attribute">src</span>: <span class="built_in">url</span>(<span class="string">&#x27;Chunkfive.otf&#x27;</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-tag">body</span>, <span class="selector-class">.usertext</span> &#123;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#F0F0F0</span>; <span class="attribute">background</span>: <span class="number">#600</span>;</span><br><span class="line">  <span class="attribute">font-family</span>: Chunkfive, sans;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">@import</span> url(print.css);</span><br><span class="line"><span class="keyword">@media</span> print &#123;</span><br><span class="line">  <span class="selector-tag">a</span><span class="selector-attr">[href^=http]</span><span class="selector-pseudo">::after</span> &#123;</span><br><span class="line">    <span class="attribute">content</span>: <span class="built_in">attr</span>(href)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight ruby"><table><tr><td class="code"><pre><span class="line"><span class="comment"># The Greeter class</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Greeter</span></span></span><br><span class="line">  <span class="function"><span class="keyword">def</span> <span class="title">initialize</span><span class="params">(name)</span></span></span><br><span class="line">    <span class="variable">@name</span> = name.capitalize</span><br><span class="line">  <span class="keyword">end</span></span><br><span class="line">  <span class="function"><span class="keyword">def</span> <span class="title">salute</span></span></span><br><span class="line">    puts <span class="string">&quot;Hello <span class="subst">#&#123;<span class="variable">@name</span>&#125;</span>!&quot;</span></span><br><span class="line">  <span class="keyword">end</span></span><br><span class="line"><span class="keyword">end</span></span><br><span class="line">g = Greeter.new(<span class="string">&quot;world&quot;</span>)</span><br><span class="line">g.salute</span><br></pre></td></tr></table></figure>
+<figure class="highlight makefile"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Makefile</span></span><br><span class="line">BUILDDIR      = _build</span><br><span class="line">EXTRAS       ?= <span class="variable">$(BUILDDIR)</span>/extras</span><br><span class="line"><span class="meta"><span class="meta-keyword">.PHONY</span>: main clean</span></span><br><span class="line"><span class="section">main:</span></span><br><span class="line">	@echo <span class="string">&quot;Building main facility...&quot;</span></span><br><span class="line">	build_main <span class="variable">$(BUILDDIR)</span></span><br><span class="line"><span class="section">clean:</span></span><br><span class="line">	rm -rf <span class="variable">$(BUILDDIR)</span>/*</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"><span class="keyword">import</span> <span class="string">&quot;fmt&quot;</span></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">    ch := <span class="built_in">make</span>(<span class="keyword">chan</span> <span class="keyword">float64</span>)</span><br><span class="line">    ch &lt;- <span class="number">1.0e10</span>    <span class="comment">// magic number</span></span><br><span class="line">    x, ok := &lt;- ch</span><br><span class="line">    <span class="keyword">defer</span> fmt.Println(<span class="string">`exitting now\`</span>)</span><br><span class="line">    <span class="keyword">go</span> <span class="built_in">println</span>(<span class="built_in">len</span>(<span class="string">&quot;hello world!&quot;</span>))</span><br><span class="line">    <span class="keyword">return</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"><span class="comment">###### CONFIG</span></span><br><span class="line">ACCEPTED_HOSTS=<span class="string">&quot;/root/.hag_accepted.conf&quot;</span></span><br><span class="line">BE_VERBOSE=<span class="literal">false</span></span><br><span class="line"><span class="keyword">if</span> [ <span class="string">&quot;<span class="variable">$UID</span>&quot;</span> -ne 0 ]</span><br><span class="line"><span class="keyword">then</span></span><br><span class="line">  <span class="built_in">echo</span> <span class="string">&quot;Superuser rights required&quot;</span></span><br><span class="line">  <span class="built_in">exit</span> 2</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="function"><span class="title">genApacheConf</span></span>()&#123;</span><br><span class="line">  <span class="built_in">echo</span> -e <span class="string">&quot;# Host <span class="variable">$&#123;HOME_DIR&#125;</span><span class="variable">$1</span>/<span class="variable">$2</span> :&quot;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight ini"><table><tr><td class="code"><pre><span class="line"><span class="comment">; boilerplate</span></span><br><span class="line"><span class="section">[package]</span></span><br><span class="line"><span class="attr">name</span> = <span class="string">&quot;some_name&quot;</span></span><br><span class="line"><span class="attr">authors</span> = [<span class="string">&quot;Author&quot;</span>]</span><br><span class="line"><span class="attr">description</span> = <span class="string">&quot;This is \</span></span><br><span class="line"><span class="string">a description&quot;</span></span><br><span class="line"><span class="section">[[lib]]</span></span><br><span class="line"><span class="attr">name</span> = <span class="variable">$&#123;NAME&#125;</span></span><br><span class="line"><span class="attr">default</span> = <span class="literal">True</span></span><br><span class="line"><span class="attr">auto</span> = <span class="literal">no</span></span><br><span class="line"><span class="attr">counter</span> = <span class="number">1_000</span></span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>测试Testing!</tag>
+        <tag>魔改前端测试</tag>
+      </tags>
   </entry>
   <entry>
-    <title>测试页面1, 基本杂项测试</title>
-    <url>/2021/10/20/test1/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="这是测试页面"><a href="#这是测试页面" class="headerlink" title="这是测试页面"></a>这是测试页面</h1><p>虽然这是测试页面，但这确实是我们最最珍视的孩子们 (认真脸)</p>
-<ol>
-<li>千穗理 (Chihori): <ruby>涩谷<rt>しぶや</rt></ruby> ちほり</li>
-<li>香菜子 (Kanako): <ruby>涩谷<rt>しぶや</rt></ruby> かなこ</li>
-<li>音羽 (Otoha): <ruby>涩谷<rt>しぶや</rt></ruby> おとは</li>
+    <title>Holax Sekai</title>
+    <url>/2021/10/12/holax-sekai/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="Intro"><a href="#Intro" class="headerlink" title="Intro"></a>Intro</h1><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;Greenlights&quot;</span>    <span class="comment"># also `hexo n`</span></span><br><span class="line">$ hexo server               <span class="comment"># also `hexo s`</span></span><br><span class="line">$ hexo generate             <span class="comment"># also `hexo g`</span></span><br><span class="line">$ hexo deploy               <span class="comment"># also `hexo d`</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/zh-cn/docs/">https://hexo.io/zh-cn/docs/</a></p>
+<h2 id="Markdown-Test"><a href="#Markdown-Test" class="headerlink" title="Markdown Test"></a>Markdown Test</h2><h3 id="Overview-of-Liella-generation-II"><a href="#Overview-of-Liella-generation-II" class="headerlink" title="Overview of Liella, generation II"></a>Overview of Liella, generation II</h3><ol>
+<li><p><ruby>千穗理<rt>Chihori</rt></ruby>: <ruby>涩谷<rt>しぶや</rt></ruby> ちほり</p>
+</li>
+<li><p><ruby>香菜子<rt>Kanako</rt></ruby>: <ruby>涩谷<rt>しぶや</rt></ruby> かなこ</p>
+</li>
+<li><p><ruby>音羽<rt>Otoha</rt></ruby>: <ruby>涩谷<rt>しぶや</rt></ruby> おとは</p>
+</li>
 </ol>
 <ul>
-<li>薮 (Sou): <ruby>平安名<rt>へあんな</rt></ruby> そう</li>
+<li><ruby>薮<rt>Sou</rt></ruby>: <ruby>平安名<rt>へあんな</rt></ruby> そう</li>
 </ul>
-<h2 id="Text"><a href="#Text" class="headerlink" title="Text"></a>Text</h2><p><a href="https://zh.moegirl.org.cn/Liella!">Liella!</a>（读作<code>リエラ</code>）是<a href="https://zh.moegirl.org.cn/结丘女子高等学校">结丘女子高等学校</a>的五位学生组成的学园偶像团体。其团名<a href="https://zh.moegirl.org.cn/Liella!">Liella!</a>由法语的<em>lier</em>（<strong>连结</strong>）与来自意大利语的音乐术语<em>brillante</em>（<strong>内心闪耀的</strong>）组合而成，寓意“现在还是很小的星星，但如果将内心的闪耀相连，就一定可以成为<strong><em>Superstar</em></strong>”。</p>
-<p>值得一提的是，这次<a href="https://zh.moegirl.org.cn/Liella!">Liella!</a>的角色以及环境设定与以往的9+人团队都有所不同，<span class="hidiv"><del>可能是借鉴了<a href="https://zh.moegirl.org.cn/BanG_Dream!">隔壁企划</a>的成功经验而定下的</del></span>五位学园偶像<strong>都是</strong>结丘女子高等学校的<em>一年级生</em>。</p>
-<p>除此之外，这次甄选有实际依照声优的定位选择。<a href="https://zh.moegirl.org.cn/伊达小百合"><em>小百合</em></a>和<a href="https://zh.moegirl.org.cn/涩谷香音"><em>香音</em></a>皆为<strong>歌唱担当</strong>；<a href="https://zh.moegirl.org.cn/Liyuu"><em>Liyuu</em></a>是<strong>名副其实的中国人</strong>；<a href="https://zh.moegirl.org.cn/岚千砂都"><em>千砂都</em></a>和<a href="https://zh.moegirl.org.cn/叶月恋"><em>恋</em></a>以及声优是团内<strong>领舞</strong>；<a href="https://zh.moegirl.org.cn/Payton尚未"><em>Payton</em></a>是五位里面<strong>最资深</strong>的成员。</p>
-<blockquote>
-<p><del>十集拿下樱花妹因为我是中国铝铜！</del><br><a href="https://zh.moegirl.org.cn/Liyuu"><em>Liyuu</em></a>: 不是我说的。</p>
-</blockquote>
-<h2 id="Image-amp-Table"><a href="#Image-amp-Table" class="headerlink" title="Image &amp; Table"></a>Image &amp; Table</h2><!--![平安名 薮 demo](https://github.com/liella-gen2/imagehost/blob/main/平安名薮.jpeg?raw=true)-->
-<p><img src="/2021/10/20/test1/平安名薮.jpeg" alt="平安名 薮 demo"></p>
+<h3 id="Images"><a href="#Images" class="headerlink" title="Images"></a>Images</h3><ul>
+<li><p>of Chihori (涩谷 千穗理), Kanako (涩谷 香菜子) and Otoha (涩谷 音羽)<br><img src="/2021/10/12/holax-sekai/千穗理&amp;香菜子.jpeg" alt="Demo Image of Chihori and Kanako"><img src="/2021/10/12/holax-sekai/小音羽.jpeg" alt="Demo Image of Otoha"></p>
+</li>
+<li><p>of Sou (平安名 薮)<br><img src="/2021/10/12/holax-sekai/平安名薮.jpeg" alt="Demo Image of Sou"></p>
+</li>
+</ul>
+<h3 id="Tables"><a href="#Tables" class="headerlink" title="Tables"></a>Tables</h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:right"></th>
+<th style="text-align:left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right">姓名</td>
+<td style="text-align:left">涩谷 千穗理</td>
+</tr>
+<tr>
+<td style="text-align:right">日文名</td>
+<td style="text-align:left"><ruby>涩谷<rt>しぶや</rt></ruby> ちほり</td>
+</tr>
+<tr>
+<td style="text-align:right">罗马字</td>
+<td style="text-align:left">Shibuya Chihori</td>
+</tr>
+<tr>
+<td style="text-align:right">妇母</td>
+<td style="text-align:left">涩谷 <ruby>香音<rt>かのん</rt></ruby> &amp; 岚 <ruby>千砂都<rt>ちさと</rt></ruby></td>
+</tr>
+<tr>
+<td style="text-align:right">发色</td>
+<td style="text-align:left">白发</td>
+</tr>
+<tr>
+<td style="text-align:right">瞳色</td>
+<td style="text-align:left">？</td>
+</tr>
+<tr>
+<td style="text-align:right">人物形象设计</td>
+<td style="text-align:left">一卡桑</td>
+</tr>
+</tbody>
+</table>
+</div>
 <div class="table-container">
 <table>
 <thead>
 <tr>
-<th style="text-align:right">Key</th>
-<th style="text-align:left">Value</th>
+<th style="text-align:right"></th>
+<th style="text-align:left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right">姓名</td>
+<td style="text-align:left">涩谷 香菜子</td>
+</tr>
+<tr>
+<td style="text-align:right">日文名</td>
+<td style="text-align:left"><ruby>涩谷<rt>しぶや</rt></ruby> かなこ</td>
+</tr>
+<tr>
+<td style="text-align:right">罗马字</td>
+<td style="text-align:left">Shibuya Kanako</td>
+</tr>
+<tr>
+<td style="text-align:right">妇母</td>
+<td style="text-align:left">涩谷 <ruby>香音<rt>かのん</rt></ruby> &amp; 岚 <ruby>千砂都<rt>ちさと</rt></ruby></td>
+</tr>
+<tr>
+<td style="text-align:right">发色</td>
+<td style="text-align:left">橙发</td>
+</tr>
+<tr>
+<td style="text-align:right">瞳色</td>
+<td style="text-align:left">？</td>
+</tr>
+<tr>
+<td style="text-align:right">人物形象设计</td>
+<td style="text-align:left">一卡桑</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:right"></th>
+<th style="text-align:left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right">姓名</td>
+<td style="text-align:left">涩谷 音羽</td>
+</tr>
+<tr>
+<td style="text-align:right">日文名</td>
+<td style="text-align:left"><ruby>涩谷<rt>しぶや</rt></ruby> おとは</td>
+</tr>
+<tr>
+<td style="text-align:right">罗马字</td>
+<td style="text-align:left">Shibuya Otoha</td>
+</tr>
+<tr>
+<td style="text-align:right">妇母</td>
+<td style="text-align:left">涩谷 <ruby>香音<rt>かのん</rt></ruby> &amp; 岚 <ruby>千砂都<rt>ちさと</rt></ruby></td>
+</tr>
+<tr>
+<td style="text-align:right">发色</td>
+<td style="text-align:left">白发</td>
+</tr>
+<tr>
+<td style="text-align:right">瞳色</td>
+<td style="text-align:left">赤瞳？</td>
+</tr>
+<tr>
+<td style="text-align:right">人物形象设计</td>
+<td style="text-align:left">w1175</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:right"></th>
+<th style="text-align:left"></th>
 </tr>
 </thead>
 <tbody>
@@ -48,55 +194,19 @@
 </tr>
 <tr>
 <td style="text-align:right">妇母</td>
-<td style="text-align:left">平安名 すみれ , 唐 可可</td>
+<td style="text-align:left">平安名 <ruby>堇<rt>すみれ</rt></ruby> &amp; 唐 可可</td>
 </tr>
 <tr>
 <td style="text-align:right">别号</td>
 <td style="text-align:left">(艺名) 唐 薮</td>
 </tr>
 <tr>
-<td style="text-align:right"><strong>学校</strong></td>
-<td style="text-align:left"><del><em>结丘女子高等学校</em></del></td>
-</tr>
-<tr>
-<td style="text-align:right"><strong>年级</strong></td>
-<td style="text-align:left"><del><em>一年级</em></del></td>
-</tr>
-<tr>
-<td style="text-align:right"><strong>生日</strong></td>
-<td style="text-align:left"><del><em>9月28日</em></del></td>
-</tr>
-<tr>
 <td style="text-align:right">发色</td>
 <td style="text-align:left">金发</td>
 </tr>
 <tr>
-<td style="text-align:right"><strong>瞳色</strong></td>
-<td style="text-align:left"><del><em>绿瞳？蓝瞳？</em></del></td>
-</tr>
-<tr>
-<td style="text-align:right"><strong>身高</strong></td>
-<td style="text-align:left"><del><em>161cm</em></del></td>
-</tr>
-<tr>
-<td style="text-align:right"><strong>血型</strong></td>
-<td style="text-align:left"><del><em>AB型</em></del></td>
-</tr>
-<tr>
-<td style="text-align:right"><strong>星座</strong></td>
-<td style="text-align:left"><del><em>天秤座</em></del></td>
-</tr>
-<tr>
-<td style="text-align:right"><strong>兴趣</strong></td>
-<td style="text-align:left"><del><em>读书、音乐鉴赏、占卜</em></del></td>
-</tr>
-<tr>
-<td style="text-align:right"><strong>喜欢的食物</strong></td>
-<td style="text-align:left"><del><em>生蛋拌饭、绿茶、蜜瓜</em></del></td>
-</tr>
-<tr>
-<td style="text-align:right"><strong>所属</strong></td>
-<td style="text-align:left"><del><em>Liella!</em></del></td>
+<td style="text-align:right">瞳色</td>
+<td style="text-align:left">绿瞳？蓝瞳？</td>
 </tr>
 <tr>
 <td style="text-align:right">人物形象设计</td>
@@ -105,52 +215,45 @@
 </tbody>
 </table>
 </div>
-<h2 id="Lyrics-in-3-Different-Display"><a href="#Lyrics-in-3-Different-Display" class="headerlink" title="Lyrics in 3 Different Display"></a><a href="https://zh.moegirl.org.cn/Day1">Lyrics</a> in 3 Different Display</h2><ol>
-<li><p>Line-numbered Code Block</p>
- <figure class="highlight plaintext"><figcaption><span>KEN THE 390 (feat. 平安名すみれ)</span><a href="https://zh.moegirl.org.cn/Day1">Day1</a></figcaption><table><tr><td class="code"><pre><span class="line">閉まったままのアンサーを解き放つよ今日</span><br><span class="line">ここから世界中へ　大きい夢</span><br><span class="line">一緒に叶えに行こう　手を繋いで　あの角の向こう</span><br><span class="line">いつも通りの景色　変えるレシピ　見つけられたよ</span><br><span class="line">...</span><br><span class="line">繰り返しのルーティンに色をつけるミュージック</span><br><span class="line">僕らだけがわかる合図　合わせていくチューニング</span><br><span class="line">唯一無二　それぞれ　代わりなんていない</span><br><span class="line">代わり映えしない　今　変えてきたい</span><br></pre></td></tr></table></figure>
-</li>
-<li><p><code>&lt;pre&gt;</code> Text Block</p>
-<pre><code> 閉まったままのアンサーを解き放つよ今日
- ここから世界中へ　大きい夢
- 一緒に叶えに行こう　手を繋いで　あの角の向こう
- いつも通りの景色　変えるレシピ　見つけられたよ
- ...
- 繰り返しのルーティンに色をつけるミュージック
- 僕らだけがわかる合図　合わせていくチューニング
- 唯一無二　それぞれ　代わりなんていない
- 代わり映えしない　今　変えてきたい
-</code></pre></li>
-<li><p>Blockquote</p>
- <blockquote><p>閉まったままのアンサーを解き放つよ今日<br>ここから世界中へ　大きい夢<br>一緒に叶えに行こう　手を繋いで　あの角の向こう<br>いつも通りの景色　変えるレシピ　見つけられたよ<br>…<br>繰り返しのルーティンに色をつけるミュージック<br>僕らだけがわかる合図　合わせていくチューニング<br>唯一無二　それぞれ　代わりなんていない<br>代わり映えしない　今　変えてきたい</p>
-<footer><strong>KEN THE 390 (feat. 平安名すみれ)</strong><cite><a href="https://zh.moegirl.org.cn/Day1">Day1</a></cite></footer></blockquote>
-</li>
-</ol>
-<h2 id="Testing-Code-Block-with-Syntax-Highlighting"><a href="#Testing-Code-Block-with-Syntax-Highlighting" class="headerlink" title="Testing Code Block with Syntax Highlighting"></a>Testing Code Block with Syntax Highlighting</h2><figure class="highlight js"><figcaption><span>測試脚本噠！</span><a href="https://liella-gen2.github.io/">主頁傳送門</a></figcaption><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> http = <span class="built_in">require</span>(<span class="string">&quot;http&quot;</span>);</span><br><span class="line"><span class="keyword">const</span> hostname = <span class="string">&quot;127.0.0.1&quot;</span>;</span><br><span class="line"><span class="keyword">const</span> port = <span class="number">1337</span>;</span><br><span class="line">http.createServer(<span class="function">(<span class="params">req, res</span>) =&gt;</span> &#123;</span><br><span class="line">  res.writeHead(<span class="number">200</span>, &#123; <span class="string">&quot;Content-Type&quot;</span>: <span class="string">&quot;text/plain&quot;</span> &#125;);</span><br><span class="line">  res.end(<span class="string">&quot;できっこないよって思ってたことも 踏みだせばほら叶うんだ\n&quot;</span>);</span><br><span class="line">&#125;).listen(port, hostname, <span class="function">() =&gt;</span> &#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">`At http://<span class="subst">$&#123;hostname&#125;</span>:<span class="subst">$&#123;port&#125;</span>/ 今、始まるよSymphony`</span>);</span><br><span class="line">&#125;);</span><br><span class="line">(<span class="function">() =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">const</span> liella = <span class="built_in">require</span>(<span class="string">&quot;Liella&quot;</span>);</span><br><span class="line">    liella.restart(<span class="string">&quot;Generation II!&quot;</span>);</span><br><span class="line">    &#125;)();</span><br></pre></td></tr></table></figure>
+<h3 id="Header-III"><a href="#Header-III" class="headerlink" title="Header III"></a>Header III</h3><h4 id="Header-IV"><a href="#Header-IV" class="headerlink" title="Header IV"></a>Header IV</h4><h5 id="Header-V"><a href="#Header-V" class="headerlink" title="Header V"></a>Header V</h5><h6 id="Liella-Introduction-from-https-zh-moegirl-org-cn-Liella"><a href="#Liella-Introduction-from-https-zh-moegirl-org-cn-Liella" class="headerlink" title="Liella! Introduction from https://zh.moegirl.org.cn/Liella!"></a><strong><em>Liella!</em></strong> Introduction from <a href="https://zh.moegirl.org.cn/Liella!">https://zh.moegirl.org.cn/Liella!</a></h6><p><a href="https://zh.moegirl.org.cn/Liella!"><strong><em>Liella!</em></strong> (读作<code>リエラ</code>)</a>是<a href="https://zh.moegirl.org.cn/结丘女子高等学校">结丘女子高等学校</a>的五位学生组成的学园偶像团体。其团名<a href="https://zh.moegirl.org.cn/Liella!"><strong><em>Liella!</em></strong></a>由法语的<strong>lier</strong>（<em>连结</em>）与来自意大利语的音乐术语<strong>brillante</strong>（<em>内心闪耀的</em>）组合而成，寓意</p>
+<blockquote>
+<p>现在还是很小的星星，但如果将内心的闪耀相连，就一定可以成为 <code>Superstar</code></p>
+</blockquote>
+<hr>
+<p>值得一提的是，这次<a href="https://zh.moegirl.org.cn/Liella!"><strong><em>Liella!</em></strong></a>的角色以及环境设定与以往的9+人团队都有所不同，<span class="hidiv">可能是借鉴了<a href="https://zh.moegirl.org.cn/BanG_Dream!">隔壁企划</a>的成功经验而定下的</span>五位学园偶像都是<a href="https://zh.moegirl.org.cn/结丘女子高等学校">结丘女子高等学校</a>的一年级生。</p>
+<p>除此之外，这次甄选有实际依照声优的定位选择。<a href="https://zh.moegirl.org.cn/伊达小百合">小百合</a>和香音皆为歌唱担当；<a href="https://zh.moegirl.org.cn/Liyuu">Liyuu</a>是名副其实的中国人；<a href="https://zh.moegirl.org.cn/岚千砂都">千砂都</a>和<a href="https://zh.moegirl.org.cn/叶月恋">恋</a>以及声优是团内领舞；<a href="https://zh.moegirl.org.cn/Payton尚未">Payton</a>是五位里面最资深的成员。</p>
+<p><del>众所周知，这个团体只有4个是地球人：因为剩下的一个（<a href="https://zh.moegirl.org.cn/青山渚">青山渚</a>）是从外星来的。</del></p>
+<h2 id="Lyrics’-Test"><a href="#Lyrics’-Test" class="headerlink" title="Lyrics’ Test"></a>Lyrics’ Test</h2><figure class="highlight plaintext"><figcaption><span>Sumire-rap</span><a href="https://zh.moegirl.org.cn/Day1">Day1</a></figcaption><table><tr><td class="code"><pre><span class="line">作詞：KEN THE 390　作曲：めんま、KEN THE 390　編曲：家原正樹</span><br><span class="line"></span><br><span class="line">閉まったままのアンサーを解き放つよ今日</span><br><span class="line">ここから世界中へ　大きい夢</span><br><span class="line">一緒に叶えに行こう　手を繋いで　あの角の向こう</span><br><span class="line">いつも通りの景色　変えるレシピ　見つけられたよ</span><br><span class="line"></span><br><span class="line">...</span><br><span class="line"></span><br><span class="line">繰り返しのルーティンに色をつけるミュージック</span><br><span class="line">僕らだけがわかる合図　合わせていくチューニング</span><br><span class="line">唯一無二　それぞれ　代わりなんていない</span><br><span class="line">代わり映えしない　今　変えてきたい</span><br></pre></td></tr></table></figure>
+<h2 id="Test-of-Audio-Players"><a href="#Test-of-Audio-Players" class="headerlink" title="Test of Audio Players"></a>Test of Audio Players</h2>
+    <div id="aplayer-GlcPAyXl" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="1835533024" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme=" #39c5bb"></div>
+
+    <div id="aplayer-EPTpZnLe" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="125693052" data-server="netease" data-type="album" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme=" #39c5bb"></div>
+<!-- meting "71853061" "netease" "album" "theme: #39c5bb" -->
+<!-- meting "38991091" "netease" "album" "theme: #39c5bb" -->
+<h2 id="Codeblock-Test"><a href="#Codeblock-Test" class="headerlink" title="Codeblock Test"></a>Codeblock Test</h2><figure class="highlight js"><figcaption><span>liella-starter.js</span><a href="https://liella.tv/">星象馆传送门</a></figcaption><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> http = <span class="built_in">require</span>(<span class="string">&quot;http&quot;</span>);</span><br><span class="line"><span class="keyword">const</span> hostname = <span class="string">&quot;127.0.0.1&quot;</span>;</span><br><span class="line"><span class="keyword">const</span> port = <span class="number">1337</span>;</span><br><span class="line">http.createServer(<span class="function">(<span class="params">req, res</span>) =&gt;</span> &#123;</span><br><span class="line">  res.writeHead(<span class="number">200</span>, &#123; <span class="string">&quot;Content-Type&quot;</span>: <span class="string">&quot;text/plain&quot;</span> &#125;);</span><br><span class="line">  res.end(<span class="string">&quot;できっこないよって思ってたことも 踏みだせばほら叶うんだ\n&quot;</span>);</span><br><span class="line">&#125;).listen(port, hostname, <span class="function">() =&gt;</span> &#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">`At http://<span class="subst">$&#123;hostname&#125;</span>:<span class="subst">$&#123;port&#125;</span>/ 今、始まるよSymphony`</span>);</span><br><span class="line">&#125;);</span><br><span class="line">(<span class="function">() =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">const</span> liella = <span class="built_in">require</span>(<span class="string">&quot;Liella&quot;</span>);</span><br><span class="line">    liella.restart(<span class="string">&quot;Generation II!&quot;</span>);</span><br><span class="line">    &#125;)();</span><br></pre></td></tr></table></figure>
 ]]></content>
       <tags>
-        <tag>tag4test(測試的Tag!)</tag>
+        <tag>测试Testing!</tag>
+        <tag>Sou (平安名 薮)</tag>
+        <tag>Chihori (涩谷 千穗理)</tag>
+        <tag>Kanako (涩谷 香菜子)</tag>
+        <tag>Otoha (涩谷 音羽)</tag>
         <tag>Kanon (涩谷 香音)</tag>
         <tag>Kuku (唐 可可)</tag>
         <tag>Chisato (岚 千砂都)</tag>
         <tag>Sumire (平安名 堇)</tag>
         <tag>Ren (叶月 恋)</tag>
-        <tag>Sou (平安名 薮)</tag>
-        <tag>Chihori (涩谷 千穗理)</tag>
-        <tag>Kanako (涩谷 香菜子)</tag>
-        <tag>Otoha (涩谷 音羽)</tag>
       </tags>
   </entry>
   <entry>
-    <title>测试页面2, 长篇文字测试</title>
-    <url>/2021/10/22/test2/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="It-Never-Entered-my-Mind"><a href="#It-Never-Entered-my-Mind" class="headerlink" title="It Never Entered my Mind"></a>It Never Entered my Mind</h1><p><code>SwannsWay</code></p>
-<ul>
-<li><p>Summary: <em>Christmas is, pretty obviously, a romantic affair; Shioriko knew, and perhaps it was this fact alone that kept her mind running faster than it ever had.</em></p>
-</li>
-<li><p>Notes: <em>(See the end of the work for notes.)</em></p>
-</li>
-</ul>
-<h2 id="Chapter-1"><a href="#Chapter-1" class="headerlink" title="Chapter 1"></a>Chapter 1</h2><p>“On Christmas, huh?” Kaoruko had said. Shioriko figured her sister would get a kick out of that. “Well, a proper date might actually do you some good. I’m glad you were ‘ tricked into this. ’”</p>
+    <title>It NEVER Entered my Mind</title>
+    <url>/2021/02/24/it-never-entered-my-mind/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="It-NEVER-Entered-my-Mind"><a href="#It-NEVER-Entered-my-Mind" class="headerlink" title="It NEVER Entered my Mind"></a>It NEVER Entered my Mind</h1><p><code>SwannsWay</code></p>
+<blockquote>
+<p>Summary:<br>Christmas is, pretty obviously, a romantic affair; Shioriko knew, and perhaps it was this fact alone that kept her mind running faster than it ever had.</p>
+<p>Notes:<br>(See the end of the work for notes.)</p>
+</blockquote>
+<h2 id="Chapter-I"><a href="#Chapter-I" class="headerlink" title="Chapter I"></a>Chapter I</h2><p>“On Christmas, huh?” Kaoruko had said. Shioriko figured her sister would get a kick out of that. “Well, a proper date might actually do you some good. I’m glad you were ‘ tricked into this. ’”</p>
 <p>“I was tricked into this,” Shioriko protested, but her sigh signaled obvious weak resistance. “At any rate, it’s not a date. She’s just a friend from class.”</p>
 <p>“Is she cute?” Kaoruko asked, almost indifferently.</p>
 <p>“Don’t be ridiculous,” Shioriko quipped, feeling splotches of heat forming on her face. “She’s a girl. We’re both girls.”</p>
@@ -224,10 +327,10 @@
 <p>“I’m sorry, I saw this one on my way back from the bar and knew we had to listen to it,” Ayumu says, motioning at an old, dusty record sleeve bearing the picture of a trumpet player. Jazz, on Christmas, huh? “Let’s?”</p>
 <p>The record begins with a sleepy, intimate rendition of a show tune from the 40s (at least, according to the back of the sleeve), recorded in 1954 in the United States. Shioriko finds it perfect for the mood, as she sinks deep into the padded chair opposite to Ayumu. It doesn’t do much to calm her nerves though; Ayumu raises her glass in a silent toast and takes a sip of the claret, not taking her eyes off Shioriko’s for even a moment. Shioriko, for a lack of some better response, does the same and takes a sip from her own cup.</p>
 <p>She doesn’t drink very often, but she reckons she will need it tonight.                                           -Summary:<br>“Well, that was rather direct, wasn’t it?” Ayumu says, smiling. “Come here, Shioriko.”</p>
-<ul>
-<li>Notes: <em>(See the end of the chapter for notes.)</em></li>
-</ul>
-<h2 id="Chapter-2"><a href="#Chapter-2" class="headerlink" title="Chapter 2"></a>Chapter 2</h2><p>Shioriko struggled with even getting her wallet out of her bag and against the metro turnstile scanner. By the time she’s across, Ayumu is leaning against the station wall, watching her, and decidedly amused. Her cheeks are red, to be sure, but she seems to be handling the two glasses of wine that they each had better than Shioriko is.</p>
+<blockquote>
+<p>Notes:<br>(See the end of the chapter for notes.)</p>
+</blockquote>
+<h2 id="Chapter-II"><a href="#Chapter-II" class="headerlink" title="Chapter II"></a>Chapter II</h2><p>Shioriko struggled with even getting her wallet out of her bag and against the metro turnstile scanner. By the time she’s across, Ayumu is leaning against the station wall, watching her, and decidedly amused. Her cheeks are red, to be sure, but she seems to be handling the two glasses of wine that they each had better than Shioriko is.</p>
 <p>“You okay, Shioriko?” Ayumu says, her smile softening. “Do you want me to get you some water?”</p>
 <p>“I think I will be okay,” Shioriko says, as truthful as her inebriation allows. “I usually only drink saké, and even that is usually limited to my family’s new year celebrations.”</p>
 <p>“That sounds nice,” Ayumu says, holding on to Shioriko’s arm as they climb the stairs down to their track. “Your family sounds cool.”</p>
@@ -375,14 +478,14 @@
 <p>“Wait…wait a second,” Kaoruko stops. “Did…did you say four times?”</p>
 <p>Which were the last words Shioriko heard before she summarily ended the call, walking over to the kitchen sink and splashing cold water on her face.</p>
 <ol>
-<li><p>Notes:</p>
+<li><p>Notes I:</p>
 <blockquote>
 <p>This came…much later than expected lmao. Super sorry for the wait! I had the hardest time writing THE scene lmao. I essentially had the entire chapter written except for bits and pieces of that part. I think I’m relatively satisfied with it now, so I hope those who get around to reading it enjoy it. As always, any and all feedback is more than welcome!</p>
 <p>By the way, the title of the fic is a reference to the jazz record they listen to in Shimokitazawa. It’s a Miles Davis recording from his Volume 3 album, if anybody is interested in checking that out!</p>
 <p>ShioPomu is an entire mood tbh. Nijigasaki S2 announcement when??</p>
 </blockquote>
 </li>
-<li><p>Notes:</p>
+<li><p>Notes II:</p>
 <blockquote>
 <p>I wanted to get the whole two chapters up by today, since it was Christmas, but the holidays were a bit busy, so I hope this first chapter is enough to keep those of you who think ShioPomu is criminally under-appreciated hooked for the rest! I will do my best to get the second one up by the new year. :)</p>
 <p>I hope anybody who celebrated had a safe and wonderful holiday season, and thank you for reading! &lt;3 Any feedback is much welcome.</p>
@@ -391,59 +494,8 @@
 </ol>
 ]]></content>
       <tags>
-        <tag>tag4test(測試的Tag!)</tag>
+        <tag>测试Testing!</tag>
         <tag>shiopomu</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>测试页面3, 音频播放器</title>
-    <url>/2021/10/22/test3/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><ul>
-<li><p>Local files <code>TODO: FIXIT</code></p>
-
-        <div id="aplayer-ZOWVGZaV" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
-            <pre class="aplayer-lrc-content"></pre>
-        </div>
-        <script>
-          var ap = new APlayer({
-            element: document.getElementById("aplayer-ZOWVGZaV"),
-            narrow: false,
-            autoplay: false,
-            showlrc: false,
-            music: {
-              title: "その心に灯る色は (The color of light in your heart)",
-              author: "ラテルネ (Laterne)",
-              url: "Laterne - The-color-of_light_in_your_heart.mp3",
-              pic: "",
-              lrc: ""
-            }
-          });
-          window.aplayers || (window.aplayers = []);
-          window.aplayers.push(ap);
-        </script>
-</li>
-<li><p>Import from <a href="https://music.163.com/">https://music.163.com/</a>, using <code>meting.js</code></p>
-
-    <div id="aplayer-fatZnhpi" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="494858480" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"></div>
-
-    <div id="aplayer-KcsCKFzJ" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="71853061" data-server="netease" data-type="album" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"></div>
-</li>
-</ul>
-]]></content>
-      <tags>
-        <tag>tag4test(測試的Tag!)</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>测试页面4, 数学公式</title>
-    <url>/2021/10/23/test4/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><ul>
-<li><p>高斯公式 <code>Gauss&#39; law</code></p>
-<script type="math/tex; mode=display">\iiint_{\Omega} (\frac{\partial N}{\partial x} + \frac{\partial M}{\partial y} + \frac{\partial R}{\partial z}) \mathrm{d} V = \oiint_{\partial \Omega} N \mathrm{d}y\mathrm{d}z + M \mathrm{d}z\mathrm{d}x + R \mathrm{d}x\mathrm{d}y</script></li>
-</ul>
-]]></content>
-      <tags>
-        <tag>tag4test(測試的Tag!)</tag>
       </tags>
   </entry>
 </search>
