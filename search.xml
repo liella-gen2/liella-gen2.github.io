@@ -105,7 +105,7 @@
 </tbody>
 </table>
 </div>
-<h2 id="Lyrics-in-3-Different-Display"><a href="#Lyrics-in-3-Different-Display" class="headerlink" title="Lyrics in 3 Different Display"></a>Lyrics in 3 Different Display</h2><ol>
+<h2 id="Lyrics-in-3-Different-Display"><a href="#Lyrics-in-3-Different-Display" class="headerlink" title="Lyrics in 3 Different Display"></a><a href="https://zh.moegirl.org.cn/Day1">Lyrics</a> in 3 Different Display</h2><ol>
 <li><p>Line-numbered Code Block</p>
  <figure class="highlight plaintext"><figcaption><span>KEN THE 390 (feat. 平安名すみれ)</span><a href="https://zh.moegirl.org.cn/Day1">Day1</a></figcaption><table><tr><td class="code"><pre><span class="line">閉まったままのアンサーを解き放つよ今日</span><br><span class="line">ここから世界中へ　大きい夢</span><br><span class="line">一緒に叶えに行こう　手を繋いで　あの角の向こう</span><br><span class="line">いつも通りの景色　変えるレシピ　見つけられたよ</span><br><span class="line">...</span><br><span class="line">繰り返しのルーティンに色をつけるミュージック</span><br><span class="line">僕らだけがわかる合図　合わせていくチューニング</span><br><span class="line">唯一無二　それぞれ　代わりなんていない</span><br><span class="line">代わり映えしない　今　変えてきたい</span><br></pre></td></tr></table></figure>
 </li>
@@ -138,45 +138,6 @@
         <tag>Chihori (涩谷 千穗理)</tag>
         <tag>Kanako (涩谷 香菜子)</tag>
         <tag>Otoha (涩谷 音羽)</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>测试页面3, 音频播放器</title>
-    <url>/2021/10/22/test3/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><ul>
-<li><p>Local files <code>TODO: FIXIT</code></p>
-
-        <div id="aplayer-WvUoIAJj" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
-            <pre class="aplayer-lrc-content"></pre>
-        </div>
-        <script>
-          var ap = new APlayer({
-            element: document.getElementById("aplayer-WvUoIAJj"),
-            narrow: false,
-            autoplay: false,
-            showlrc: false,
-            music: {
-              title: "その心に灯る色は (The color of light in your heart)",
-              author: "ラテルネ (Laterne)",
-              url: "Laterne - The-color-of_light_in_your_heart.mp3",
-              pic: "",
-              lrc: ""
-            }
-          });
-          window.aplayers || (window.aplayers = []);
-          window.aplayers.push(ap);
-        </script>
-</li>
-<li><p>Import from <a href="https://music.163.com/">https://music.163.com/</a>, using <code>meting.js</code></p>
-
-    <div id="aplayer-CoblBKlp" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="494858480" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"></div>
-
-    <div id="aplayer-MgUAMzPB" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="71853061" data-server="netease" data-type="album" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"></div>
-</li>
-</ul>
-]]></content>
-      <tags>
-        <tag>tag4test(測試的Tag!)</tag>
       </tags>
   </entry>
   <entry>
@@ -432,6 +393,45 @@
       <tags>
         <tag>tag4test(測試的Tag!)</tag>
         <tag>shiopomu</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>测试页面3, 音频播放器</title>
+    <url>/2021/10/22/test3/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><ul>
+<li><p>Local files <code>TODO: FIXIT</code></p>
+
+        <div id="aplayer-ZOWVGZaV" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+            <pre class="aplayer-lrc-content"></pre>
+        </div>
+        <script>
+          var ap = new APlayer({
+            element: document.getElementById("aplayer-ZOWVGZaV"),
+            narrow: false,
+            autoplay: false,
+            showlrc: false,
+            music: {
+              title: "その心に灯る色は (The color of light in your heart)",
+              author: "ラテルネ (Laterne)",
+              url: "Laterne - The-color-of_light_in_your_heart.mp3",
+              pic: "",
+              lrc: ""
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        </script>
+</li>
+<li><p>Import from <a href="https://music.163.com/">https://music.163.com/</a>, using <code>meting.js</code></p>
+
+    <div id="aplayer-fatZnhpi" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="494858480" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"></div>
+
+    <div id="aplayer-KcsCKFzJ" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="71853061" data-server="netease" data-type="album" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"></div>
+</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>tag4test(測試的Tag!)</tag>
       </tags>
   </entry>
   <entry>

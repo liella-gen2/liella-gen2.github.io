@@ -1600,87 +1600,41 @@ kbd {
 .hidiv:hover {
   background-color: #fefcf6;
 }
-.tagcloud a::before {
+.tagcloud a::before,
+.tag-cloud-tags a::before,
+.article-tag a::before {
   content: "#";
 }
 .mjx-chtml .mjx-math {
   color: #363662;
   background-color: #fefcf6;
 }
-/* HTML-Tag <a>
-@media screen and (min-width: 900px)
-  a
-    .content .post .content &, #nav &, #writing &, #projects &, .post-list &
-      &, &:hover
-        position: relative
-        background-image: none
-      &::before
-        content: ""
-        position: absolute
-        bottom: 0
-        left: 0
-        right: auto
-        width: 100%
-        transition: .2s
-      &:hover::before
-        left: auto
-        right: 0
-        width: 0
-      &::after
-        content: ""
-        position: absolute
-        bottom: 0
-        left: auto
-        right: 0
-        width: 0
-        transition: .2s
-      &:hover::after
-        left: 0
-        right: auto
-        width: 100%
-    .content .post .content &, #writing &, #projects &, .post-list &
-      &::before
-        background-color: $color-text
-        height: .96px
-      &::after
-        background-color: rgba($color-link, .64)
-        height: 3.6px
-    #nav &
-      text-decoration: none
-      &::before
-        background-color: none
-        height: 0
-      &::after
-        background-color: $color-accent-1
-        height: .96px
-  .h1, h1, h2, h3, h4, h5, h6
-    a::before, a::after
-      background-color: none
-      height: 0
-*/
-/* Aplayer
-$color-background-aplayer = mix($color-background, $color-background-code)
-.aplayer
-  background: $color-background-aplayer !important
-  box-shadow: 0 2px 2px 0 rgba($color-accent-2, 28%), 0 1px 5px 0 rgba($color-accent-2, 49%) !important
-  .aplayer-pic .aplayer-button
-    border-color: $color-background-aplayer !important
-    svg path
-      fill: $color-background-aplayer !important
-  .aplayer-info
-    .aplayer-music span
-      color: $color-text !important
-    .aplayer-lrc
-      &::before, &::after
-        background-image: none !important
-      .aplayer-lrc-contetns p
-        color: $color-accent-3 !important
-    .aplayer-controller .aplayer-time
-      span
-        color: $color-accent-2 !important
-      button svg path
-        fill: $color-accent-3 !important
-*/
+@media screen and (min-width: 900px) {
+  .content .post .content a,
+  .post-list a,
+  .content .post .content a:hover,
+  .post-list a:hover {
+    position: relative;
+  }
+  .content .post .content a::after,
+  .post-list a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: auto;
+    right: 0;
+    width: 0;
+    transition: 0.2s;
+    background-color: rgba(57,197,187,0.56);
+    height: 3.9px;
+  }
+  .content .post .content a:hover::after,
+  .post-list a:hover::after {
+    left: 0;
+    right: auto;
+    width: 100%;
+  }
+}
 .highlight {
   overflow-x: auto;
   margin: 1rem 0;
