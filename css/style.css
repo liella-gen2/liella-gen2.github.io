@@ -1621,7 +1621,7 @@ kbd {
   color: #363662;
   background-color: #363662;
   text-shadow: none;
-  transition: 0.2s;
+  transition: 0.39s;
 }
 .hidiv:hover {
   background-color: #fefcf6;
@@ -1650,7 +1650,7 @@ kbd {
     left: auto;
     right: 0;
     width: 0;
-    transition: 0.2s;
+    transition: 0.39s;
     background-color: rgba(57,197,187,0.56);
     height: 3.9px;
   }
