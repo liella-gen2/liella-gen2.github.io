@@ -36,6 +36,10 @@
     <!-- title -->
     <title>Tag(标签): Chihori (涩谷 千穗理)</title>
     <!-- styles -->
+    <!-- css('lib/tippy-6.3.2-bundle.umd.min') -->
+    
+<link rel="stylesheet" href="/lib/gitalk/gitalk-1.7.2.css">
+
     
 <link rel="stylesheet" href="/css/style.css">
 
@@ -47,19 +51,20 @@
 	<!-- mathjax -->
 	
   <!-- Other Javascripts like Popper (v2.10.2), Tippy.js (v6.3.2), Typed.js (v2.0.12)... -->
-  
-<script src="/lib/popper-2.10.2.min.js"></script>
-
-  
-<script src="/lib/tippy-6.3.2-bundle.umd.min.js"></script>
-
+  <!-- js('lib/popper-2.10.2.min.js') -->
+  <!-- js('lib/tippy-6.3.2-bundle.umd.min.js') -->
   
 <script src="/lib/typed-2.0.12.js"></script>
 
+  
+<script src="/lib/valine-1.4.16.min.js"></script>
+
+  
+<script src="/lib/gitalk/gitalk-1.7.2.min.js"></script>
+
 <meta name="generator" content="Hexo 5.4.0"></head>
 
-<body class="max-width mx-auto px3 ltr">
-    
+<body class="max-width mx-auto px3 ltr">    
     <div class="content index py4">
         
           <header id="header">
@@ -101,8 +106,6 @@
       
     
       
-    
-      
         <li class="post-item">
           
     <div class="meta">
@@ -124,8 +127,6 @@
 </em></strong></span>
           
         </li>
-      
-    
       
     
   </ul>
@@ -269,5 +270,20 @@
 <!-- Disqus Comments -->
 
 
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>

@@ -36,6 +36,10 @@
     <!-- title -->
     <title>Writing(归档): 2021</title>
     <!-- styles -->
+    <!-- css('lib/tippy-6.3.2-bundle.umd.min') -->
+    
+<link rel="stylesheet" href="/lib/gitalk/gitalk-1.7.2.css">
+
     
 <link rel="stylesheet" href="/css/style.css">
 
@@ -47,19 +51,20 @@
 	<!-- mathjax -->
 	
   <!-- Other Javascripts like Popper (v2.10.2), Tippy.js (v6.3.2), Typed.js (v2.0.12)... -->
-  
-<script src="/lib/popper-2.10.2.min.js"></script>
-
-  
-<script src="/lib/tippy-6.3.2-bundle.umd.min.js"></script>
-
+  <!-- js('lib/popper-2.10.2.min.js') -->
+  <!-- js('lib/tippy-6.3.2-bundle.umd.min.js') -->
   
 <script src="/lib/typed-2.0.12.js"></script>
 
+  
+<script src="/lib/valine-1.4.16.min.js"></script>
+
+  
+<script src="/lib/gitalk/gitalk-1.7.2.min.js"></script>
+
 <meta name="generator" content="Hexo 5.4.0"></head>
 
-<body class="max-width mx-auto px3 ltr">
-    
+<body class="max-width mx-auto px3 ltr">    
     <div class="content index py4">
         
           <header id="header">
@@ -101,8 +106,6 @@
       
     
       
-    
-      
         <li class="post-item">
           
     <div class="meta">
@@ -124,8 +127,6 @@
 </em></strong></span>
           
         </li>
-      
-    
       
     
   </ul>
@@ -171,32 +172,6 @@
     <div class="meta">
       
         
-          <time datetime="2021-10-23T16:08:31.000Z" itemprop="datePublished">2021-10-24</time>
-        
-      
-    </div>
-
-
-        
-          <span><del>
-    
-        <a class="" href="/2021/10/24/code-highlight/">Highlight!</a>
-    
-
-
-</del></span>
-        
-      </li>
-    
-      
-      
-      
-      
-      <li class="post-item">
-        
-    <div class="meta">
-      
-        
           <time datetime="2021-10-12T08:39:39.000Z" itemprop="datePublished">2021-10-12</time>
         
       
@@ -211,32 +186,6 @@
 
 
 </em></strong></span>
-        
-      </li>
-    
-      
-      
-      
-      
-      <li class="post-item">
-        
-    <div class="meta">
-      
-        
-          <time datetime="2021-02-24T05:39:56.000Z" itemprop="datePublished">2021-02-24</time>
-        
-      
-    </div>
-
-
-        
-          <span><del>
-    
-        <a class="" href="/2021/02/24/it-never-entered-my-mind/">It NEVER Entered my Mind</a>
-    
-
-
-</del></span>
         
       </li>
     
@@ -321,5 +270,20 @@
 <!-- Disqus Comments -->
 
 
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>

@@ -1604,11 +1604,13 @@ span.mono_inline {
   -webkit-border-radius: 4px;
 }
 code {
+  color: #6c6cc4;
   border-style: solid;
   border-color: #fdf7e3;
   background-color: #fdf7e3;
 }
 pre code {
+  color: #363662;
   background-color: #fefcf6;
 }
 kbd {
@@ -1637,13 +1639,19 @@ kbd {
 }
 @media screen and (min-width: 900px) {
   .content .post .content a,
-  .post-list a,
+  .post-list .post-item a,
+  .project-list .project-item a,
+  .tagcloud a,
   .content .post .content a:hover,
-  .post-list a:hover {
+  .post-list .post-item a:hover,
+  .project-list .project-item a:hover,
+  .tagcloud a:hover {
     position: relative;
   }
   .content .post .content a::after,
-  .post-list a::after {
+  .post-list .post-item a::after,
+  .project-list .project-item a::after,
+  .tagcloud a::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -1655,7 +1663,9 @@ kbd {
     height: 5.6px;
   }
   .content .post .content a:hover::after,
-  .post-list a:hover::after {
+  .post-list .post-item a:hover::after,
+  .project-list .project-item a:hover::after,
+  .tagcloud a:hover::after {
     left: 0;
     right: auto;
     width: 100%;

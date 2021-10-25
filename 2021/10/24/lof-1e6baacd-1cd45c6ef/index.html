@@ -48,6 +48,10 @@
     <!-- title -->
     <title>Liella! Generation II</title>
     <!-- styles -->
+    <!-- css('lib/tippy-6.3.2-bundle.umd.min') -->
+    
+<link rel="stylesheet" href="/lib/gitalk/gitalk-1.7.2.css">
+
     
 <link rel="stylesheet" href="/css/style.css">
 
@@ -59,19 +63,20 @@
 	<!-- mathjax -->
 	
   <!-- Other Javascripts like Popper (v2.10.2), Tippy.js (v6.3.2), Typed.js (v2.0.12)... -->
-  
-<script src="/lib/popper-2.10.2.min.js"></script>
-
-  
-<script src="/lib/tippy-6.3.2-bundle.umd.min.js"></script>
-
+  <!-- js('lib/popper-2.10.2.min.js') -->
+  <!-- js('lib/tippy-6.3.2-bundle.umd.min.js') -->
   
 <script src="/lib/typed-2.0.12.js"></script>
 
+  
+<script src="/lib/valine-1.4.16.min.js"></script>
+
+  
+<script src="/lib/gitalk/gitalk-1.7.2.min.js"></script>
+
 <meta name="generator" content="Hexo 5.4.0"></head>
 
-<body class="max-width mx-auto px3 ltr">
-    
+<body class="max-width mx-auto px3 ltr">    
       <div id="header-post">
   <a id="menu-icon" href="#" aria-label="Menu (目录)"><i class="fas fa-bars fa-lg"></i></a>
   <a id="menu-icon-tablet" href="#" aria-label="Menu (目录)"><i class="fas fa-bars fa-lg"></i></a>
@@ -97,7 +102,7 @@
       <ul>
         
         
-        <li><a class="icon" aria-label="Next (下一篇)" href="/2021/10/24/code-highlight/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        <li><a class="icon" aria-label="Next (下一篇)" href="/2021/10/12/holax-sekai/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
         
         <li><a class="icon" aria-label="Top (返回顶部)" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
         <li><a class="icon" aria-label="Share (分享文章)" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
@@ -215,6 +220,23 @@
 
   </div>
 </article>
+
+    
+    
+        <div id="gitalk-container"></div>
+        <script>
+            var gitalk = new Gitalk({
+                clientID: "22db1e8ab4ff55f2d8a5",
+                clientSecret: "98432c896a0f72f09b2e500ae736ca97938dd69b",
+                id: window.location.pathname,
+                repo: "liella-gen2.github.io",
+                owner: "sandyzikun",
+                admin: "sandyzikun",
+                distractionFreeMode: false
+            });
+            gitalk.render('gitalk-container');
+        </script>
+    
 
 
 
@@ -370,5 +392,20 @@
 <!-- Disqus Comments -->
 
 
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>
