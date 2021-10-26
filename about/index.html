@@ -58,14 +58,15 @@
   
 <script src="/lib/typed-2.0.12.js"></script>
 
-  <!-- js('lib/valine-1.4.16.min') -->
+  
+<script src="/lib/valine-1.4.16.min.js"></script>
+
   
 <script src="/lib/gitalk/gitalk-1.7.2.min.js"></script>
 
 <meta name="generator" content="Hexo 5.4.0"></head>
 
-<body class="max-width mx-auto px3 ltr">
-    
+<body class="max-width mx-auto px3 ltr">    
     <div class="content index py4">
         
           <header id="header">
@@ -104,8 +105,8 @@
   
 
   <div class="content" itemprop="articleBody">
-      
-          <!--p>
+    
+      <!--p>
 <h1 style="margin-bottom:0">Announcement & About us</h1>
 <h2 style="margin-top:0">关于我们，与一些声明</h2>
 </p-->
@@ -116,7 +117,32 @@
 <p>立足中国国内，我们是名为 Liella-fans! ，由企划<a target="_blank" rel="noopener" href="https://zh.moegirl.org.cn/LoveLive!Superstar!!"><ruby>Lovelive!<rt>ラブライブ！</rt>Superstar!!<rt>スーパースター!!</rt></ruby></a>的粉丝们组成的<strong>非官方</strong>结社！这个站点是我们的<strong>二次创作</strong>·分享·推广站。如若您也热爱<a target="_blank" rel="noopener" href="https://zh.moegirl.org.cn/Liella!"><strong><em>Liella!</em></strong></a>的五位小天使、或者对我们所创作的世界观感兴趣、或者喜欢我们所创作的四位小天使，均可加入我们一起玩耍 <code>XD</code> <code>ε=ε=(ノ≧∇≦)ノ(┴—┴</code></p>
 <p>Group ID (QQ群号): <code>701212513</code></p>
 <h3 id="附：信息不定期更新，以本页为参考。"><a href="#附：信息不定期更新，以本页为参考。" class="headerlink" title="附：信息不定期更新，以本页为参考。"></a>附：信息不定期更新，以本页为参考。</h3>
-        
+    
+    
+      <hr />
+      <h1 id="message-board">Message Board (留言板)</h1>
+      <div id="valine-container"></div>
+      <script>
+        /* new Valine({
+          el: "#valine-container",
+          appId: "3GiiCyXCrGbOIH3EelCfJ6yw-gzGzoHsz",
+          appKey: "iuneD4hXPQImdHQSRE0aOcRF",
+          placeholder: "Just Go Go.",
+          avatar: "mp",
+          path: "/",
+          recordIP: true,
+          lang: "zh-cn",
+          visitor: true,
+          enableQQ: true,
+        }); */
+        new Valine({
+          el: "#valine-container",
+          appId: "BJvasWrnRIBUV00qcgQGbLKo-gzGzoHsz",
+          appKey: "MojnnrK48CIUxLurDH2W3uj9",
+          placeholder: "Just tell and share your feelings..."
+        });
+      </script>
+    
   </div>
 </article>
 
@@ -197,5 +223,20 @@
 <!-- Disqus Comments -->
 
 
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>
