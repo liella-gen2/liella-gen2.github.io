@@ -1836,3 +1836,29 @@ kbd {
     width: 100%;
   }
 }
+#valine-container {
+  margin-bottom: 3.9em;
+}
+.v {
+  padding: 39px;
+  border-radius: 12.8px;
+}
+@media (prefers-color-scheme: dark) {
+  .v {
+    background-color: #000;
+  }
+}
+@media (prefers-color-scheme: light) {
+  .v {
+    background-color: #fff;
+  }
+}
+.v .vcount,
+.v h1,
+.v h2,
+.v h3,
+.v th,
+.v td,
+.v li {
+  color: #1abcb0;
+}
