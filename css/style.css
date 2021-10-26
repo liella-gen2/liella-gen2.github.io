@@ -1755,9 +1755,6 @@ code {
  * @since Oct 2021
  * Stylesheet Extensions
  */
-.content {
-  padding-bottom: 8rem;
-}
 article .content blockquote::before {
   font-size: 1.28em;
   font-family: "Font Awesome 5 Free";
