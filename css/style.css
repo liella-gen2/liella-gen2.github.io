@@ -1795,7 +1795,8 @@ kbd {
 }
 .tagcloud a::before,
 .tag-cloud-tags a::before,
-.article-tag a::before {
+.article-tag a::before,
+a.tag-link-link::before {
   content: "#";
 }
 .mjx-chtml .mjx-math {
@@ -1841,7 +1842,9 @@ kbd {
 }
 .v {
   padding: 39px;
+  border: 1.28px solid #656583;
   border-radius: 12.8px;
+  box-shadow: 1.28px 1.28px 3.9px #656583;
 }
 @media (prefers-color-scheme: dark) {
   .v {
