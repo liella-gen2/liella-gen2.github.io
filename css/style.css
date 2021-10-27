@@ -1762,6 +1762,7 @@ article .content blockquote::before {
 }
 code,
 kbd,
+a.tag-link-link .tag-link-count,
 span.mono_inline {
   padding: 2px 4px;
   border-width: 1px;
@@ -1798,6 +1799,14 @@ kbd {
 .article-tag a::before,
 a.tag-link-link::before {
   content: "#";
+}
+.tagcloud a .tag-link-count,
+.tag-cloud-tags a .tag-link-count,
+.article-tag a .tag-link-count,
+a.tag-link-link .tag-link-count {
+  color: #fefcf6;
+  background-color: #656583;
+  margin-left: 3.9px;
 }
 .mjx-chtml .mjx-math {
   color: #363662;
