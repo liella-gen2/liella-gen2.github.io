@@ -4,6 +4,7 @@
     <title>Holax Sekai</title>
     <url>/2021/10/12/holax-sekai/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="Intro"><a href="#Intro" class="headerlink" title="Intro"></a>Intro</h1><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<span id="more"></span>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;Greenlights&quot;</span>    <span class="comment"># also `hexo n`</span></span><br><span class="line">$ hexo server               <span class="comment"># also `hexo s`</span></span><br><span class="line">$ hexo generate             <span class="comment"># also `hexo g`</span></span><br><span class="line">$ hexo deploy               <span class="comment"># also `hexo d`</span></span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/zh-cn/docs/">https://hexo.io/zh-cn/docs/</a></p>
 <h2 id="Markdown-Test"><a href="#Markdown-Test" class="headerlink" title="Markdown Test"></a>Markdown Test</h2><h3 id="Overview-of-Liella-generation-II"><a href="#Overview-of-Liella-generation-II" class="headerlink" title="Overview of Liella, generation II"></a>Overview of Liella, generation II</h3><ol>
@@ -197,9 +198,9 @@
 <p><del>众所周知，这个团体只有4个是地球人：因为剩下的一个（<a href="https://zh.moegirl.org.cn/青山渚">青山渚</a>）是从外星来的。</del></p>
 <h2 id="Lyrics’-Test"><a href="#Lyrics’-Test" class="headerlink" title="Lyrics’ Test"></a>Lyrics’ Test</h2><figure class="highlight plaintext"><figcaption><span>Sumire-rap</span><a href="https://zh.moegirl.org.cn/Day1">Day1</a></figcaption><table><tr><td class="code"><pre><span class="line">作詞：KEN THE 390　作曲：めんま、KEN THE 390　編曲：家原正樹</span><br><span class="line"></span><br><span class="line">閉まったままのアンサーを解き放つよ今日</span><br><span class="line">ここから世界中へ　大きい夢</span><br><span class="line">一緒に叶えに行こう　手を繋いで　あの角の向こう</span><br><span class="line">いつも通りの景色　変えるレシピ　見つけられたよ</span><br><span class="line"></span><br><span class="line">...</span><br><span class="line"></span><br><span class="line">繰り返しのルーティンに色をつけるミュージック</span><br><span class="line">僕らだけがわかる合図　合わせていくチューニング</span><br><span class="line">唯一無二　それぞれ　代わりなんていない</span><br><span class="line">代わり映えしない　今　変えてきたい</span><br></pre></td></tr></table></figure>
 <h2 id="Test-of-Audio-Players"><a href="#Test-of-Audio-Players" class="headerlink" title="Test of Audio Players"></a>Test of Audio Players</h2>
-    <div id="aplayer-gsVEEMKz" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="1835533024" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme=" #39c5bb"></div>
+    <div id="aplayer-aSDrefCU" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="1835533024" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme=" #39c5bb"></div>
 
-    <div id="aplayer-YazuXmqA" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="125693052" data-server="netease" data-type="album" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme=" #39c5bb"></div>
+    <div id="aplayer-vDcrwKyE" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="125693052" data-server="netease" data-type="album" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme=" #39c5bb"></div>
 <!-- meting "71853061" "netease" "album" "theme: #39c5bb" -->
 <!-- meting "38991091" "netease" "album" "theme: #39c5bb" -->
 <h2 id="Codeblock-Test"><a href="#Codeblock-Test" class="headerlink" title="Codeblock Test"></a>Codeblock Test</h2><figure class="highlight js"><figcaption><span>liella-starter.js</span><a href="https://liella.tv/">星象馆传送门</a></figcaption><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> http = <span class="built_in">require</span>(<span class="string">&quot;http&quot;</span>);</span><br><span class="line"><span class="keyword">const</span> hostname = <span class="string">&quot;127.0.0.1&quot;</span>;</span><br><span class="line"><span class="keyword">const</span> port = <span class="number">1337</span>;</span><br><span class="line">http.createServer(<span class="function">(<span class="params">req, res</span>) =&gt;</span> &#123;</span><br><span class="line">  res.writeHead(<span class="number">200</span>, &#123; <span class="string">&quot;Content-Type&quot;</span>: <span class="string">&quot;text/plain&quot;</span> &#125;);</span><br><span class="line">  res.end(<span class="string">&quot;できっこないよって思ってたことも 踏みだせばほら叶うんだ\n&quot;</span>);</span><br><span class="line">&#125;).listen(port, hostname, <span class="function">() =&gt;</span> &#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">`At http://<span class="subst">$&#123;hostname&#125;</span>:<span class="subst">$&#123;port&#125;</span>/ 今、始まるよSymphony`</span>);</span><br><span class="line">&#125;);</span><br><span class="line">(<span class="function">() =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">const</span> liella = <span class="built_in">require</span>(<span class="string">&quot;Liella&quot;</span>);</span><br><span class="line">    liella.restart(<span class="string">&quot;Generation II!&quot;</span>);</span><br><span class="line">    &#125;)();</span><br></pre></td></tr></table></figure>
@@ -219,11 +220,40 @@
   </entry>
   <entry>
     <title></title>
-    <url>/2021/10/24/lof-1e6baacd-1cd45c6ef/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="https://imglf5.lf127.net/img/6dce96137f60f4b6/RDJzS3ZVSzYwTXJWL3N0Wjkra0xrSm5Sc0hVdU96MERsM3U4Y0grRTJaRT0.jpg" alt="香菜子ト薮"><br><img src="https://imglf4.lf127.net/img/fc68524b2cffba46/RDJzS3ZVSzYwTXJWL3N0Wjkra0xrRmxuOTBRSDk3Mk84dEJqNnQwcHI4RT0.png" alt="千穗理ト香菜子ノDemo"><img src="https://imglf4.lf127.net/img/dcd170a6e3ef78dc/RDJzS3ZVSzYwTXJWL3N0Wjkra0xrQ1EycTZCVzNaanlhZDVFUi92UW9QVT0.png" alt="音羽ノDemo"><img src="https://imglf3.lf127.net/img/837d05f10c1d5d0a/RDJzS3ZVSzYwTXJWL3N0Wjkra0xrTlBON0tid0NjY0FaVWsxb3dvZlJ1OD0.png" alt="薮ノDemo"></p>
+    <url>/2021/10/25/lof-1e6baacd-1cd3c9d6d/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="https://imglf6.lf127.net/img/fc3e0f4e3b64df7b/RDJzS3ZVSzYwTXFjN2xDeG9uclNQS3g0YlkxWjRsWkIySVBScndTNFY5cz0.jpg" alt="群聊二维码"></p>
+<p>欢迎入群哟</p>
+<span id="more"></span>
+<p><code>♡(ŐωŐ人)</code></p>
+<p>米娜桑看过来！</p>
+<p>这边是香音x千砂都的cp群！</p>
+<p>有大量群内特供的粮哦！！！</p>
+<p>大佬云集，快来和太太们贴贴！</p>
+<p>社恐的小宝贝儿也别害怕，</p>
+<p>群相册和精华消息里每日持续更新，</p>
+<p>只是来潜水吃粮的，也是热烈欢迎！</p>
+<p>总之喜欢青梅竹马，身高差，怂攻x诱受（or粘人肉食系x温柔草食系）互相支持，互相理解，彼此信赖，相恋相依，却不会过度依赖，是彼此最坚实的后盾，宛若致橡树一般令人向往的完美爱情的朋友！</p>
+<p>只要你喜欢上面任何一点，我们都可以成为好朋友！</p>
+<p><code>ヽ(≧Д≦)ノ</code></p>
+<p>快来和我聊cp！</p>
+<p>群里氛围很好，大家都是好朋友，时不时会演变成奇怪的相声，不过请不要介意，会扯回来的……（大概也许可能）</p>
+<p>当然，如果你只是单纯的来群里催更的，也不是不可以……（咕了快一个月的ABO花吐症千音……）</p>
+<p><strong><em>占Tag抱歉，非常对不起！</em></strong></p>
+<p>群号我放在评论区方便复制粘贴，由于我图片不可下载保存，就麻烦你截图啦！<code>∠(｀ω´*)</code></p>
+]]></content>
+      <tags>
+        <tag>Liella! Generation II, Liella!第二世代</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2021/10/20/lof-1e6baacd-1cd45c6ef/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="https://imglf5.lf127.net/img/6dce96137f60f4b6/RDJzS3ZVSzYwTXJWL3N0Wjkra0xrSm5Sc0hVdU96MERsM3U4Y0grRTJaRT0.jpg" alt="香菜子ト薮"></p>
 <p><strong>子世代警告</strong></p>
 <p><strong><em>盗设必究</em></strong></p>
 <p>是千音群内大家讨论出的关于香音和千砂都家的二女儿和可可和堇家的小公主。</p>
+<span id="more"></span>
+<p><img src="https://imglf4.lf127.net/img/fc68524b2cffba46/RDJzS3ZVSzYwTXJWL3N0Wjkra0xrRmxuOTBRSDk3Mk84dEJqNnQwcHI4RT0.png" alt="千穗理ト香菜子ノDemo"><img src="https://imglf4.lf127.net/img/dcd170a6e3ef78dc/RDJzS3ZVSzYwTXJWL3N0Wjkra0xrQ1EycTZCVzNaanlhZDVFUi92UW9QVT0.png" alt="音羽ノDemo"><img src="https://imglf3.lf127.net/img/837d05f10c1d5d0a/RDJzS3ZVSzYwTXJWL3N0Wjkra0xrTlBON0tid0NjY0FaVWsxb3dvZlJ1OD0.png" alt="薮ノDemo"></p>
 <p><strong><em>盗设必究</em></strong></p>
 <p>1p是我那设子去找木柃子太太约稿的，红线是私心，别在意（她们可还是孩子啊，这是犯罪啊！.jpg）</p>
 <p>2～4p是烁音做的简介卡</p>
@@ -276,6 +306,7 @@
     <title>歌词测试</title>
     <url>/2021/10/25/lyrics-testing/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>说是歌词，其实人物对话大概率也会用这个模板</p>
+<span id="more"></span>
 <h1 id="相关功能模块正在编写与搭建中！以下内容不代表最终效果-敬请期待-！"><a href="#相关功能模块正在编写与搭建中！以下内容不代表最终效果-敬请期待-！" class="headerlink" title="相关功能模块正在编写与搭建中！以下内容不代表最终效果!!敬请期待!!！"></a><strong><em>相关功能模块正在编写与搭建中！以下内容不代表最终效果!!敬请期待!!！</em></strong></h1><p>とくとく流れているのは あなたに縋りついた血だ<br>鲜血汩汩流出 瞬间染红了你的衣襟</p>
 <p>涙の代わりに込み上げて 燃えさかる幻影の炎だろう<br>取而代之的是泣血椎心 是燃烧后火焰的残影</p>
 ]]></content>
