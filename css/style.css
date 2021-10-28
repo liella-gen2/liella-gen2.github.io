@@ -1762,7 +1762,6 @@ article .content blockquote::before {
 }
 code,
 kbd,
-a.tag-link-link .tag-link-count,
 span.mono_inline {
   padding: 2px 4px;
   border-width: 1px;
@@ -1807,6 +1806,20 @@ a.tag-link-link .tag-link-count {
   color: #fefcf6;
   background-color: #656583;
   margin-left: 3.9px;
+}
+a.tag-link-link .tag-link-count {
+  padding: 2px 4px 0px;
+  border-width: 1px;
+  border-radius: 4px 4px 0px 0px;
+  -webkit-border-radius: 4px 4px 0px 0px;
+}
+.post-list .post-item.post-item-above,
+#archive .post-list .post-item.post-item-above {
+  margin-bottom: 0px;
+}
+.post-list .post-item.post-item-above .meta,
+#archive .post-list .post-item.post-item-above .meta {
+  border-bottom: 1.28px dashed #656583;
 }
 .mjx-chtml .mjx-math {
   color: #363662;
