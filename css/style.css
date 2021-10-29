@@ -1793,6 +1793,10 @@ kbd {
 .hidiv:hover {
   background-color: #fefcf6;
 }
+#subtitle h2 {
+  margin: 0px;
+  text-align: center;
+}
 .tagcloud a::before,
 .tag-cloud-tags a::before,
 .article-tag a::before,
@@ -1820,6 +1824,29 @@ a.tag-link-link .tag-link-count {
 .post-list .post-item.post-item-above .meta,
 #archive .post-list .post-item.post-item-above .meta {
   border-bottom: 1.28px dashed #656583;
+}
+.post-list .post-item blockquote {
+  margin: 0px 39px;
+  padding-left: 12.8px;
+  border-left: 0.5px dashed #969183;
+}
+.post-list .post-item blockquote::before {
+  margin-left: -1em;
+  color: #6c6cc4;
+  content: "\201C";
+  vertical-align: -0.39em;
+  font-size: 2.56em;
+  line-height: 0.1em;
+}
+.post-list .post-item blockquote p {
+  margin-bottom: 0px;
+}
+.post-list .post-item .post-item-contents {
+  border-left: 1.28px dashed #656583;
+}
+.post-list .post-item .post-item-contents span,
+.post-list .post-item .post-item-contents blockquote {
+  padding-left: 3.9px;
 }
 .mjx-chtml .mjx-math {
   color: #363662;

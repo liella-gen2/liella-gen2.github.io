@@ -198,9 +198,9 @@
 <p><del>众所周知，这个团体只有4个是地球人：因为剩下的一个（<a href="https://zh.moegirl.org.cn/青山渚">青山渚</a>）是从外星来的。</del></p>
 <h2 id="Lyrics’-Test"><a href="#Lyrics’-Test" class="headerlink" title="Lyrics’ Test"></a>Lyrics’ Test</h2><figure class="highlight plaintext"><figcaption><span>Sumire-rap</span><a href="https://zh.moegirl.org.cn/Day1">Day1</a></figcaption><table><tr><td class="code"><pre><span class="line">作詞：KEN THE 390　作曲：めんま、KEN THE 390　編曲：家原正樹</span><br><span class="line"></span><br><span class="line">閉まったままのアンサーを解き放つよ今日</span><br><span class="line">ここから世界中へ　大きい夢</span><br><span class="line">一緒に叶えに行こう　手を繋いで　あの角の向こう</span><br><span class="line">いつも通りの景色　変えるレシピ　見つけられたよ</span><br><span class="line"></span><br><span class="line">...</span><br><span class="line"></span><br><span class="line">繰り返しのルーティンに色をつけるミュージック</span><br><span class="line">僕らだけがわかる合図　合わせていくチューニング</span><br><span class="line">唯一無二　それぞれ　代わりなんていない</span><br><span class="line">代わり映えしない　今　変えてきたい</span><br></pre></td></tr></table></figure>
 <h2 id="Test-of-Audio-Players"><a href="#Test-of-Audio-Players" class="headerlink" title="Test of Audio Players"></a>Test of Audio Players</h2>
-    <div id="aplayer-neRdIeBH" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="1835533024" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme=" #39c5bb"></div>
+    <div id="aplayer-OBZRHbUj" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="1835533024" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme=" #39c5bb"></div>
 
-    <div id="aplayer-eiJOwhgZ" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="125693052" data-server="netease" data-type="album" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme=" #39c5bb"></div>
+    <div id="aplayer-PsdHhdcv" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="125693052" data-server="netease" data-type="album" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme=" #39c5bb"></div>
 <!-- meting "71853061" "netease" "album" "theme: #39c5bb" -->
 <!-- meting "38991091" "netease" "album" "theme: #39c5bb" -->
 <h2 id="Codeblock-Test"><a href="#Codeblock-Test" class="headerlink" title="Codeblock Test"></a>Codeblock Test</h2><figure class="highlight js"><figcaption><span>liella-starter.js</span><a href="https://liella.tv/">星象馆传送门</a></figcaption><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> http = <span class="built_in">require</span>(<span class="string">&quot;http&quot;</span>);</span><br><span class="line"><span class="keyword">const</span> hostname = <span class="string">&quot;127.0.0.1&quot;</span>;</span><br><span class="line"><span class="keyword">const</span> port = <span class="number">1337</span>;</span><br><span class="line">http.createServer(<span class="function">(<span class="params">req, res</span>) =&gt;</span> &#123;</span><br><span class="line">  res.writeHead(<span class="number">200</span>, &#123; <span class="string">&quot;Content-Type&quot;</span>: <span class="string">&quot;text/plain&quot;</span> &#125;);</span><br><span class="line">  res.end(<span class="string">&quot;できっこないよって思ってたことも 踏みだせばほら叶うんだ\n&quot;</span>);</span><br><span class="line">&#125;).listen(port, hostname, <span class="function">() =&gt;</span> &#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">`At http://<span class="subst">$&#123;hostname&#125;</span>:<span class="subst">$&#123;port&#125;</span>/ 今、始まるよSymphony`</span>);</span><br><span class="line">&#125;);</span><br><span class="line">(<span class="function">() =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">const</span> liella = <span class="built_in">require</span>(<span class="string">&quot;Liella&quot;</span>);</span><br><span class="line">    liella.restart(<span class="string">&quot;Generation II!&quot;</span>);</span><br><span class="line">    &#125;)();</span><br></pre></td></tr></table></figure>
@@ -243,18 +243,6 @@
 ]]></content>
       <tags>
         <tag>Liella! Generation II, Liella!第二世代</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>歌词测试</title>
-    <url>/2021/10/25/lyrics-testing/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>歌词与人物对话展示测试 (<strong><em>相关功能模块正在编写与搭建中！以下内容不代表最终效果!!敬请期待!!！</em></strong>)</p>
-<p>とくとく流れているのは あなたに縋りついた血だ<br>鲜血汩汩流出 瞬间染红了你的衣襟</p>
-<p>涙の代わりに込み上げて 燃えさかる幻影の炎だろう<br>取而代之的是泣血椎心 是燃烧后火焰的残影</p>
-<span id="more"></span>
-]]></content>
-      <tags>
-        <tag>测试Testing!</tag>
       </tags>
   </entry>
   <entry>
@@ -308,10 +296,102 @@
 ]]></content>
       <tags>
         <tag>Sou (平安名 薮)</tag>
+        <tag>Kanako (涩谷 香菜子)</tag>
+        <tag>Liella! Generation II, Liella!第二世代</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>截止目前为止，崽崽们的照片</title>
+    <url>/2021/10/28/lof-4d21b8d8-2b3e20805/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>请多看看崽崽们吧！</p>
+<span id="more"></span>
+<p>小崽子们的成长日记:</p>
+<p><img src="https://imglf5.lf127.net/img/0fd741aa8f377d01/RDJzS3ZVSzYwTXJJL2NjVjBsbm5mMGdEMkVoczNDeXl5SkxqcWZTTHpNVT0.jpg" alt></p>
+<p>一卡桑的千穗理，早期千穗理还是个正常的孩子（并且没有那么多奇奇怪怪的设定和属性，只是个普普通通的孩子而已，也还没有名字）</p>
+<p><img src="https://imglf4.lf127.net/img/9621cbfe561da53b/RDJzS3ZVSzYwTXJJL2NjVjBsbm5mNnJTVmZNOFh0Ui93c0Nra3BsSy9iVT0.jpg" alt></p>
+<p>一卡桑所画的千穗理和香菜子的人设图（此时音羽还未诞生，名字也都没有决定）这时还是以一胎二胎来称呼她们的，并且笑面恶魔也还不是恶魔。</p>
+<p><img src="https://imglf4.lf127.net/img/c1525aeac4e9fb6e/RDJzS3ZVSzYwTXJJL2NjVjBsbm5meTBWY3o4TnU4QUliRkFkZ3dIdTdtdz0.jpg" alt></p>
+<p>屑子姐的音羽（otoha），一卡桑苦等了几个月的三胎，小帅哥。一出生就夺走了一群人的心。</p>
+<p><img src="https://imglf4.lf127.net/img/2c9b2c922468f64b/RDJzS3ZVSzYwTXJJL2NjVjBsbm5mMFREd25ReWRVelVIOS95dnF6NkwyYz0.jpg" alt></p>
+<p>狼泥泥的庆祝三胎诞生～涩谷家三姐妹齐了。（这个时期还没完全决定她们的年龄间隔，性格也还么成型，处在比较模糊的阶段）</p>
+<p><img src="https://imglf5.lf127.net/img/f70e38dea8faffcf/RDJzS3ZVSzYwTXJJL2NjVjBsbm5mNERqVjRVNHhWczFhMWMzMWR6SmNSTT0.jpg" alt></p>
+<p>屑子姐的涩谷家三姐妹。被姐姐们宠爱的音羽，各种层面上都是最受宠的。此时的香菜子已经变成了全家最矮担当。（薮还没诞生的时期）</p>
+<p><img src="https://imglf4.lf127.net/img/55c8c4c499be2d80/RDJzS3ZVSzYwTXJJL2NjVjBsbm5mMVVtT29OQXd6ZFN4TmVmQ081RThQMD0.jpg" alt></p>
+<p>千穗理（大姐）和音羽（小妹）遗传了一部分香音的性格，比如台前恐惧症什么的。千穗理是一直怂怂的，而音羽则是香音off模式的那种感觉。香菜子则完全没有继承这部分怂怂的性格，朝着千砂都靠近了。（此时也还不是笑面恶魔）</p>
+<p><img src="https://imglf3.lf127.net/img/e5952185e190498f/RDJzS3ZVSzYwTXJJL2NjVjBsbm5mMGJ1U0Y0NDJCZVdQQ0JIQVZtNFZmWT0.jpg" alt></p>
+<p>狼泥泥的涩谷三朵花（打死）。穿着结丘音乐科校服的小帅哥们。挡不住的又萌又帅的基因啊。</p>
+<p><img src="https://imglf3.lf127.net/img/29493a26fb988b6c/RDJzS3ZVSzYwTXJJL2NjVjBsbm5meitybWZWby9Pa2VXYUdpVVNsT3cvaz0.jpg" alt><img src="https://imglf6.lf127.net/img/4be6fddaaca455f5/RDJzS3ZVSzYwTXJJL2NjVjBsbm5mM2EvWWJWQ2sxTzU1N2t0cEdiZytFRT0.jpg" alt></p>
+<p>↑狼泥泥所画↑</p>
+<p>大扫除时，孩子们翻出了妈妈们小时候的照片</p>
+<p><img src="https://imglf5.lf127.net/img/0557fb0160cb7e6a/RDJzS3ZVSzYwTXJJL2NjVjBsbm5melJkeU9CRFRFQnhLd2R6aUhzblk4Zz0.jpg" alt></p>
+<p>↑一卡桑的画↑</p>
+<p>自从音羽（otoha）诞生后，千穗理和香菜子的骨科就变成了远古时代的事情了。千穗理的妹控属性和粘人属性也是一去不回，白毛组逐渐成为趋势。香菜子逐渐被冷落。音羽也逐渐获得了毒舌不良的属性。</p>
+<p><img src="https://imglf6.lf127.net/img/a16c0c85deb55306/RDJzS3ZVSzYwTXJJL2NjVjBsbm5mL0N5TXM0TWJsekowMFVKa1dnaWhObz0.jpg" alt></p>
+<p>↑屑子姐的画↑</p>
+<p>你会发现这个时期白毛组的双人图数量激增。因为俩亲妈（屑子姐和一卡桑）磕她俩骨科磕上头了。</p>
+<p><img src="https://imglf3.lf127.net/img/b9e8301f34f8181f/RDJzS3ZVSzYwTXJJL2NjVjBsbm5mN3Q3TFlDbStyaFF3UXUvOHN1Q2grVT0.jpg" alt></p>
+<p>↑一卡桑所画↑</p>
+<p>趴在香音身上睡觉的姐妹俩，是千砂都妈妈拍的照片哦。</p>
+<p><img src="https://imglf6.lf127.net/img/142ed24d37bb7898/RDJzS3ZVSzYwTXJJL2NjVjBsbm5meUlIMFJrRFhDYkFva3luNE9XeENvaz0.jpg" alt></p>
+<p>↑屑子姐所画↑</p>
+<p>香音和姐妹俩。</p>
+<hr>
+<p>因为这俩亲妈（屑子姐和一卡桑）实在太后妈了，所以我（黎天）这个后妈就收养了香菜子。</p>
+<p>在给香菜子丰满了人设之后没过几天，可堇的崽崽在一天之内完设了。</p>
+<p>↓桔佬所画的小薮↓</p>
+<p><img src="https://imglf4.lf127.net/img/8e7c46f10a2dbb47/RDJzS3ZVSzYwTXJJL2NjVjBsbm5md3krOG5LRlJKRzJyUUJ2MC9ZblNRWT0.jpg" alt></p>
+<p>↑</p>
+<p>设定中薮是可堇意外怀孕的孩子，所以她们俩都工作太忙了，无暇顾及薮。薮是个总在等着妈妈们下班来陪自己的孩子。</p>
+<p>（并且自此之后，香菜子笑面恶魔的人设就彻底固定了）</p>
+<p><img src="https://imglf6.lf127.net/img/de26a080d5c0de1c/RDJzS3ZVSzYwTXJJL2NjVjBsbm5mMXB0RTRBWi9TMHo0WGliTEw2TEhGaz0.jpg" alt></p>
+<p>↑我找人约的稿↑</p>
+<p>香菜子在家中一直有点被冷落的角色，而薮也是个孤独缺少妈妈陪伴的孩子。所以香菜子对薮格外照顾。她俩的红线在此时就牵上了。</p>
+<p><img src="https://imglf6.lf127.net/img/cd1bed252ea22f5e/RDJzS3ZVSzYwTXJJL2NjVjBsbm5mNUFKQXlHdUxNWFFjdkZJaG05NlBoST0.jpg" alt></p>
+<p>↑一卡桑所画</p>
+<p>（只有<del>香菜子</del>黎天受伤的世界达成了<span class="hidiv">，香菜子还有小薮</span>）</p>
+<p>↓屑子姐所画</p>
+<p><img src="https://imglf4.lf127.net/img/7ee5be4bf1db0953/RDJzS3ZVSzYwTXJJL2NjVjBsbm5meXBKYjd3RW12RmU5U2tkSC9NRGRaaz0.jpg" alt></p>
+<p><img src="https://imglf5.lf127.net/img/481ccdbc7d1ef529/RDJzS3ZVSzYwTXJJL2NjVjBsbm5md09lTzA5ZFhBbUlrWlhLL3JqVGZoaz0.jpg" alt></p>
+<p>↑狼泥泥所画的崽崽们</p>
+<p>↓</p>
+<p><img src="https://imglf6.lf127.net/img/c6b80fce6e706604/RDJzS3ZVSzYwTXJJL2NjVjBsbm5mL2Y1OFJkWkswNG0vMlZYTzI2bytnTT0.jpg" alt></p>
+<p>↑</p>
+<p>由于妈妈们工作太忙，而被交给了堇的妹妹暂时照顾的小薮。</p>
+<p><img src="https://imglf3.lf127.net/img/21d6c3d29d6afb92/RDJzS3ZVSzYwTXJJL2NjVjBsbm5mL0JYdHZNMmVnRytQcjJ0ZkVPUXRORT0.jpg" alt></p>
+<p>↑</p>
+<p>一卡桑所画</p>
+<p>↓</p>
+<p><img src="https://imglf5.lf127.net/img/a05ca4f0235b9649/RDJzS3ZVSzYwTXJJL2NjVjBsbm5md0I5RkxqR1Yvck9XMm5FZENQd0VhRT0.jpg" alt></p>
+<p>↑</p>
+<p>千砂都妈妈拍的照片。</p>
+<p>（一卡桑实在太爱千砂都这套衣服了）</p>
+<p><img src="https://imglf5.lf127.net/img/fc78d44afd957276/RDJzS3ZVSzYwTXJJL2NjVjBsbm5mL1NCMDk4bFg2S0ZPV0NXY0lwWW1iVT0.jpg" alt></p>
+<p>↑屑子姐所画↑</p>
+<p>香音带孩子</p>
+<p>超级受宠且爱撒娇的音羽和已经变成了笑面恶魔的香菜子，普通模式的千穗理。拍照的应该是千砂都。</p>
+<p><img src="https://imglf6.lf127.net/img/326ce060ca6117d1/RDJzS3ZVSzYwTXJJL2NjVjBsbm5meXpWTnZpM2FLTGxzS2Z3bHh2TGJhbz0.jpg" alt></p>
+<p>↑屑子姐所画↑</p>
+<p>屑子姐终于画香菜子和小薮了！！！！！啊啊啊啊啊啊啊！！！！！</p>
+<p>在此之后决定了香菜子将会在长大之后变成四只崽崽中最矮的那个人。</p>
+]]></content>
+      <tags>
+        <tag>Sou (平安名 薮)</tag>
         <tag>Chihori (涩谷 千穗理)</tag>
         <tag>Kanako (涩谷 香菜子)</tag>
         <tag>Otoha (涩谷 音羽)</tag>
         <tag>Liella! Generation II, Liella!第二世代</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>歌詞測試</title>
+    <url>/2021/10/25/lyrics-testing/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>歌詞與人物對話展示測試 (<strong><em>相關功能模塊正在編寫與搭建中！以下內容不代表最終效果!!敬請期待!!！</em></strong>)</p>
+<p>とくとく流れているのは あなたに縋りついた血だ<br>鮮血汩汩流出 瞬間染紅了你的衣襟</p>
+<p>涙の代わりに込み上げて 燃えさかる幻影の炎だろう<br>取而代之的是泣血椎心 是燃燒後火焰的殘影</p>
+<span id="more"></span>
+]]></content>
+      <tags>
+        <tag>测试Testing!</tag>
       </tags>
   </entry>
 </search>
