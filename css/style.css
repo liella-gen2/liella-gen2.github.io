@@ -1793,6 +1793,12 @@ kbd {
 .hidiv:hover {
   background-color: #fefcf6;
 }
+#typedesc {
+  font-style: italic;
+}
+#typedesc+.typed-cursor {
+  font-weight: bold;
+}
 #subtitle h2 {
   margin: 0px;
   text-align: center;
