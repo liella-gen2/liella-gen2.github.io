@@ -1803,6 +1803,10 @@ kbd {
   margin: 0px;
   text-align: center;
 }
+section h2 i.fa::before,
+section .h2 i.fa::before {
+  color: #857f70;
+}
 .tagcloud a::before,
 .tag-cloud-tags a::before,
 .article-tag a::before,
