@@ -1841,6 +1841,10 @@ a.tag-link-link .tag-link-count {
 .post-list .post-item blockquote p {
   margin-bottom: 0px;
 }
+.post-list .post-item blockquote p img {
+  max-width: 80%;
+  height: auto;
+}
 .post-list .post-item .post-item-contents {
   border-left: 1.28px dashed #656583;
 }
