@@ -1794,6 +1794,7 @@ kbd {
   background-color: #fefcf6;
 }
 #typedesc {
+  color: #121286;
   font-style: italic;
 }
 #typedesc+.typed-cursor {
