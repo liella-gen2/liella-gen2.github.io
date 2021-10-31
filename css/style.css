@@ -1801,7 +1801,7 @@ kbd {
   font-weight: bold;
 }
 #subtitle h2 {
-  margin: 0px;
+  margin: 0;
   text-align: center;
 }
 section h2 i.fa::before,
@@ -1823,21 +1823,21 @@ a.tag-link-link .tag-link-count {
   margin-left: 3.9px;
 }
 a.tag-link-link .tag-link-count {
-  padding: 2px 4px 0px;
+  padding: 2px 4px 0;
   border-width: 1px;
-  border-radius: 4px 4px 0px 0px;
-  -webkit-border-radius: 4px 4px 0px 0px;
+  border-radius: 4px 4px 0 0;
+  -webkit-border-radius: 4px 4px 0 0;
 }
 .post-list .post-item.post-item-above,
 #archive .post-list .post-item.post-item-above {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 .post-list .post-item.post-item-above .meta,
 #archive .post-list .post-item.post-item-above .meta {
   border-bottom: 1.28px dashed #656583;
 }
 .post-list .post-item blockquote {
-  margin: 0px 39px;
+  margin: 0 39px;
   padding-left: 12.8px;
   border-left: 0.5px dashed #969183;
 }
@@ -1850,7 +1850,7 @@ a.tag-link-link .tag-link-count {
   line-height: 0.1em;
 }
 .post-list .post-item blockquote p {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 .post-list .post-item blockquote p img {
   max-width: 80%;
