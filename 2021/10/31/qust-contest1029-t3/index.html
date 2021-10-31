@@ -6,15 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
-    <meta name="description" content="Problem Description (題目描述)$m$ 名同學按順序從 $1$ 到 $m$ 編號， $k$ 號同學的飯盒容量為 $z_k$ 。先有1到 $m$ 號同學開始打飯。某名同學 $l$ 打完容量為 $z_l$ 的飯後，下一名排隊同學 $i$ 馬上接替 $l$ 同學的位置開始打飯。即 $l$ 同學第 $x$ 秒結束時完成打飯，則 $i$ 同學第 $x + 1$ 秒立刻開始打飯。若當前打飯">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="description" content="QUST 2020級第三學期算法數據結構測試 Contest1029 T3 Problem Description (題目描述)$m$ 名同學按順序從 $1$ 到 $m$ 編號， $k$ 號同學的飯盒容量為 $z_k$ 。先有1到 $m$ 號同學開始打飯。某名同學 $l$ 打完容量為 $z_l$ 的飯後，下一名排隊同學 $i$ 馬上接替 $l$ 同學的位置開始打飯。即 $l$ 同學第 $x$ 秒結">
 <meta property="og:type" content="article">
 <meta property="og:title" content="「題解】食堂打飯">
 <meta property="og:url" content="https://liella-gen2.github.io/2021/10/31/qust-contest1029-t3/index.html">
 <meta property="og:site_name" content="Liella! Generation II">
-<meta property="og:description" content="Problem Description (題目描述)$m$ 名同學按順序從 $1$ 到 $m$ 編號， $k$ 號同學的飯盒容量為 $z_k$ 。先有1到 $m$ 號同學開始打飯。某名同學 $l$ 打完容量為 $z_l$ 的飯後，下一名排隊同學 $i$ 馬上接替 $l$ 同學的位置開始打飯。即 $l$ 同學第 $x$ 秒結束時完成打飯，則 $i$ 同學第 $x + 1$ 秒立刻開始打飯。若當前打飯">
+<meta property="og:description" content="QUST 2020級第三學期算法數據結構測試 Contest1029 T3 Problem Description (題目描述)$m$ 名同學按順序從 $1$ 到 $m$ 編號， $k$ 號同學的飯盒容量為 $z_k$ 。先有1到 $m$ 號同學開始打飯。某名同學 $l$ 打完容量為 $z_l$ 的飯後，下一名排隊同學 $i$ 馬上接替 $l$ 同學的位置開始打飯。即 $l$ 同學第 $x$ 秒結">
 <meta property="og:locale">
 <meta property="article:published_time" content="2021-10-31T14:15:03.000Z">
-<meta property="article:modified_time" content="2021-10-31T16:47:30.905Z">
+<meta property="article:modified_time" content="2021-10-31T16:57:12.638Z">
 <meta property="article:author" content="Liella-fans!">
 <meta property="article:tag" content="Simulation (模擬)">
 <meta name="twitter:card" content="summary">
@@ -121,7 +122,8 @@
   <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://liella-gen2.github.io/2021/10/31/qust-contest1029-t3/&title=「題解】食堂打飯"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
   <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://liella-gen2.github.io/2021/10/31/qust-contest1029-t3/&title=「題解】食堂打飯"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
   <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://liella-gen2.github.io/2021/10/31/qust-contest1029-t3/&title=「題解】食堂打飯"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://liella-gen2.github.io/2021/10/31/qust-contest1029-t3/&name=「題解】食堂打飯&description=&lt;h2 id=&#34;Problem-Description-題目描述&#34;&gt;&lt;a href=&#34;#Problem-Description-題目描述&#34; class=&#34;headerlink&#34; title=&#34;Problem Description (題目描述)&#34;&gt;&lt;/a&gt;Problem Description (題目描述)&lt;/h2&gt;&lt;p&gt;$m$ 名同學按順序從 $1$ 到 $m$ 編號， $k$ 號同學的飯盒容量為 $z_k$ 。先有1到 $m$ 號同學開始打飯。某名同學 $l$ 打完容量為 $z_l$ 的飯後，下一名排隊同學 $i$ 馬上接替 $l$ 同學的位置開始打飯。即 $l$ 同學第 $x$ 秒結束時完成打飯，則 $i$ 同學第 $x + 1$ 秒立刻開始打飯。若當前打飯人數 $n$ 小於 $m$ ，則只有 $n$ 個打飯窗口開放，其它 $n - m$ 個關閉。問所有同學都打完飯需要多少秒時間。&lt;/p&gt;"><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://liella-gen2.github.io/2021/10/31/qust-contest1029-t3/&name=「題解】食堂打飯&description=&lt;p&gt;QUST 2020級第三學期算法數據結構測試 &lt;a href=&#34;http://47.244.31.166/problem.php?id=1008&#34;&gt;&lt;code&gt;Contest1029&lt;/code&gt; T3&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;Problem-Description-題目描述&#34;&gt;&lt;a href=&#34;#Problem-Description-題目描述&#34; class=&#34;headerlink&#34; title=&#34;Problem Description (題目描述)&#34;&gt;&lt;/a&gt;Problem Description (題目描述)&lt;/h2&gt;&lt;p&gt;$m$ 名同學按順序從 $1$ 到 $m$ 編號， $k$ 號同學的飯盒容量為 $z_k$ 。先有1到 $m$ 號同學開始打飯。某名同學 $l$ 打完容量為 $z_l$ 的飯後，下一名排隊同學 $i$ 馬上接替 $l$ 同學的位置開始打飯。即 $l$ 同學第 $x$ 秒結束時完成打飯，則 $i$ 同學第 $x + 1$ 秒立刻開始打飯。若當前打飯人數 $n$ 小於 $m$ ，則只有 $n$ 個打飯窗口開放，其它 $n - m$ 個關閉。問所有同學都打完飯需要多少秒時間。&lt;/p&gt;"><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
   <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://liella-gen2.github.io/2021/10/31/qust-contest1029-t3/&t=「題解】食堂打飯"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
 </ul>
 
@@ -171,7 +173,8 @@
   
 
   <div class="content" itemprop="articleBody">
-    <h2 id="Problem-Description-題目描述"><a href="#Problem-Description-題目描述" class="headerlink" title="Problem Description (題目描述)"></a>Problem Description (題目描述)</h2><p>$m$ 名同學按順序從 $1$ 到 $m$ 編號， $k$ 號同學的飯盒容量為 $z_k$ 。先有1到 $m$ 號同學開始打飯。某名同學 $l$ 打完容量為 $z_l$ 的飯後，下一名排隊同學 $i$ 馬上接替 $l$ 同學的位置開始打飯。即 $l$ 同學第 $x$ 秒結束時完成打飯，則 $i$ 同學第 $x + 1$ 秒立刻開始打飯。若當前打飯人數 $n$ 小於 $m$ ，則只有 $n$ 個打飯窗口開放，其它 $n - m$ 個關閉。問所有同學都打完飯需要多少秒時間。</p>
+    <p>QUST 2020級第三學期算法數據結構測試 <a target="_blank" rel="noopener" href="http://47.244.31.166/problem.php?id=1008"><code>Contest1029</code> T3</a></p>
+<h2 id="Problem-Description-題目描述"><a href="#Problem-Description-題目描述" class="headerlink" title="Problem Description (題目描述)"></a>Problem Description (題目描述)</h2><p>$m$ 名同學按順序從 $1$ 到 $m$ 編號， $k$ 號同學的飯盒容量為 $z_k$ 。先有1到 $m$ 號同學開始打飯。某名同學 $l$ 打完容量為 $z_l$ 的飯後，下一名排隊同學 $i$ 馬上接替 $l$ 同學的位置開始打飯。即 $l$ 同學第 $x$ 秒結束時完成打飯，則 $i$ 同學第 $x + 1$ 秒立刻開始打飯。若當前打飯人數 $n$ 小於 $m$ ，則只有 $n$ 個打飯窗口開放，其它 $n - m$ 個關閉。問所有同學都打完飯需要多少秒時間。</p>
 <span id="more"></span>
 <h2 id="Inputs-輸入"><a href="#Inputs-輸入" class="headerlink" title="Inputs (輸入)"></a>Inputs (輸入)</h2><p>輸入數據的第1行是2個整數 $m$ 和 $n$ $(1 \leq m \leq 10000, 1 \leq n \leq 100, 且 n \leq m)$ ，用一個空格隔開，分別表示打飯人數和打飯窗口個數。<br>第2行 $m$ 個整數 $z_1, z_2, …, z_m$ ，其中 $z_k$ 表示 $k$ 號同學的飯盒容量，且 $1 \leq z_k \leq 100$ 。</p>
 <h2 id="Outputs-輸出"><a href="#Outputs-輸出" class="headerlink" title="Outputs (輸出)"></a>Outputs (輸出)</h2><p>輸出只有一行，為一個整數，表示所需的總時間。</p>
@@ -298,7 +301,8 @@
   <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://liella-gen2.github.io/2021/10/31/qust-contest1029-t3/&title=「題解】食堂打飯"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
   <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://liella-gen2.github.io/2021/10/31/qust-contest1029-t3/&title=「題解】食堂打飯"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
   <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://liella-gen2.github.io/2021/10/31/qust-contest1029-t3/&title=「題解】食堂打飯"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://liella-gen2.github.io/2021/10/31/qust-contest1029-t3/&name=「題解】食堂打飯&description=&lt;h2 id=&#34;Problem-Description-題目描述&#34;&gt;&lt;a href=&#34;#Problem-Description-題目描述&#34; class=&#34;headerlink&#34; title=&#34;Problem Description (題目描述)&#34;&gt;&lt;/a&gt;Problem Description (題目描述)&lt;/h2&gt;&lt;p&gt;$m$ 名同學按順序從 $1$ 到 $m$ 編號， $k$ 號同學的飯盒容量為 $z_k$ 。先有1到 $m$ 號同學開始打飯。某名同學 $l$ 打完容量為 $z_l$ 的飯後，下一名排隊同學 $i$ 馬上接替 $l$ 同學的位置開始打飯。即 $l$ 同學第 $x$ 秒結束時完成打飯，則 $i$ 同學第 $x + 1$ 秒立刻開始打飯。若當前打飯人數 $n$ 小於 $m$ ，則只有 $n$ 個打飯窗口開放，其它 $n - m$ 個關閉。問所有同學都打完飯需要多少秒時間。&lt;/p&gt;"><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://liella-gen2.github.io/2021/10/31/qust-contest1029-t3/&name=「題解】食堂打飯&description=&lt;p&gt;QUST 2020級第三學期算法數據結構測試 &lt;a href=&#34;http://47.244.31.166/problem.php?id=1008&#34;&gt;&lt;code&gt;Contest1029&lt;/code&gt; T3&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;Problem-Description-題目描述&#34;&gt;&lt;a href=&#34;#Problem-Description-題目描述&#34; class=&#34;headerlink&#34; title=&#34;Problem Description (題目描述)&#34;&gt;&lt;/a&gt;Problem Description (題目描述)&lt;/h2&gt;&lt;p&gt;$m$ 名同學按順序從 $1$ 到 $m$ 編號， $k$ 號同學的飯盒容量為 $z_k$ 。先有1到 $m$ 號同學開始打飯。某名同學 $l$ 打完容量為 $z_l$ 的飯後，下一名排隊同學 $i$ 馬上接替 $l$ 同學的位置開始打飯。即 $l$ 同學第 $x$ 秒結束時完成打飯，則 $i$ 同學第 $x + 1$ 秒立刻開始打飯。若當前打飯人數 $n$ 小於 $m$ ，則只有 $n$ 個打飯窗口開放，其它 $n - m$ 個關閉。問所有同學都打完飯需要多少秒時間。&lt;/p&gt;"><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
   <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://liella-gen2.github.io/2021/10/31/qust-contest1029-t3/&t=「題解】食堂打飯"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
 </ul>
 
