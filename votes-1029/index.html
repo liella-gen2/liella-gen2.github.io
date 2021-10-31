@@ -52,6 +52,16 @@
     
 	<!-- mathjax -->
 	
+		<script type="text/x-mathjax-config">
+		  MathJax.Hub.Config({
+			tex2jax: {
+			  skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+			  inlineMath: [['$','$']]
+			}
+		  });
+		</script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+	
   <!-- Other Javascripts like Popper (v2.10.2), Tippy.js (v6.3.2), Typed.js (v2.0.12)... -->
   <!-- js('lib/popper-2.10.2.min.js') -->
   <!-- js('lib/tippy-6.3.2-bundle.umd.min.js') -->
