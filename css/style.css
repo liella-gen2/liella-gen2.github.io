@@ -1794,6 +1794,7 @@ kbd {
   background-color: #fefcf6;
 }
 #typedesc {
+  color: #262672;
   color: #121286;
   font-style: italic;
 }
@@ -1865,6 +1866,7 @@ a.tag-link-link .tag-link-count {
 }
 .mjx-chtml .mjx-math {
   color: #363662;
+  color: #121286;
   background-color: #fefcf6;
 }
 @media screen and (min-width: 900px) {
