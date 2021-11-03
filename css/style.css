@@ -1854,7 +1854,7 @@ a.tag-link-link .tag-link-count {
   margin-bottom: 0;
 }
 .post-list .post-item blockquote p img {
-  max-width: 80%;
+  max-width: 100%;
   height: auto;
 }
 .post-list .post-item .post-item-contents {
