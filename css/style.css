@@ -1799,13 +1799,162 @@ kbd {
 .hidiv:hover {
   background-color: #fefcf6;
 }
-#typedesc {
+#typedesc,
+.mjx-chtml .mjx-math {
+  color: #363662;
   color: #262672;
   color: #121286;
+  color: #040494;
+  background-color: #fefcf6;
+}
+#typedesc {
   font-style: italic;
 }
 #typedesc+.typed-cursor {
   font-weight: bold;
+}
+.github-corner svg {
+  fill: #363662;
+  color: #fefcf6;
+  position: fixed;
+  top: 0;
+  border: 0;
+  right: 0;
+}
+.github-corner:hover .octo-arm {
+  animation: octocat-spin 156ms infinite;
+}
+@media (max-width: 500px) {
+  .github-corner .octo-arm {
+    animation: octocat-spin 156ms infinite;
+  }
+  .github-corner:hover .octo-arm {
+    animation: none;
+  }
+}
+@-moz-keyframes octocat-wave {
+  0%, 100% {
+    transform: rotate(0);
+  }
+  20%, 60% {
+    transform: rotate(-25deg);
+  }
+  40%, 80% {
+    transform: rotate(10deg);
+  }
+}
+@-webkit-keyframes octocat-wave {
+  0%, 100% {
+    transform: rotate(0);
+  }
+  20%, 60% {
+    transform: rotate(-25deg);
+  }
+  40%, 80% {
+    transform: rotate(10deg);
+  }
+}
+@-o-keyframes octocat-wave {
+  0%, 100% {
+    transform: rotate(0);
+  }
+  20%, 60% {
+    transform: rotate(-25deg);
+  }
+  40%, 80% {
+    transform: rotate(10deg);
+  }
+}
+@keyframes octocat-wave {
+  0%, 100% {
+    transform: rotate(0);
+  }
+  20%, 60% {
+    transform: rotate(-25deg);
+  }
+  40%, 80% {
+    transform: rotate(10deg);
+  }
+}
+@-moz-keyframes octocat-spin {
+  0% {
+    transform: rotate(0);
+  }
+  20% {
+    transform: rotate(72deg);
+  }
+  40% {
+    transform: rotate(144deg);
+  }
+  60% {
+    transform: rotate(216deg);
+  }
+  80% {
+    transform: rotate(288deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes octocat-spin {
+  0% {
+    transform: rotate(0);
+  }
+  20% {
+    transform: rotate(72deg);
+  }
+  40% {
+    transform: rotate(144deg);
+  }
+  60% {
+    transform: rotate(216deg);
+  }
+  80% {
+    transform: rotate(288deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes octocat-spin {
+  0% {
+    transform: rotate(0);
+  }
+  20% {
+    transform: rotate(72deg);
+  }
+  40% {
+    transform: rotate(144deg);
+  }
+  60% {
+    transform: rotate(216deg);
+  }
+  80% {
+    transform: rotate(288deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes octocat-spin {
+  0% {
+    transform: rotate(0);
+  }
+  20% {
+    transform: rotate(72deg);
+  }
+  40% {
+    transform: rotate(144deg);
+  }
+  60% {
+    transform: rotate(216deg);
+  }
+  80% {
+    transform: rotate(288deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 #subtitle h2 {
   margin: 0;
@@ -1869,11 +2018,6 @@ a.tag-link-link .tag-link-count {
 .post-list .post-item .post-item-contents span,
 .post-list .post-item .post-item-contents blockquote {
   padding-left: 3.9px;
-}
-.mjx-chtml .mjx-math {
-  color: #363662;
-  color: #121286;
-  background-color: #fefcf6;
 }
 @media screen and (min-width: 900px) {
   .content .post .content a,
