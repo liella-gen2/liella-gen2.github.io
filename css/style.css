@@ -1760,6 +1760,12 @@ article .content blockquote::before {
   font-family: "Font Awesome 5 Free";
   content: "\f10d";
 }
+article .content details>summary::marker {
+  content: "+";
+}
+article .content details[open]>summary::marker {
+  content: "-";
+}
 code,
 kbd,
 span.mono_inline {
