@@ -1832,6 +1832,9 @@ kbd {
     animation: none;
   }
 }
+#header-post {
+  right: 3.9em;
+}
 @-moz-keyframes octocat-wave {
   0%, 100% {
     transform: rotate(0);
