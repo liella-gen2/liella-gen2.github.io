@@ -2056,31 +2056,3 @@ a.tag-link-link .tag-link-count {
     width: 100%;
   }
 }
-#valine-container {
-  margin-bottom: 3.9em;
-}
-.v {
-  padding: 39px;
-  border: 1.28px solid #656583;
-  border-radius: 12.8px;
-  box-shadow: 1.28px 1.28px 3.9px #656583;
-}
-@media (prefers-color-scheme: dark) {
-  .v {
-    background-color: #000;
-  }
-}
-@media (prefers-color-scheme: light) {
-  .v {
-    background-color: #fff;
-  }
-}
-.v .vcount,
-.v h1,
-.v h2,
-.v h3,
-.v th,
-.v td,
-.v li {
-  color: #1abcb0;
-}

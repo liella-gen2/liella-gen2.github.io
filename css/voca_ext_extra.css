@@ -1,0 +1,124 @@
+/**
+ * @author sandyzikun
+ * @since Oct 2021
+ * Base16 Variables
+ */
+.highlight {
+  color: #656583;
+  background: #fdf7e3;
+}
+.highlight .code .comment,
+.highlight .code .quote {
+  color: #a19e93;
+}
+.highlight .code .keyword,
+.highlight .code .selector-tag,
+.highlight .code .addition {
+  color: #0f9900;
+}
+.highlight .code .number,
+.highlight .code .string,
+.highlight .code .meta .meta-string,
+.highlight .code .literal,
+.highlight .code .doctag,
+.highlight .code .regexp {
+  color: #2aa199;
+}
+.highlight .code .title,
+.highlight .code .section,
+.highlight .code .name,
+.highlight .code .selector-id,
+.highlight .code .selector-class {
+  color: #3726d2;
+}
+.highlight .code .attribute,
+.highlight .code .attr,
+.highlight .code .variable,
+.highlight .code .template-variable,
+.highlight .code .class .title,
+.highlight .code .type {
+  color: #b58900;
+}
+.highlight .code .symbol,
+.highlight .code .bullet,
+.highlight .code .subst,
+.highlight .code .meta,
+.highlight .code .meta .keyword,
+.highlight .code .selector-attr,
+.highlight .code .selector-pseudo,
+.highlight .code .link {
+  color: #cb6016;
+}
+.highlight .code .built_in,
+.highlight .code .deletion {
+  color: #dc2f56;
+}
+.highlight .code .formula {
+  background: #eee8d5;
+}
+.highlight .code .emphasis {
+  font-style: italic;
+}
+.highlight .code .strong {
+  font-weight: bold;
+}
+.base16colored-cyan {
+  color: #2aa199;
+}
+.base16colored-yellow {
+  color: #b58900;
+}
+.base16colored-orange {
+  color: #cb6016;
+}
+.base16colored-red {
+  color: #dc2f56;
+}
+.base16colored-magenta {
+  color: #d336c2;
+}
+.base16colored-violet {
+  color: #6c6cc4;
+}
+.base16colored-blue {
+  color: #3726d2;
+}
+.base16colored-green {
+  color: #0f9900;
+}
+.gist .gist-file,
+.gist .gist-file .gist-data {
+  border-color: #b1b0bc;
+}
+.gist .gist-file .gist-meta,
+.gist .gist-file .gist-meta a {
+  color: #656583;
+  background-color: #fefcf6;
+}
+#valine-container {
+  margin-bottom: 3.9em;
+}
+.v {
+  padding: 39px;
+  border: 1.28px solid #656583;
+  border-radius: 12.8px;
+}
+@media (prefers-color-scheme: dark) {
+  .v {
+    background-color: #000;
+  }
+}
+@media (prefers-color-scheme: light) {
+  .v {
+    background-color: #fff;
+  }
+}
+.v .vcount,
+.v h1,
+.v h2,
+.v h3,
+.v th,
+.v td,
+.v li {
+  color: #1abcb0;
+}
