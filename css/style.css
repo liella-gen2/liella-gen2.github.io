@@ -63,57 +63,69 @@
  * Base16 Variables
  */
 .highlight {
-  color: #656583;
+  color: #585875;
   background: #fdf7e3;
+}
+@media (prefers-color-scheme: dark) {
+  .highlight {
+    color: #a19e93;
+    background: #000036;
+  }
 }
 .highlight .code .comment,
 .highlight .code .quote {
-  color: #a19e93;
+  color: #656583;
 }
-.highlight .code .keyword,
-.highlight .code .selector-tag,
-.highlight .code .addition {
-  color: #0f9900;
+@media (prefers-color-scheme: dark) {
+  .highlight .code .comment,
+  .highlight .code .quote {
+    color: #969183;
+  }
 }
-.highlight .code .number,
-.highlight .code .string,
-.highlight .code .meta .meta-string,
-.highlight .code .literal,
-.highlight .code .doctag,
-.highlight .code .regexp {
-  color: #2aa199;
-}
-.highlight .code .title,
-.highlight .code .section,
-.highlight .code .name,
-.highlight .code .selector-id,
-.highlight .code .selector-class {
-  color: #3726d2;
-}
-.highlight .code .attribute,
-.highlight .code .attr,
 .highlight .code .variable,
 .highlight .code .template-variable,
-.highlight .code .class .title,
-.highlight .code .type {
-  color: #b58900;
-}
-.highlight .code .symbol,
-.highlight .code .bullet,
-.highlight .code .subst,
-.highlight .code .meta,
-.highlight .code .meta .keyword,
-.highlight .code .selector-attr,
-.highlight .code .selector-pseudo,
-.highlight .code .link {
-  color: #cb6016;
-}
-.highlight .code .built_in,
-.highlight .code .deletion {
+.highlight .code .attribute,
+.highlight .code .tag,
+.highlight .code .name,
+.highlight .code .regexp,
+.highlight .code .link,
+.highlight .code .selector-id,
+.highlight .code .selector-class {
   color: #dc2f56;
 }
-.highlight .code .formula {
-  background: #eee8d5;
+.highlight .code .number,
+.highlight .code .meta,
+.highlight .code .built_in,
+.highlight .code .builtin-name,
+.highlight .code .literal,
+.highlight .code .type,
+.highlight .code .params {
+  color: #cb6016;
+}
+.highlight .code .string,
+.highlight .code .symbol,
+.highlight .code .bullet {
+  color: #0f9900;
+}
+.highlight .code .title,
+.highlight .code .section {
+  color: #3726d2;
+}
+.highlight .code .keyword,
+.highlight .code .selector-tag {
+  color: #6c6cc4;
+}
+.highlight .code .deletion,
+.highlight .code .addition {
+  color: #000036;
+  display: inline-block;
+  width: 100%;
+}
+.highlight .code .deletion {
+  background-color: #dc2f56;
+}
+.highlight .code .addition {
+  background-color: #0f9900;
 }
 .highlight .code .emphasis {
   font-style: italic;
@@ -1690,7 +1702,6 @@ code {
   overflow-x: auto;
   margin: 1rem 0;
   padding: 10px 15px;
-  border-radius: 4px;
   background: #fdf7e3;
   font-family: "Cascadia Code", "Menlo", "Meslo LG", monospace;
   -webkit-border-radius: 4px;
@@ -1987,12 +1998,14 @@ a.tag-link-link .tag-link-count {
   border-radius: 4px 4px 0 0;
   -webkit-border-radius: 4px 4px 0 0;
 }
-.post-list .post-item.post-item-above,
-#archive .post-list .post-item.post-item-above {
+.post-list li.post-item.post-item-above,
+#archive .post-list li.post-item.post-item-above {
   margin-bottom: 0;
 }
-.post-list .post-item.post-item-above .meta,
-#archive .post-list .post-item.post-item-above .meta {
+.post-list li.post-item.post-item-above .meta,
+#archive .post-list li.post-item.post-item-above .meta {
+  min-width: 128px;
+  padding-top: 12.8px;
   border-bottom: 1.28px dashed #656583;
 }
 .post-list .post-item blockquote {
