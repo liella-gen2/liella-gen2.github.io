@@ -1,35 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Highlight!</title>
-    <url>/2021/10/24/code-highlight/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><script src="//gist.github.com/996818.js"></script>
-<p>To make sure that all the code blocks highlighted correctly. All the code samples are come from the demo of <a href="https://highlightjs.org/">https://highlightjs.org/</a> …</p>
-<figure class="highlight plaintext"><figcaption><span>Sharing the World</span></figcaption><table><tr><td class="code"><pre><span class="line">Sharing our World</span><br><span class="line">Sharing our World</span><br><span class="line">I can see this future is right now</span><br><span class="line">Cause my voice is always going around</span><br></pre></td></tr></table></figure>
-<span id="more"></span>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#x27;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span><br></pre></td></tr></table></figure>
-<figure class="highlight rust"><table><tr><td class="code"><pre><span class="line"><span class="meta">#[derive(Debug)]</span></span><br><span class="line"><span class="keyword">pub</span> <span class="class"><span class="keyword">enum</span> <span class="title">State</span></span> &#123;</span><br><span class="line">    Start,</span><br><span class="line">    Transient,</span><br><span class="line">    Closed,</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">impl</span> <span class="built_in">From</span>&lt;&amp;<span class="symbol">&#x27;a</span> <span class="built_in">str</span>&gt; <span class="keyword">for</span> State &#123;</span><br><span class="line">    <span class="function"><span class="keyword">fn</span> <span class="title">from</span></span>(s: &amp;<span class="symbol">&#x27;a</span> <span class="built_in">str</span>) -&gt; <span class="keyword">Self</span> &#123;</span><br><span class="line">        <span class="keyword">match</span> s &#123;</span><br><span class="line">            <span class="string">&quot;start&quot;</span> =&gt; State::Start,</span><br><span class="line">            <span class="string">&quot;closed&quot;</span> =&gt; State::Closed,</span><br><span class="line">            _ =&gt; <span class="built_in">unreachable!</span>(),</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">[</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="attr">&quot;title&quot;</span>: <span class="string">&quot;apples&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;count&quot;</span>: [<span class="number">12000</span>, <span class="number">20000</span>],</span><br><span class="line">    <span class="attr">&quot;description&quot;</span>: &#123;<span class="attr">&quot;text&quot;</span>: <span class="string">&quot;...&quot;</span>, <span class="attr">&quot;sensitive&quot;</span>: <span class="literal">false</span>&#125;</span><br><span class="line">  &#125;,</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="attr">&quot;title&quot;</span>: <span class="string">&quot;oranges&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;count&quot;</span>: [<span class="number">17500</span>, <span class="literal">null</span>],</span><br><span class="line">    <span class="attr">&quot;description&quot;</span>: &#123;<span class="attr">&quot;text&quot;</span>: <span class="string">&quot;...&quot;</span>, <span class="attr">&quot;sensitive&quot;</span>: <span class="literal">false</span>&#125;</span><br><span class="line">  &#125;</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">@requires_authorization</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">somefunc</span>(<span class="params">param1=<span class="string">&#x27;&#x27;</span>, param2=<span class="number">0</span></span>):</span></span><br><span class="line">    <span class="string">r&#x27;&#x27;&#x27;A docstring&#x27;&#x27;&#x27;</span></span><br><span class="line">    <span class="keyword">if</span> param1 &gt; param2: <span class="comment"># interesting</span></span><br><span class="line">        <span class="built_in">print</span> <span class="string">&#x27;Gre\&#x27;ater&#x27;</span></span><br><span class="line">    <span class="keyword">return</span> (param2 - param1 + <span class="number">1</span> + <span class="number">0b10l</span>) <span class="keyword">or</span> <span class="literal">None</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">SomeClass</span>:</span></span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>message = <span class="string">&#x27;&#x27;&#x27;interpreter</span></span><br><span class="line"><span class="string"><span class="meta">... </span>prompt&#x27;&#x27;&#x27;</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">title</span>&gt;</span>Title<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="css"><span class="selector-tag">body</span> &#123;<span class="attribute">width</span>: <span class="number">500px</span>;&#125;</span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;application/javascript&quot;</span>&gt;</span><span class="javascript"></span></span><br><span class="line"><span class="javascript">  <span class="function"><span class="keyword">function</span> <span class="title">$init</span>(<span class="params"></span>) </span>&#123;<span class="keyword">return</span> <span class="literal">true</span>;&#125;</span></span><br><span class="line"><span class="javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span> <span class="attr">checked</span> <span class="attr">class</span>=<span class="string">&quot;title&quot;</span> <span class="attr">id</span>=<span class="string">&#x27;title&#x27;</span>&gt;</span>Title<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">  <span class="comment">&lt;!-- here goes the rest of the page --&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">$initHighlight</span>(<span class="params">block, cls</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">try</span> &#123;</span><br><span class="line">    <span class="keyword">if</span> (cls.search(<span class="regexp">/\bno\-highlight\b/</span>) != -<span class="number">1</span>)</span><br><span class="line">      <span class="keyword">return</span> process(block, <span class="literal">true</span>, <span class="number">0x0F</span>) +</span><br><span class="line">             <span class="string">` class=&quot;<span class="subst">$&#123;cls&#125;</span>&quot;`</span>;</span><br><span class="line">  &#125; <span class="keyword">catch</span> (e) &#123;</span><br><span class="line">    <span class="comment">/* handle exception */</span></span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span> / <span class="number">2</span>; i &lt; classes.length; i++) &#123;</span><br><span class="line">    <span class="keyword">if</span> (checkCondition(classes[i]) === <span class="literal">undefined</span>)</span><br><span class="line">      <span class="built_in">console</span>.log(<span class="string">&#x27;undefined&#x27;</span>);</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">return</span> (</span><br><span class="line">    <span class="xml"><span class="tag">&lt;<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="xml">      <span class="tag">&lt;<span class="name">web-component</span>&gt;</span>&#123;block&#125;<span class="tag">&lt;/<span class="name">web-component</span>&gt;</span></span></span><br><span class="line"><span class="xml">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line">  )</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">export</span> $initHighlight;</span><br></pre></td></tr></table></figure>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">int</span> argc, <span class="keyword">char</span> *argv[])</span> </span>&#123;</span><br><span class="line">  <span class="comment">/* An annoying &quot;Hello World&quot; example */</span></span><br><span class="line">  <span class="keyword">for</span> (<span class="keyword">auto</span> i = <span class="number">0</span>; i &lt; <span class="number">0xFFFF</span>; i++)</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;Hello, World!&quot;</span> &lt;&lt; endl;</span><br><span class="line">  <span class="keyword">char</span> c = <span class="string">&#x27;\n&#x27;</span>;</span><br><span class="line">  unordered_map &lt;string, vector&lt;string&gt; &gt; m;</span><br><span class="line">  m[<span class="string">&quot;key&quot;</span>] = <span class="string">&quot;\\\\&quot;</span>; <span class="comment">// this is an error</span></span><br><span class="line">  <span class="keyword">return</span> <span class="number">-2e3</span> + <span class="number">12l</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> &quot;topic&quot; (</span><br><span class="line">    &quot;id&quot; serial <span class="keyword">NOT</span> <span class="keyword">NULL</span> <span class="keyword">PRIMARY</span> KEY,</span><br><span class="line">    &quot;forum_id&quot; <span class="type">integer</span> <span class="keyword">NOT</span> <span class="keyword">NULL</span>,</span><br><span class="line">    &quot;subject&quot; <span class="type">varchar</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span></span><br><span class="line">);</span><br><span class="line"><span class="keyword">ALTER</span> <span class="keyword">TABLE</span> &quot;topic&quot;</span><br><span class="line"><span class="keyword">ADD</span> <span class="keyword">CONSTRAINT</span> forum_id <span class="keyword">FOREIGN</span> KEY (&quot;forum_id&quot;)</span><br><span class="line"><span class="keyword">REFERENCES</span> &quot;forum&quot; (&quot;id&quot;);</span><br><span class="line"><span class="comment">-- Initials</span></span><br><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> &quot;topic&quot; (&quot;forum_id&quot;, &quot;subject&quot;)</span><br><span class="line"><span class="keyword">values</span> (<span class="number">2</span>, <span class="string">&#x27;D&#x27;&#x27;artagnian&#x27;</span>);</span><br></pre></td></tr></table></figure>
-<figure class="highlight objectivec"><table><tr><td class="code"><pre><span class="line"><span class="meta">#import <span class="meta-string">&lt;UIKit/UIKit.h&gt;</span></span></span><br><span class="line"><span class="meta">#import <span class="meta-string">&quot;Dependency.h&quot;</span></span></span><br><span class="line"><span class="class"><span class="keyword">@protocol</span> <span class="title">WorldDataSource</span></span></span><br><span class="line"><span class="keyword">@optional</span></span><br><span class="line">- (<span class="built_in">NSString</span>*)worldName;</span><br><span class="line"><span class="keyword">@required</span></span><br><span class="line">- (<span class="built_in">BOOL</span>)allowsToLive;</span><br><span class="line"><span class="keyword">@end</span></span><br><span class="line"><span class="keyword">@property</span> (<span class="keyword">nonatomic</span>, <span class="keyword">readonly</span>) <span class="built_in">NSString</span> *title;</span><br><span class="line">- (<span class="keyword">IBAction</span>) show;</span><br><span class="line"><span class="keyword">@end</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span> John Smith &lt;john.smith@example.com&gt;</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="keyword">package</span> l2f.gameserver.model;</span><br><span class="line"><span class="keyword">public</span> <span class="keyword">abstract</span> <span class="class"><span class="keyword">class</span> <span class="title">L2Char</span> <span class="keyword">extends</span> <span class="title">L2Object</span> </span>&#123;</span><br><span class="line">  <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> Short ERROR = <span class="number">0x0001</span>;</span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">moveTo</span><span class="params">(<span class="keyword">int</span> x, <span class="keyword">int</span> y, <span class="keyword">int</span> z)</span> </span>&#123;</span><br><span class="line">    _ai = <span class="keyword">null</span>;</span><br><span class="line">    log(<span class="string">&quot;Should not be called&quot;</span>);</span><br><span class="line">    <span class="keyword">if</span> (<span class="number">1</span> &gt; <span class="number">5</span>) &#123; <span class="comment">// wtf!?</span></span><br><span class="line">      <span class="keyword">return</span>;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> Foundation</span><br><span class="line"><span class="keyword">@objc</span> <span class="class"><span class="keyword">class</span> <span class="title">Person</span>: <span class="title">Entity</span> </span>&#123;</span><br><span class="line">  <span class="keyword">var</span> name: <span class="type">String</span>!</span><br><span class="line">  <span class="keyword">var</span> age:  <span class="type">Int</span>!</span><br><span class="line">  <span class="function"><span class="keyword">init</span>(<span class="params">name</span>: <span class="type">String</span>, <span class="params">age</span>: <span class="type">Int</span>)</span> &#123;</span><br><span class="line">    <span class="comment">/* <span class="comment">/* ... */</span> */</span></span><br><span class="line">  &#125;</span><br><span class="line">  <span class="comment">// Return a descriptive string for this person</span></span><br><span class="line">  <span class="function"><span class="keyword">func</span> <span class="title">description</span>(<span class="params">offset</span>: <span class="type">Int</span> <span class="operator">=</span> <span class="number">0</span>)</span> -&gt; <span class="type">String</span> &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="string">&quot;<span class="subst">\(name)</span> is <span class="subst">\(age <span class="operator">+</span> offset)</span> years old&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="keyword">@font-face</span> &#123;</span><br><span class="line">  <span class="attribute">font-family</span>: Chunkfive; <span class="attribute">src</span>: <span class="built_in">url</span>(<span class="string">&#x27;Chunkfive.otf&#x27;</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-tag">body</span>, <span class="selector-class">.usertext</span> &#123;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#F0F0F0</span>; <span class="attribute">background</span>: <span class="number">#600</span>;</span><br><span class="line">  <span class="attribute">font-family</span>: Chunkfive, sans;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">@import</span> url(print.css);</span><br><span class="line"><span class="keyword">@media</span> print &#123;</span><br><span class="line">  <span class="selector-tag">a</span><span class="selector-attr">[href^=http]</span><span class="selector-pseudo">::after</span> &#123;</span><br><span class="line">    <span class="attribute">content</span>: <span class="built_in">attr</span>(href)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight ruby"><table><tr><td class="code"><pre><span class="line"><span class="comment"># The Greeter class</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Greeter</span></span></span><br><span class="line">  <span class="function"><span class="keyword">def</span> <span class="title">initialize</span><span class="params">(name)</span></span></span><br><span class="line">    <span class="variable">@name</span> = name.capitalize</span><br><span class="line">  <span class="keyword">end</span></span><br><span class="line">  <span class="function"><span class="keyword">def</span> <span class="title">salute</span></span></span><br><span class="line">    puts <span class="string">&quot;Hello <span class="subst">#&#123;<span class="variable">@name</span>&#125;</span>!&quot;</span></span><br><span class="line">  <span class="keyword">end</span></span><br><span class="line"><span class="keyword">end</span></span><br><span class="line">g = Greeter.new(<span class="string">&quot;world&quot;</span>)</span><br><span class="line">g.salute</span><br></pre></td></tr></table></figure>
-<figure class="highlight makefile"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Makefile</span></span><br><span class="line">BUILDDIR      = _build</span><br><span class="line">EXTRAS       ?= <span class="variable">$(BUILDDIR)</span>/extras</span><br><span class="line"><span class="meta"><span class="meta-keyword">.PHONY</span>: main clean</span></span><br><span class="line"><span class="section">main:</span></span><br><span class="line">	@echo <span class="string">&quot;Building main facility...&quot;</span></span><br><span class="line">	build_main <span class="variable">$(BUILDDIR)</span></span><br><span class="line"><span class="section">clean:</span></span><br><span class="line">	rm -rf <span class="variable">$(BUILDDIR)</span>/*</span><br></pre></td></tr></table></figure>
-<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"><span class="keyword">import</span> <span class="string">&quot;fmt&quot;</span></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">    ch := <span class="built_in">make</span>(<span class="keyword">chan</span> <span class="keyword">float64</span>)</span><br><span class="line">    ch &lt;- <span class="number">1.0e10</span>    <span class="comment">// magic number</span></span><br><span class="line">    x, ok := &lt;- ch</span><br><span class="line">    <span class="keyword">defer</span> fmt.Println(<span class="string">`exitting now\`</span>)</span><br><span class="line">    <span class="keyword">go</span> <span class="built_in">println</span>(<span class="built_in">len</span>(<span class="string">&quot;hello world!&quot;</span>))</span><br><span class="line">    <span class="keyword">return</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"><span class="comment">###### CONFIG</span></span><br><span class="line">ACCEPTED_HOSTS=<span class="string">&quot;/root/.hag_accepted.conf&quot;</span></span><br><span class="line">BE_VERBOSE=<span class="literal">false</span></span><br><span class="line"><span class="keyword">if</span> [ <span class="string">&quot;<span class="variable">$UID</span>&quot;</span> -ne 0 ]</span><br><span class="line"><span class="keyword">then</span></span><br><span class="line">  <span class="built_in">echo</span> <span class="string">&quot;Superuser rights required&quot;</span></span><br><span class="line">  <span class="built_in">exit</span> 2</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="function"><span class="title">genApacheConf</span></span>()&#123;</span><br><span class="line">  <span class="built_in">echo</span> -e <span class="string">&quot;# Host <span class="variable">$&#123;HOME_DIR&#125;</span><span class="variable">$1</span>/<span class="variable">$2</span> :&quot;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight ini"><table><tr><td class="code"><pre><span class="line"><span class="comment">; boilerplate</span></span><br><span class="line"><span class="section">[package]</span></span><br><span class="line"><span class="attr">name</span> = <span class="string">&quot;some_name&quot;</span></span><br><span class="line"><span class="attr">authors</span> = [<span class="string">&quot;Author&quot;</span>]</span><br><span class="line"><span class="attr">description</span> = <span class="string">&quot;This is \</span></span><br><span class="line"><span class="string">a description&quot;</span></span><br><span class="line"><span class="section">[[lib]]</span></span><br><span class="line"><span class="attr">name</span> = <span class="variable">$&#123;NAME&#125;</span></span><br><span class="line"><span class="attr">default</span> = <span class="literal">True</span></span><br><span class="line"><span class="attr">auto</span> = <span class="literal">no</span></span><br><span class="line"><span class="attr">counter</span> = <span class="number">1_000</span></span><br></pre></td></tr></table></figure>
-]]></content>
-      <tags>
-        <tag>測試Testing!</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>「pixiv】 青空 葵 老師的Liella!相關作品臨時搬運 #01</title>
     <url>/2021/11/03/aozora-aoi-01/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><div class="table-container">
@@ -81,6 +52,35 @@
 ]]></content>
       <tags>
         <tag>Liella! on pixiv</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Highlight!</title>
+    <url>/2021/10/24/code-highlight/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><script src="//gist.github.com/996818.js"></script>
+<p>To make sure that all the code blocks highlighted correctly. All the code samples are come from the demo of <a href="https://highlightjs.org/">https://highlightjs.org/</a> …</p>
+<figure class="highlight plaintext"><figcaption><span>Sharing the World</span></figcaption><table><tr><td class="code"><pre><span class="line">Sharing our World</span><br><span class="line">Sharing our World</span><br><span class="line">I can see this future is right now</span><br><span class="line">Cause my voice is always going around</span><br></pre></td></tr></table></figure>
+<span id="more"></span>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#x27;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span><br></pre></td></tr></table></figure>
+<figure class="highlight rust"><table><tr><td class="code"><pre><span class="line"><span class="meta">#[derive(Debug)]</span></span><br><span class="line"><span class="keyword">pub</span> <span class="class"><span class="keyword">enum</span> <span class="title">State</span></span> &#123;</span><br><span class="line">    Start,</span><br><span class="line">    Transient,</span><br><span class="line">    Closed,</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">impl</span> <span class="built_in">From</span>&lt;&amp;<span class="symbol">&#x27;a</span> <span class="built_in">str</span>&gt; <span class="keyword">for</span> State &#123;</span><br><span class="line">    <span class="function"><span class="keyword">fn</span> <span class="title">from</span></span>(s: &amp;<span class="symbol">&#x27;a</span> <span class="built_in">str</span>) -&gt; <span class="keyword">Self</span> &#123;</span><br><span class="line">        <span class="keyword">match</span> s &#123;</span><br><span class="line">            <span class="string">&quot;start&quot;</span> =&gt; State::Start,</span><br><span class="line">            <span class="string">&quot;closed&quot;</span> =&gt; State::Closed,</span><br><span class="line">            _ =&gt; <span class="built_in">unreachable!</span>(),</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">[</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="attr">&quot;title&quot;</span>: <span class="string">&quot;apples&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;count&quot;</span>: [<span class="number">12000</span>, <span class="number">20000</span>],</span><br><span class="line">    <span class="attr">&quot;description&quot;</span>: &#123;<span class="attr">&quot;text&quot;</span>: <span class="string">&quot;...&quot;</span>, <span class="attr">&quot;sensitive&quot;</span>: <span class="literal">false</span>&#125;</span><br><span class="line">  &#125;,</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="attr">&quot;title&quot;</span>: <span class="string">&quot;oranges&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;count&quot;</span>: [<span class="number">17500</span>, <span class="literal">null</span>],</span><br><span class="line">    <span class="attr">&quot;description&quot;</span>: &#123;<span class="attr">&quot;text&quot;</span>: <span class="string">&quot;...&quot;</span>, <span class="attr">&quot;sensitive&quot;</span>: <span class="literal">false</span>&#125;</span><br><span class="line">  &#125;</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">@requires_authorization</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">somefunc</span>(<span class="params">param1=<span class="string">&#x27;&#x27;</span>, param2=<span class="number">0</span></span>):</span></span><br><span class="line">    <span class="string">r&#x27;&#x27;&#x27;A docstring&#x27;&#x27;&#x27;</span></span><br><span class="line">    <span class="keyword">if</span> param1 &gt; param2: <span class="comment"># interesting</span></span><br><span class="line">        <span class="built_in">print</span> <span class="string">&#x27;Gre\&#x27;ater&#x27;</span></span><br><span class="line">    <span class="keyword">return</span> (param2 - param1 + <span class="number">1</span> + <span class="number">0b10l</span>) <span class="keyword">or</span> <span class="literal">None</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">SomeClass</span>:</span></span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>message = <span class="string">&#x27;&#x27;&#x27;interpreter</span></span><br><span class="line"><span class="string"><span class="meta">... </span>prompt&#x27;&#x27;&#x27;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">title</span>&gt;</span>Title<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="css"><span class="selector-tag">body</span> &#123;<span class="attribute">width</span>: <span class="number">500px</span>;&#125;</span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;application/javascript&quot;</span>&gt;</span><span class="javascript"></span></span><br><span class="line"><span class="javascript">  <span class="function"><span class="keyword">function</span> <span class="title">$init</span>(<span class="params"></span>) </span>&#123;<span class="keyword">return</span> <span class="literal">true</span>;&#125;</span></span><br><span class="line"><span class="javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span> <span class="attr">checked</span> <span class="attr">class</span>=<span class="string">&quot;title&quot;</span> <span class="attr">id</span>=<span class="string">&#x27;title&#x27;</span>&gt;</span>Title<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">  <span class="comment">&lt;!-- here goes the rest of the page --&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">$initHighlight</span>(<span class="params">block, cls</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">try</span> &#123;</span><br><span class="line">    <span class="keyword">if</span> (cls.search(<span class="regexp">/\bno\-highlight\b/</span>) != -<span class="number">1</span>)</span><br><span class="line">      <span class="keyword">return</span> process(block, <span class="literal">true</span>, <span class="number">0x0F</span>) +</span><br><span class="line">             <span class="string">` class=&quot;<span class="subst">$&#123;cls&#125;</span>&quot;`</span>;</span><br><span class="line">  &#125; <span class="keyword">catch</span> (e) &#123;</span><br><span class="line">    <span class="comment">/* handle exception */</span></span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span> / <span class="number">2</span>; i &lt; classes.length; i++) &#123;</span><br><span class="line">    <span class="keyword">if</span> (checkCondition(classes[i]) === <span class="literal">undefined</span>)</span><br><span class="line">      <span class="built_in">console</span>.log(<span class="string">&#x27;undefined&#x27;</span>);</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">return</span> (</span><br><span class="line">    <span class="xml"><span class="tag">&lt;<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="xml">      <span class="tag">&lt;<span class="name">web-component</span>&gt;</span>&#123;block&#125;<span class="tag">&lt;/<span class="name">web-component</span>&gt;</span></span></span><br><span class="line"><span class="xml">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line">  )</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">export</span> $initHighlight;</span><br></pre></td></tr></table></figure>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">int</span> argc, <span class="keyword">char</span> *argv[])</span> </span>&#123;</span><br><span class="line">  <span class="comment">/* An annoying &quot;Hello World&quot; example */</span></span><br><span class="line">  <span class="keyword">for</span> (<span class="keyword">auto</span> i = <span class="number">0</span>; i &lt; <span class="number">0xFFFF</span>; i++)</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;Hello, World!&quot;</span> &lt;&lt; endl;</span><br><span class="line">  <span class="keyword">char</span> c = <span class="string">&#x27;\n&#x27;</span>;</span><br><span class="line">  unordered_map &lt;string, vector&lt;string&gt; &gt; m;</span><br><span class="line">  m[<span class="string">&quot;key&quot;</span>] = <span class="string">&quot;\\\\&quot;</span>; <span class="comment">// this is an error</span></span><br><span class="line">  <span class="keyword">return</span> <span class="number">-2e3</span> + <span class="number">12l</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> &quot;topic&quot; (</span><br><span class="line">    &quot;id&quot; serial <span class="keyword">NOT</span> <span class="keyword">NULL</span> <span class="keyword">PRIMARY</span> KEY,</span><br><span class="line">    &quot;forum_id&quot; <span class="type">integer</span> <span class="keyword">NOT</span> <span class="keyword">NULL</span>,</span><br><span class="line">    &quot;subject&quot; <span class="type">varchar</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span></span><br><span class="line">);</span><br><span class="line"><span class="keyword">ALTER</span> <span class="keyword">TABLE</span> &quot;topic&quot;</span><br><span class="line"><span class="keyword">ADD</span> <span class="keyword">CONSTRAINT</span> forum_id <span class="keyword">FOREIGN</span> KEY (&quot;forum_id&quot;)</span><br><span class="line"><span class="keyword">REFERENCES</span> &quot;forum&quot; (&quot;id&quot;);</span><br><span class="line"><span class="comment">-- Initials</span></span><br><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> &quot;topic&quot; (&quot;forum_id&quot;, &quot;subject&quot;)</span><br><span class="line"><span class="keyword">values</span> (<span class="number">2</span>, <span class="string">&#x27;D&#x27;&#x27;artagnian&#x27;</span>);</span><br></pre></td></tr></table></figure>
+<figure class="highlight objectivec"><table><tr><td class="code"><pre><span class="line"><span class="meta">#import <span class="meta-string">&lt;UIKit/UIKit.h&gt;</span></span></span><br><span class="line"><span class="meta">#import <span class="meta-string">&quot;Dependency.h&quot;</span></span></span><br><span class="line"><span class="class"><span class="keyword">@protocol</span> <span class="title">WorldDataSource</span></span></span><br><span class="line"><span class="keyword">@optional</span></span><br><span class="line">- (<span class="built_in">NSString</span>*)worldName;</span><br><span class="line"><span class="keyword">@required</span></span><br><span class="line">- (<span class="built_in">BOOL</span>)allowsToLive;</span><br><span class="line"><span class="keyword">@end</span></span><br><span class="line"><span class="keyword">@property</span> (<span class="keyword">nonatomic</span>, <span class="keyword">readonly</span>) <span class="built_in">NSString</span> *title;</span><br><span class="line">- (<span class="keyword">IBAction</span>) show;</span><br><span class="line"><span class="keyword">@end</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span> John Smith &lt;john.smith@example.com&gt;</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="keyword">package</span> l2f.gameserver.model;</span><br><span class="line"><span class="keyword">public</span> <span class="keyword">abstract</span> <span class="class"><span class="keyword">class</span> <span class="title">L2Char</span> <span class="keyword">extends</span> <span class="title">L2Object</span> </span>&#123;</span><br><span class="line">  <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> Short ERROR = <span class="number">0x0001</span>;</span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">moveTo</span><span class="params">(<span class="keyword">int</span> x, <span class="keyword">int</span> y, <span class="keyword">int</span> z)</span> </span>&#123;</span><br><span class="line">    _ai = <span class="keyword">null</span>;</span><br><span class="line">    log(<span class="string">&quot;Should not be called&quot;</span>);</span><br><span class="line">    <span class="keyword">if</span> (<span class="number">1</span> &gt; <span class="number">5</span>) &#123; <span class="comment">// wtf!?</span></span><br><span class="line">      <span class="keyword">return</span>;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> Foundation</span><br><span class="line"><span class="keyword">@objc</span> <span class="class"><span class="keyword">class</span> <span class="title">Person</span>: <span class="title">Entity</span> </span>&#123;</span><br><span class="line">  <span class="keyword">var</span> name: <span class="type">String</span>!</span><br><span class="line">  <span class="keyword">var</span> age:  <span class="type">Int</span>!</span><br><span class="line">  <span class="function"><span class="keyword">init</span>(<span class="params">name</span>: <span class="type">String</span>, <span class="params">age</span>: <span class="type">Int</span>)</span> &#123;</span><br><span class="line">    <span class="comment">/* <span class="comment">/* ... */</span> */</span></span><br><span class="line">  &#125;</span><br><span class="line">  <span class="comment">// Return a descriptive string for this person</span></span><br><span class="line">  <span class="function"><span class="keyword">func</span> <span class="title">description</span>(<span class="params">offset</span>: <span class="type">Int</span> <span class="operator">=</span> <span class="number">0</span>)</span> -&gt; <span class="type">String</span> &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="string">&quot;<span class="subst">\(name)</span> is <span class="subst">\(age <span class="operator">+</span> offset)</span> years old&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="keyword">@font-face</span> &#123;</span><br><span class="line">  <span class="attribute">font-family</span>: Chunkfive; <span class="attribute">src</span>: <span class="built_in">url</span>(<span class="string">&#x27;Chunkfive.otf&#x27;</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-tag">body</span>, <span class="selector-class">.usertext</span> &#123;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#F0F0F0</span>; <span class="attribute">background</span>: <span class="number">#600</span>;</span><br><span class="line">  <span class="attribute">font-family</span>: Chunkfive, sans;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">@import</span> url(print.css);</span><br><span class="line"><span class="keyword">@media</span> print &#123;</span><br><span class="line">  <span class="selector-tag">a</span><span class="selector-attr">[href^=http]</span><span class="selector-pseudo">::after</span> &#123;</span><br><span class="line">    <span class="attribute">content</span>: <span class="built_in">attr</span>(href)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight ruby"><table><tr><td class="code"><pre><span class="line"><span class="comment"># The Greeter class</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Greeter</span></span></span><br><span class="line">  <span class="function"><span class="keyword">def</span> <span class="title">initialize</span><span class="params">(name)</span></span></span><br><span class="line">    <span class="variable">@name</span> = name.capitalize</span><br><span class="line">  <span class="keyword">end</span></span><br><span class="line">  <span class="function"><span class="keyword">def</span> <span class="title">salute</span></span></span><br><span class="line">    puts <span class="string">&quot;Hello <span class="subst">#&#123;<span class="variable">@name</span>&#125;</span>!&quot;</span></span><br><span class="line">  <span class="keyword">end</span></span><br><span class="line"><span class="keyword">end</span></span><br><span class="line">g = Greeter.new(<span class="string">&quot;world&quot;</span>)</span><br><span class="line">g.salute</span><br></pre></td></tr></table></figure>
+<figure class="highlight makefile"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Makefile</span></span><br><span class="line">BUILDDIR      = _build</span><br><span class="line">EXTRAS       ?= <span class="variable">$(BUILDDIR)</span>/extras</span><br><span class="line"><span class="meta"><span class="meta-keyword">.PHONY</span>: main clean</span></span><br><span class="line"><span class="section">main:</span></span><br><span class="line">	@echo <span class="string">&quot;Building main facility...&quot;</span></span><br><span class="line">	build_main <span class="variable">$(BUILDDIR)</span></span><br><span class="line"><span class="section">clean:</span></span><br><span class="line">	rm -rf <span class="variable">$(BUILDDIR)</span>/*</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"><span class="keyword">import</span> <span class="string">&quot;fmt&quot;</span></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">    ch := <span class="built_in">make</span>(<span class="keyword">chan</span> <span class="keyword">float64</span>)</span><br><span class="line">    ch &lt;- <span class="number">1.0e10</span>    <span class="comment">// magic number</span></span><br><span class="line">    x, ok := &lt;- ch</span><br><span class="line">    <span class="keyword">defer</span> fmt.Println(<span class="string">`exitting now\`</span>)</span><br><span class="line">    <span class="keyword">go</span> <span class="built_in">println</span>(<span class="built_in">len</span>(<span class="string">&quot;hello world!&quot;</span>))</span><br><span class="line">    <span class="keyword">return</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"><span class="comment">###### CONFIG</span></span><br><span class="line">ACCEPTED_HOSTS=<span class="string">&quot;/root/.hag_accepted.conf&quot;</span></span><br><span class="line">BE_VERBOSE=<span class="literal">false</span></span><br><span class="line"><span class="keyword">if</span> [ <span class="string">&quot;<span class="variable">$UID</span>&quot;</span> -ne 0 ]</span><br><span class="line"><span class="keyword">then</span></span><br><span class="line">  <span class="built_in">echo</span> <span class="string">&quot;Superuser rights required&quot;</span></span><br><span class="line">  <span class="built_in">exit</span> 2</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="function"><span class="title">genApacheConf</span></span>()&#123;</span><br><span class="line">  <span class="built_in">echo</span> -e <span class="string">&quot;# Host <span class="variable">$&#123;HOME_DIR&#125;</span><span class="variable">$1</span>/<span class="variable">$2</span> :&quot;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight ini"><table><tr><td class="code"><pre><span class="line"><span class="comment">; boilerplate</span></span><br><span class="line"><span class="section">[package]</span></span><br><span class="line"><span class="attr">name</span> = <span class="string">&quot;some_name&quot;</span></span><br><span class="line"><span class="attr">authors</span> = [<span class="string">&quot;Author&quot;</span>]</span><br><span class="line"><span class="attr">description</span> = <span class="string">&quot;This is \</span></span><br><span class="line"><span class="string">a description&quot;</span></span><br><span class="line"><span class="section">[[lib]]</span></span><br><span class="line"><span class="attr">name</span> = <span class="variable">$&#123;NAME&#125;</span></span><br><span class="line"><span class="attr">default</span> = <span class="literal">True</span></span><br><span class="line"><span class="attr">auto</span> = <span class="literal">no</span></span><br><span class="line"><span class="attr">counter</span> = <span class="number">1_000</span></span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>測試Testing!</tag>
       </tags>
   </entry>
   <entry>
@@ -237,9 +237,9 @@
 <p><del>众所周知，这个团体只有4个是地球人：因为剩下的一个（<a href="https://zh.moegirl.org.cn/青山渚">青山渚</a>）是从外星来的。</del></p>
 <h2 id="Lyrics’-Test"><a href="#Lyrics’-Test" class="headerlink" title="Lyrics’ Test"></a>Lyrics’ Test</h2><figure class="highlight plaintext"><figcaption><span>Sumire-rap</span><a href="https://zh.moegirl.org.cn/Day1">Day1</a></figcaption><table><tr><td class="code"><pre><span class="line">作詞：KEN THE 390　作曲：めんま、KEN THE 390　編曲：家原正樹</span><br><span class="line"></span><br><span class="line">閉まったままのアンサーを解き放つよ今日</span><br><span class="line">ここから世界中へ　大きい夢</span><br><span class="line">一緒に叶えに行こう　手を繋いで　あの角の向こう</span><br><span class="line">いつも通りの景色　変えるレシピ　見つけられたよ</span><br><span class="line"></span><br><span class="line">...</span><br><span class="line"></span><br><span class="line">繰り返しのルーティンに色をつけるミュージック</span><br><span class="line">僕らだけがわかる合図　合わせていくチューニング</span><br><span class="line">唯一無二　それぞれ　代わりなんていない</span><br><span class="line">代わり映えしない　今　変えてきたい</span><br></pre></td></tr></table></figure>
 <h2 id="Test-of-Audio-Players"><a href="#Test-of-Audio-Players" class="headerlink" title="Test of Audio Players"></a>Test of Audio Players</h2>
-    <div id="aplayer-VzsLyDaP" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="1835533024" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme=" #39c5bb"></div>
+    <div id="aplayer-PiJTKjDN" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="1835533024" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme=" #39c5bb"></div>
 
-    <div id="aplayer-ZQOnMfOV" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="125693052" data-server="netease" data-type="album" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme=" #39c5bb"></div>
+    <div id="aplayer-ggMrbJvu" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="125693052" data-server="netease" data-type="album" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme=" #39c5bb"></div>
 <!-- meting "71853061" "netease" "album" "theme: #39c5bb" -->
 <!-- meting "38991091" "netease" "album" "theme: #39c5bb" -->
 <h2 id="Codeblock-Test"><a href="#Codeblock-Test" class="headerlink" title="Codeblock Test"></a>Codeblock Test</h2><figure class="highlight js"><figcaption><span>liella-starter.js</span><a href="https://liella.tv/">星象馆传送门</a></figcaption><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> http = <span class="built_in">require</span>(<span class="string">&quot;http&quot;</span>);</span><br><span class="line"><span class="keyword">const</span> hostname = <span class="string">&quot;127.0.0.1&quot;</span>;</span><br><span class="line"><span class="keyword">const</span> port = <span class="number">1337</span>;</span><br><span class="line">http.createServer(<span class="function">(<span class="params">req, res</span>) =&gt;</span> &#123;</span><br><span class="line">  res.writeHead(<span class="number">200</span>, &#123; <span class="string">&quot;Content-Type&quot;</span>: <span class="string">&quot;text/plain&quot;</span> &#125;);</span><br><span class="line">  res.end(<span class="string">&quot;できっこないよって思ってたことも 踏みだせばほら叶うんだ\n&quot;</span>);</span><br><span class="line">&#125;).listen(port, hostname, <span class="function">() =&gt;</span> &#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">`At http://<span class="subst">$&#123;hostname&#125;</span>:<span class="subst">$&#123;port&#125;</span>/ 今、始まるよSymphony`</span>);</span><br><span class="line">&#125;);</span><br><span class="line">(<span class="function">() =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">const</span> liella = <span class="built_in">require</span>(<span class="string">&quot;Liella&quot;</span>);</span><br><span class="line">    liella.restart(<span class="string">&quot;Generation II!&quot;</span>);</span><br><span class="line">    &#125;)();</span><br></pre></td></tr></table></figure>
@@ -690,6 +690,132 @@ f(x) = \frac{\alpha_0}2 + \sum_{k=1}^{\infty} ({\alpha}_k \cos{kx} + {\beta}_k \
       </tags>
   </entry>
   <entry>
+    <title>「归档】 涩谷 音羽</title>
+    <url>/2021/11/06/archives/otoha/01/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>涩谷香音与岚千砂都家，年龄最小的女儿。</p>
+<span id="more"></span>
+<h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:right"></th>
+<th style="text-align:left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right"><ruby>中文姓名<rt>Name <code>in Chinese</code></rt></ruby></td>
+<td style="text-align:left">涩谷 音羽</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>日文姓名<rt>Name <code>in Japanese</code></rt></ruby></td>
+<td style="text-align:left"><ruby>涩谷<rt>しぶや</rt></ruby> おとは</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>罗马字音<rt>Name <code>in Roman</code></rt></ruby></td>
+<td style="text-align:left">Shibuya Otoha</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>出生地点<rt>Birthplace</rt></ruby></td>
+<td style="text-align:left">东京都</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>昵称<rt>Nickname</rt></ruby></td>
+<td style="text-align:left">白</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>学校<rt>Current College</rt></ruby></td>
+<td style="text-align:left"><code>??</code></td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>年级<rt>Grade</rt></ruby></td>
+<td style="text-align:left"><code>??</code></td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>身高<rt>Height</rt></ruby></td>
+<td style="text-align:left"><code>(12周岁)</code>146cm</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>体重<rt>Weight</rt></ruby></td>
+<td style="text-align:left"><code>(12周岁)</code>69kg</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>生日<rt>Birth</rt></ruby></td>
+<td style="text-align:left"><code>??</code></td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>星座<rt>Constellation</rt></ruby></td>
+<td style="text-align:left">金牛座</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="Other-Biological-Features"><a href="#Other-Biological-Features" class="headerlink" title="Other Biological Features"></a>Other Biological Features</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:right"></th>
+<th style="text-align:left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right"><ruby>血型<rt>Blood Group</rt></ruby></td>
+<td style="text-align:left">B</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>发色<rt>Hair Color</rt></ruby></td>
+<td style="text-align:left">白</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>瞳色<rt>Eye Color</rt></ruby></td>
+<td style="text-align:left">红</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>音色<rt>Timbre</rt></ruby></td>
+<td style="text-align:left"><del><code>CV.伊达小百合</code></del> 参考 Kanon</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>惯用手<rt>Dominant Hand</rt></ruby></td>
+<td style="text-align:left">惯用右手</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>视力<rt></rt></ruby></td>
+<td style="text-align:left">正常</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><em>本部分记录截止时间为主人公<code>12周岁</code>，下同。</em></p>
+<ul>
+<li>手术史: 无</li>
+<li>特殊病史: 无</li>
+<li>疤痕: 无</li>
+</ul>
+<h2 id="Experiences"><a href="#Experiences" class="headerlink" title="Experiences"></a>Experiences</h2><ul>
+<li>早期精神体验: 无</li>
+<li>获奖经历: 暂无</li>
+<li>恋爱经历: <span class="hidiv">Chihori suki</span></li>
+</ul>
+<h2 id="Personal-Tendencies"><a href="#Personal-Tendencies" class="headerlink" title="Personal Tendencies"></a>Personal Tendencies</h2><ul>
+<li>尊敬的人是家里的妈妈们和姐姐们，但不会以来她们，喜欢 Chihori 姐姐但尽量不会表现出来</li>
+<li>喜欢耍帅</li>
+<li>喜欢 Kanon 与 Chisato 的曲目</li>
+<li>穿着风格类似 Kanon</li>
+<li>偏消极，不爱人际交往，没有害怕之事，讨厌无聊之人，没有梦想一说，<del>疑似得到了折棒的节能精神真传</del></li>
+<li>经济状况收支平衡</li>
+<li>和 Kanon 与 Chisato 一样，喜欢烤苹果、番茄、汉堡肉、牛奶咖啡、章鱼烧、可乐、桃子等食物，讨厌吃青椒</li>
+</ul>
+<h2 id="Extra"><a href="#Extra" class="headerlink" title="Extra"></a>Extra</h2><ul>
+<li>人物形象设计: <code>w1175</code></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>Otoha (涩谷 音羽)</tag>
+        <tag>Liella! Generation II, Liella!第二世代</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>「归档】 涩谷 香菜子</title>
     <url>/2021/11/06/archives/kanako/01/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>涩谷香音与岚千砂都家的女儿之一。</p>
@@ -834,132 +960,6 @@ f(x) = \frac{\alpha_0}2 + \sum_{k=1}^{\infty} ({\alpha}_k \cos{kx} + {\beta}_k \
 ]]></content>
       <tags>
         <tag>Kanako (涩谷 香菜子)</tag>
-        <tag>Liella! Generation II, Liella!第二世代</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>「归档】 涩谷 音羽</title>
-    <url>/2021/11/06/archives/otoha/01/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>涩谷香音与岚千砂都家，年龄最小的女儿。</p>
-<span id="more"></span>
-<h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><div class="table-container">
-<table>
-<thead>
-<tr>
-<th style="text-align:right"></th>
-<th style="text-align:left"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:right"><ruby>中文姓名<rt>Name <code>in Chinese</code></rt></ruby></td>
-<td style="text-align:left">涩谷 音羽</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>日文姓名<rt>Name <code>in Japanese</code></rt></ruby></td>
-<td style="text-align:left"><ruby>涩谷<rt>しぶや</rt></ruby> おとは</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>罗马字音<rt>Name <code>in Roman</code></rt></ruby></td>
-<td style="text-align:left">Shibuya Otoha</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>出生地点<rt>Birthplace</rt></ruby></td>
-<td style="text-align:left">东京都</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>昵称<rt>Nickname</rt></ruby></td>
-<td style="text-align:left">白</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>学校<rt>Current College</rt></ruby></td>
-<td style="text-align:left"><code>??</code></td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>年级<rt>Grade</rt></ruby></td>
-<td style="text-align:left"><code>??</code></td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>身高<rt>Height</rt></ruby></td>
-<td style="text-align:left"><code>(12周岁)</code>146cm</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>体重<rt>Weight</rt></ruby></td>
-<td style="text-align:left"><code>(12周岁)</code>69kg</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>生日<rt>Birth</rt></ruby></td>
-<td style="text-align:left"><code>??</code></td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>星座<rt>Constellation</rt></ruby></td>
-<td style="text-align:left">金牛座</td>
-</tr>
-</tbody>
-</table>
-</div>
-<h2 id="Other-Biological-Features"><a href="#Other-Biological-Features" class="headerlink" title="Other Biological Features"></a>Other Biological Features</h2><div class="table-container">
-<table>
-<thead>
-<tr>
-<th style="text-align:right"></th>
-<th style="text-align:left"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:right"><ruby>血型<rt>Blood Group</rt></ruby></td>
-<td style="text-align:left">B</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>发色<rt>Hair Color</rt></ruby></td>
-<td style="text-align:left">白</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>瞳色<rt>Eye Color</rt></ruby></td>
-<td style="text-align:left">红</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>音色<rt>Timbre</rt></ruby></td>
-<td style="text-align:left"><del><code>CV.伊达小百合</code></del> 参考 Kanon</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>惯用手<rt>Dominant Hand</rt></ruby></td>
-<td style="text-align:left">惯用右手</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>视力<rt></rt></ruby></td>
-<td style="text-align:left">正常</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p><em>本部分记录截止时间为主人公<code>12周岁</code>，下同。</em></p>
-<ul>
-<li>手术史: 无</li>
-<li>特殊病史: 无</li>
-<li>疤痕: 无</li>
-</ul>
-<h2 id="Experiences"><a href="#Experiences" class="headerlink" title="Experiences"></a>Experiences</h2><ul>
-<li>早期精神体验: 无</li>
-<li>获奖经历: 暂无</li>
-<li>恋爱经历: <span class="hidiv">Chihori suki</span></li>
-</ul>
-<h2 id="Personal-Tendencies"><a href="#Personal-Tendencies" class="headerlink" title="Personal Tendencies"></a>Personal Tendencies</h2><ul>
-<li>尊敬的人是家里的妈妈们和姐姐们，但不会以来她们，喜欢 Chihori 姐姐但尽量不会表现出来</li>
-<li>喜欢耍帅</li>
-<li>喜欢 Kanon 与 Chisato 的曲目</li>
-<li>穿着风格类似 Kanon</li>
-<li>偏消极，不爱人际交往，没有害怕之事，讨厌无聊之人，没有梦想一说，<del>疑似得到了折棒的节能精神真传</del></li>
-<li>经济状况收支平衡</li>
-<li>和 Kanon 与 Chisato 一样，喜欢烤苹果、番茄、汉堡肉、牛奶咖啡、章鱼烧、可乐、桃子等食物，讨厌吃青椒</li>
-</ul>
-<h2 id="Extra"><a href="#Extra" class="headerlink" title="Extra"></a>Extra</h2><ul>
-<li>人物形象设计: <code>w1175</code></li>
-</ul>
-]]></content>
-      <tags>
-        <tag>Otoha (涩谷 音羽)</tag>
         <tag>Liella! Generation II, Liella!第二世代</tag>
       </tags>
   </entry>
