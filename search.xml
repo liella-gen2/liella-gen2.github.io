@@ -237,9 +237,9 @@
 <p><del>众所周知，这个团体只有4个是地球人：因为剩下的一个（<a href="https://zh.moegirl.org.cn/青山渚">青山渚</a>）是从外星来的。</del></p>
 <h2 id="Lyrics’-Test"><a href="#Lyrics’-Test" class="headerlink" title="Lyrics’ Test"></a>Lyrics’ Test</h2><figure class="highlight plaintext"><figcaption><span>Sumire-rap</span><a href="https://zh.moegirl.org.cn/Day1">Day1</a></figcaption><table><tr><td class="code"><pre><span class="line">作詞：KEN THE 390　作曲：めんま、KEN THE 390　編曲：家原正樹</span><br><span class="line"></span><br><span class="line">閉まったままのアンサーを解き放つよ今日</span><br><span class="line">ここから世界中へ　大きい夢</span><br><span class="line">一緒に叶えに行こう　手を繋いで　あの角の向こう</span><br><span class="line">いつも通りの景色　変えるレシピ　見つけられたよ</span><br><span class="line"></span><br><span class="line">...</span><br><span class="line"></span><br><span class="line">繰り返しのルーティンに色をつけるミュージック</span><br><span class="line">僕らだけがわかる合図　合わせていくチューニング</span><br><span class="line">唯一無二　それぞれ　代わりなんていない</span><br><span class="line">代わり映えしない　今　変えてきたい</span><br></pre></td></tr></table></figure>
 <h2 id="Test-of-Audio-Players"><a href="#Test-of-Audio-Players" class="headerlink" title="Test of Audio Players"></a>Test of Audio Players</h2>
-    <div id="aplayer-IKilRcXI" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="1835533024" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme=" #39c5bb"></div>
+    <div id="aplayer-YhWnzqUX" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="1835533024" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme=" #39c5bb"></div>
 
-    <div id="aplayer-NhkEcZfo" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="125693052" data-server="netease" data-type="album" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme=" #39c5bb"></div>
+    <div id="aplayer-TLYCYBCM" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="125693052" data-server="netease" data-type="album" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme=" #39c5bb"></div>
 <!-- meting "71853061" "netease" "album" "theme: #39c5bb" -->
 <!-- meting "38991091" "netease" "album" "theme: #39c5bb" -->
 <h2 id="Codeblock-Test"><a href="#Codeblock-Test" class="headerlink" title="Codeblock Test"></a>Codeblock Test</h2><figure class="highlight js"><figcaption><span>liella-starter.js</span><a href="https://liella.tv/">星象馆传送门</a></figcaption><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> http = <span class="built_in">require</span>(<span class="string">&quot;http&quot;</span>);</span><br><span class="line"><span class="keyword">const</span> hostname = <span class="string">&quot;127.0.0.1&quot;</span>;</span><br><span class="line"><span class="keyword">const</span> port = <span class="number">1337</span>;</span><br><span class="line">http.createServer(<span class="function">(<span class="params">req, res</span>) =&gt;</span> &#123;</span><br><span class="line">  res.writeHead(<span class="number">200</span>, &#123; <span class="string">&quot;Content-Type&quot;</span>: <span class="string">&quot;text/plain&quot;</span> &#125;);</span><br><span class="line">  res.end(<span class="string">&quot;できっこないよって思ってたことも 踏みだせばほら叶うんだ\n&quot;</span>);</span><br><span class="line">&#125;).listen(port, hostname, <span class="function">() =&gt;</span> &#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">`At http://<span class="subst">$&#123;hostname&#125;</span>:<span class="subst">$&#123;port&#125;</span>/ 今、始まるよSymphony`</span>);</span><br><span class="line">&#125;);</span><br><span class="line">(<span class="function">() =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">const</span> liella = <span class="built_in">require</span>(<span class="string">&quot;Liella&quot;</span>);</span><br><span class="line">    liella.restart(<span class="string">&quot;Generation II!&quot;</span>);</span><br><span class="line">    &#125;)();</span><br></pre></td></tr></table></figure>
@@ -432,6 +432,37 @@
       </tags>
   </entry>
   <entry>
+    <title>歌詞測試</title>
+    <url>/2021/11/06/lyrics-block/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>如題，是歌詞<code>染色</code>模塊測試。<br>之前還是萬年巨坑，突然就很順利地填上了。</p>
+<span id="more"></span>
+<h2 id="渲染效果"><a href="#渲染效果" class="headerlink" title="渲染效果"></a>渲染效果</h2><ul>
+<li>HarryP (針原 翼) (feat. RIN, MIKU) - 一閃光</li>
+</ul>
+<figure class="highlight vocatag vocalyrics">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="gutter">
+                            <pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre>
+                        </td>
+                        <td class="code">
+                            <pre><span class="base16colored-orange">とくとく流れているのは あなたに縋りついた血だ<br>鮮血汩汩流出 瞬間染紅了你的衣襟<br><br>涙の代わりに込み上げて <span class="base16colored-cyan">燃えさかる幻影の炎だろう</span><span class="base16colored-orange"><br>取而代之的是泣血椎心 </span><span class="base16colored-cyan">是燃燒後火焰的殘影</span></span></pre>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </figure>
+<ul>
+<li>人形兔 (feat. 五色戰隊(洛天依、樂正綾、樂正龍牙、墨清弦、徵羽摩柯)) - Hear me!</li>
+</ul>
+<pre class="vocalyricsblock"><code><span class="base16colored-blue">洛天依: 放學後空無一人的操場<br>拉勾以後就不許臨陣脫逃　好不好<br><span class="base16colored-red">樂正綾: 肩上的吉他和小小夢想<br>要為它們長出堅強的翅膀　我知道<br><br><span class="base16colored-blue">徵羽摩柯: Can you hear me now?　麥克風在手中握緊不放<br><span class="base16colored-yellow">墨清弦: 　Can you hear me now?　不用在意任何疑惑目光<br><span class="base16colored-cyan">樂正龍牙: Can you hear me now?　有你在一定能實現願望<br></span></span></span></span></span>讓淚水與歡笑　逆光也閃耀</code></pre>
+]]></content>
+      <tags>
+        <tag>測試Testing!</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>千醬！我真的好喜歡你啊!!爲了你我要推導π的展開式！!!----</title>
     <url>/2021/10/13/pi-chi-chan/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>有一天，群裏的朋友在萌娘百科上注意到</p>
@@ -531,37 +562,6 @@ f(x) = \frac{\alpha_0}2 + \sum_{k=1}^{\infty} ({\alpha}_k \cos{kx} + {\beta}_k \
       <tags>
         <tag>Chisato (岚 千砂都)</tag>
         <tag>無窮級數</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>歌詞測試</title>
-    <url>/2021/11/06/lyrics-block/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>如題，是歌詞<code>染色</code>模塊測試。<br>之前還是萬年巨坑，突然就很順利地填上了。</p>
-<span id="more"></span>
-<h2 id="渲染效果"><a href="#渲染效果" class="headerlink" title="渲染效果"></a>渲染效果</h2><ul>
-<li>HarryP (針原 翼) (feat. RIN, MIKU) - 一閃光</li>
-</ul>
-<figure class="highlight vocatag vocalyrics">
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="gutter">
-                            <pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre>
-                        </td>
-                        <td class="code">
-                            <pre><span class="base16colored-orange">とくとく流れているのは あなたに縋りついた血だ<br>鮮血汩汩流出 瞬間染紅了你的衣襟<br><br>涙の代わりに込み上げて <span class="base16colored-cyan">燃えさかる幻影の炎だろう</span><span class="base16colored-orange"><br>取而代之的是泣血椎心 </span><span class="base16colored-cyan">是燃燒後火焰的殘影</span></span></pre>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </figure>
-<ul>
-<li>人形兔 (feat. 五色戰隊(洛天依、樂正綾、樂正龍牙、墨清弦、徵羽摩柯)) - Hear me!</li>
-</ul>
-<pre class="vocalyricsblock"><code><span class="base16colored-blue">洛天依: 放學後空無一人的操場<br>拉勾以後就不許臨陣脫逃　好不好<br><span class="base16colored-red">樂正綾: 肩上的吉他和小小夢想<br>要為它們長出堅強的翅膀　我知道<br><br><span class="base16colored-blue">徵羽摩柯: Can you hear me now?　麥克風在手中握緊不放<br><span class="base16colored-yellow">墨清弦: 　Can you hear me now?　不用在意任何疑惑目光<br><span class="base16colored-cyan">樂正龍牙: Can you hear me now?　有你在一定能實現願望<br></span></span></span></span></span>讓淚水與歡笑　逆光也閃耀</code></pre>
-]]></content>
-      <tags>
-        <tag>測試Testing!</tag>
       </tags>
   </entry>
   <entry>
@@ -686,132 +686,6 @@ f(x) = \frac{\alpha_0}2 + \sum_{k=1}^{\infty} ({\alpha}_k \cos{kx} + {\beta}_k \
 ]]></content>
       <tags>
         <tag>Chihori (涩谷 千穗理)</tag>
-        <tag>Liella! Generation II, Liella!第二世代</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>「归档】 涩谷 音羽</title>
-    <url>/2021/11/06/archives/otoha/01/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>涩谷香音与岚千砂都家，年龄最小的女儿。</p>
-<span id="more"></span>
-<h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><div class="table-container">
-<table>
-<thead>
-<tr>
-<th style="text-align:right"></th>
-<th style="text-align:left"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:right"><ruby>中文姓名<rt>Name <code>in Chinese</code></rt></ruby></td>
-<td style="text-align:left">涩谷 音羽</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>日文姓名<rt>Name <code>in Japanese</code></rt></ruby></td>
-<td style="text-align:left"><ruby>涩谷<rt>しぶや</rt></ruby> おとは</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>罗马字音<rt>Name <code>in Roman</code></rt></ruby></td>
-<td style="text-align:left">Shibuya Otoha</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>出生地点<rt>Birthplace</rt></ruby></td>
-<td style="text-align:left">东京都</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>昵称<rt>Nickname</rt></ruby></td>
-<td style="text-align:left">白</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>学校<rt>Current College</rt></ruby></td>
-<td style="text-align:left"><code>??</code></td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>年级<rt>Grade</rt></ruby></td>
-<td style="text-align:left"><code>??</code></td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>身高<rt>Height</rt></ruby></td>
-<td style="text-align:left"><code>(12周岁)</code>146cm</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>体重<rt>Weight</rt></ruby></td>
-<td style="text-align:left"><code>(12周岁)</code>69kg</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>生日<rt>Birth</rt></ruby></td>
-<td style="text-align:left"><code>??</code></td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>星座<rt>Constellation</rt></ruby></td>
-<td style="text-align:left">金牛座</td>
-</tr>
-</tbody>
-</table>
-</div>
-<h2 id="Other-Biological-Features"><a href="#Other-Biological-Features" class="headerlink" title="Other Biological Features"></a>Other Biological Features</h2><div class="table-container">
-<table>
-<thead>
-<tr>
-<th style="text-align:right"></th>
-<th style="text-align:left"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:right"><ruby>血型<rt>Blood Group</rt></ruby></td>
-<td style="text-align:left">B</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>发色<rt>Hair Color</rt></ruby></td>
-<td style="text-align:left">白</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>瞳色<rt>Eye Color</rt></ruby></td>
-<td style="text-align:left">红</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>音色<rt>Timbre</rt></ruby></td>
-<td style="text-align:left"><del><code>CV.伊达小百合</code></del> 参考 Kanon</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>惯用手<rt>Dominant Hand</rt></ruby></td>
-<td style="text-align:left">惯用右手</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>视力<rt></rt></ruby></td>
-<td style="text-align:left">正常</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p><em>本部分记录截止时间为主人公<code>12周岁</code>，下同。</em></p>
-<ul>
-<li>手术史: 无</li>
-<li>特殊病史: 无</li>
-<li>疤痕: 无</li>
-</ul>
-<h2 id="Experiences"><a href="#Experiences" class="headerlink" title="Experiences"></a>Experiences</h2><ul>
-<li>早期精神体验: 无</li>
-<li>获奖经历: 暂无</li>
-<li>恋爱经历: <span class="hidiv">Chihori suki</span></li>
-</ul>
-<h2 id="Personal-Tendencies"><a href="#Personal-Tendencies" class="headerlink" title="Personal Tendencies"></a>Personal Tendencies</h2><ul>
-<li>尊敬的人是家里的妈妈们和姐姐们，但不会以来她们，喜欢 Chihori 姐姐但尽量不会表现出来</li>
-<li>喜欢耍帅</li>
-<li>喜欢 Kanon 与 Chisato 的曲目</li>
-<li>穿着风格类似 Kanon</li>
-<li>偏消极，不爱人际交往，没有害怕之事，讨厌无聊之人，没有梦想一说，<del>疑似得到了折棒的节能精神真传</del></li>
-<li>经济状况收支平衡</li>
-<li>和 Kanon 与 Chisato 一样，喜欢烤苹果、番茄、汉堡肉、牛奶咖啡、章鱼烧、可乐、桃子等食物，讨厌吃青椒</li>
-</ul>
-<h2 id="Extra"><a href="#Extra" class="headerlink" title="Extra"></a>Extra</h2><ul>
-<li>人物形象设计: <code>w1175</code></li>
-</ul>
-]]></content>
-      <tags>
-        <tag>Otoha (涩谷 音羽)</tag>
         <tag>Liella! Generation II, Liella!第二世代</tag>
       </tags>
   </entry>
@@ -960,6 +834,132 @@ f(x) = \frac{\alpha_0}2 + \sum_{k=1}^{\infty} ({\alpha}_k \cos{kx} + {\beta}_k \
 ]]></content>
       <tags>
         <tag>Kanako (涩谷 香菜子)</tag>
+        <tag>Liella! Generation II, Liella!第二世代</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>「归档】 涩谷 音羽</title>
+    <url>/2021/11/06/archives/otoha/01/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>涩谷香音与岚千砂都家，年龄最小的女儿。</p>
+<span id="more"></span>
+<h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:right"></th>
+<th style="text-align:left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right"><ruby>中文姓名<rt>Name <code>in Chinese</code></rt></ruby></td>
+<td style="text-align:left">涩谷 音羽</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>日文姓名<rt>Name <code>in Japanese</code></rt></ruby></td>
+<td style="text-align:left"><ruby>涩谷<rt>しぶや</rt></ruby> おとは</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>罗马字音<rt>Name <code>in Roman</code></rt></ruby></td>
+<td style="text-align:left">Shibuya Otoha</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>出生地点<rt>Birthplace</rt></ruby></td>
+<td style="text-align:left">东京都</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>昵称<rt>Nickname</rt></ruby></td>
+<td style="text-align:left">白</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>学校<rt>Current College</rt></ruby></td>
+<td style="text-align:left"><code>??</code></td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>年级<rt>Grade</rt></ruby></td>
+<td style="text-align:left"><code>??</code></td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>身高<rt>Height</rt></ruby></td>
+<td style="text-align:left"><code>(12周岁)</code>146cm</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>体重<rt>Weight</rt></ruby></td>
+<td style="text-align:left"><code>(12周岁)</code>69kg</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>生日<rt>Birth</rt></ruby></td>
+<td style="text-align:left"><code>??</code></td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>星座<rt>Constellation</rt></ruby></td>
+<td style="text-align:left">金牛座</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="Other-Biological-Features"><a href="#Other-Biological-Features" class="headerlink" title="Other Biological Features"></a>Other Biological Features</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:right"></th>
+<th style="text-align:left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right"><ruby>血型<rt>Blood Group</rt></ruby></td>
+<td style="text-align:left">B</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>发色<rt>Hair Color</rt></ruby></td>
+<td style="text-align:left">白</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>瞳色<rt>Eye Color</rt></ruby></td>
+<td style="text-align:left">红</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>音色<rt>Timbre</rt></ruby></td>
+<td style="text-align:left"><del><code>CV.伊达小百合</code></del> 参考 Kanon</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>惯用手<rt>Dominant Hand</rt></ruby></td>
+<td style="text-align:left">惯用右手</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>视力<rt></rt></ruby></td>
+<td style="text-align:left">正常</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><em>本部分记录截止时间为主人公<code>12周岁</code>，下同。</em></p>
+<ul>
+<li>手术史: 无</li>
+<li>特殊病史: 无</li>
+<li>疤痕: 无</li>
+</ul>
+<h2 id="Experiences"><a href="#Experiences" class="headerlink" title="Experiences"></a>Experiences</h2><ul>
+<li>早期精神体验: 无</li>
+<li>获奖经历: 暂无</li>
+<li>恋爱经历: <span class="hidiv">Chihori suki</span></li>
+</ul>
+<h2 id="Personal-Tendencies"><a href="#Personal-Tendencies" class="headerlink" title="Personal Tendencies"></a>Personal Tendencies</h2><ul>
+<li>尊敬的人是家里的妈妈们和姐姐们，但不会以来她们，喜欢 Chihori 姐姐但尽量不会表现出来</li>
+<li>喜欢耍帅</li>
+<li>喜欢 Kanon 与 Chisato 的曲目</li>
+<li>穿着风格类似 Kanon</li>
+<li>偏消极，不爱人际交往，没有害怕之事，讨厌无聊之人，没有梦想一说，<del>疑似得到了折棒的节能精神真传</del></li>
+<li>经济状况收支平衡</li>
+<li>和 Kanon 与 Chisato 一样，喜欢烤苹果、番茄、汉堡肉、牛奶咖啡、章鱼烧、可乐、桃子等食物，讨厌吃青椒</li>
+</ul>
+<h2 id="Extra"><a href="#Extra" class="headerlink" title="Extra"></a>Extra</h2><ul>
+<li>人物形象设计: <code>w1175</code></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>Otoha (涩谷 音羽)</tag>
         <tag>Liella! Generation II, Liella!第二世代</tag>
       </tags>
   </entry>
