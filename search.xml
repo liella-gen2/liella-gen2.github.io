@@ -237,9 +237,9 @@
 <p><del>众所周知，这个团体只有4个是地球人：因为剩下的一个（<a href="https://zh.moegirl.org.cn/青山渚">青山渚</a>）是从外星来的。</del></p>
 <h2 id="Lyrics’-Test"><a href="#Lyrics’-Test" class="headerlink" title="Lyrics’ Test"></a>Lyrics’ Test</h2><figure class="highlight plaintext"><figcaption><span>Sumire-rap</span><a href="https://zh.moegirl.org.cn/Day1">Day1</a></figcaption><table><tr><td class="code"><pre><span class="line">作詞：KEN THE 390　作曲：めんま、KEN THE 390　編曲：家原正樹</span><br><span class="line"></span><br><span class="line">閉まったままのアンサーを解き放つよ今日</span><br><span class="line">ここから世界中へ　大きい夢</span><br><span class="line">一緒に叶えに行こう　手を繋いで　あの角の向こう</span><br><span class="line">いつも通りの景色　変えるレシピ　見つけられたよ</span><br><span class="line"></span><br><span class="line">...</span><br><span class="line"></span><br><span class="line">繰り返しのルーティンに色をつけるミュージック</span><br><span class="line">僕らだけがわかる合図　合わせていくチューニング</span><br><span class="line">唯一無二　それぞれ　代わりなんていない</span><br><span class="line">代わり映えしない　今　変えてきたい</span><br></pre></td></tr></table></figure>
 <h2 id="Test-of-Audio-Players"><a href="#Test-of-Audio-Players" class="headerlink" title="Test of Audio Players"></a>Test of Audio Players</h2>
-    <div id="aplayer-GjGYzlyb" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="1835533024" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme=" #39c5bb"></div>
+    <div id="aplayer-HkpJAFAk" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="1835533024" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme=" #39c5bb"></div>
 
-    <div id="aplayer-YRbuviDX" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="125693052" data-server="netease" data-type="album" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme=" #39c5bb"></div>
+    <div id="aplayer-TBSryZul" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="125693052" data-server="netease" data-type="album" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme=" #39c5bb"></div>
 <!-- meting "71853061" "netease" "album" "theme: #39c5bb" -->
 <!-- meting "38991091" "netease" "album" "theme: #39c5bb" -->
 <h2 id="Codeblock-Test"><a href="#Codeblock-Test" class="headerlink" title="Codeblock Test"></a>Codeblock Test</h2><figure class="highlight js"><figcaption><span>liella-starter.js</span><a href="https://liella.tv/">星象馆传送门</a></figcaption><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> http = <span class="built_in">require</span>(<span class="string">&quot;http&quot;</span>);</span><br><span class="line"><span class="keyword">const</span> hostname = <span class="string">&quot;127.0.0.1&quot;</span>;</span><br><span class="line"><span class="keyword">const</span> port = <span class="number">1337</span>;</span><br><span class="line">http.createServer(<span class="function">(<span class="params">req, res</span>) =&gt;</span> &#123;</span><br><span class="line">  res.writeHead(<span class="number">200</span>, &#123; <span class="string">&quot;Content-Type&quot;</span>: <span class="string">&quot;text/plain&quot;</span> &#125;);</span><br><span class="line">  res.end(<span class="string">&quot;できっこないよって思ってたことも 踏みだせばほら叶うんだ\n&quot;</span>);</span><br><span class="line">&#125;).listen(port, hostname, <span class="function">() =&gt;</span> &#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">`At http://<span class="subst">$&#123;hostname&#125;</span>:<span class="subst">$&#123;port&#125;</span>/ 今、始まるよSymphony`</span>);</span><br><span class="line">&#125;);</span><br><span class="line">(<span class="function">() =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">const</span> liella = <span class="built_in">require</span>(<span class="string">&quot;Liella&quot;</span>);</span><br><span class="line">    liella.restart(<span class="string">&quot;Generation II!&quot;</span>);</span><br><span class="line">    &#125;)();</span><br></pre></td></tr></table></figure>
@@ -565,154 +565,6 @@ f(x) = \frac{\alpha_0}2 + \sum_{k=1}^{\infty} ({\alpha}_k \cos{kx} + {\beta}_k \
       </tags>
   </entry>
   <entry>
-    <title>「归档】 涩谷 香菜子</title>
-    <url>/2021/11/06/archives/kanako/01/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>涩谷香音与岚千砂都家的女儿之一。</p>
-<span id="more"></span>
-<h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><div class="table-container">
-<table>
-<thead>
-<tr>
-<th style="text-align:right"></th>
-<th style="text-align:left"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:right"><ruby>中文姓名<rt>Name <code>in Chinese</code></rt></ruby></td>
-<td style="text-align:left">涩谷 香菜子</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>日文姓名<rt>Name <code>in Japanese</code></rt></ruby></td>
-<td style="text-align:left"><ruby>涩谷<rt>しぶや</rt></ruby> かなこ</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>罗马字音<rt>Name <code>in Roman</code></rt></ruby></td>
-<td style="text-align:left">Shibuya Kanako</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>出生地点<rt>Birthplace</rt></ruby></td>
-<td style="text-align:left">东京涩谷区</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>昵称<rt>Nickname</rt></ruby></td>
-<td style="text-align:left"><ruby>香菜姐<rt>かなね</rt></ruby></td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>学校<rt>Current College</rt></ruby></td>
-<td style="text-align:left"><code>??</code></td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>年级<rt>Grade</rt></ruby></td>
-<td style="text-align:left"><code>??</code></td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>身高<rt>Height</rt></ruby></td>
-<td style="text-align:left"><code>(24周岁)</code>153cm</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>体重<rt>Weight</rt></ruby></td>
-<td style="text-align:left"><code>(24周岁)</code>47.5kg</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>生日<rt>Birth</rt></ruby></td>
-<td style="text-align:left">5月22日</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>星座<rt>Constellation</rt></ruby></td>
-<td style="text-align:left">双子座</td>
-</tr>
-</tbody>
-</table>
-</div>
-<ul>
-<li><code>5月22日</code>的<ruby>诞生花<rt>Birth Flower</rt></ruby>为<code><ruby>倒挂金钟<rt>Ear Drops</rt></ruby></code>，其花语为<code>热烈之心</code></li>
-<li><code>5月</code>的<ruby>诞生石<rt>Birthstone</rt></ruby>为<code><ruby>翡翠(祖母绿)<rt>Emerald</rt></ruby></code>，象征幸福之石</li>
-</ul>
-<h2 id="Other-Biological-Features"><a href="#Other-Biological-Features" class="headerlink" title="Other Biological Features"></a>Other Biological Features</h2><div class="table-container">
-<table>
-<thead>
-<tr>
-<th style="text-align:right"></th>
-<th style="text-align:left"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:right"><ruby>血型<rt>Blood Group</rt></ruby></td>
-<td style="text-align:left">A</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>发色<rt>Hair Color</rt></ruby></td>
-<td style="text-align:left">橙黄</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>瞳色<rt>Eye Color</rt></ruby></td>
-<td style="text-align:left">紫</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>音色<rt>Timbre</rt></ruby></td>
-<td style="text-align:left"><del><code>CV.早见沙织/龟仙人</code><span class="hidiv">并已在网易立项委托稔制作VOCALOID3声库</span></del> 参考 蝴蝶忍</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>惯用手<rt>Dominant Hand</rt></ruby></td>
-<td style="text-align:left">惯用右手</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>视力<rt></rt></ruby></td>
-<td style="text-align:left">正常</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p><em>本部分记录截止时间为主人公<code>24周岁</code>，下同。</em></p>
-<ul>
-<li>手术史: 无</li>
-<li>特殊病史: 无</li>
-<li>疤痕: 无</li>
-</ul>
-<h2 id="Experiences"><a href="#Experiences" class="headerlink" title="Experiences"></a>Experiences</h2><ul>
-<li>早期精神体验: 幼时带着 Chihori 一起迷路让 Chisato 因为担心哭了出来，从此以后尽可能做成一个乖孩子，不想再看到妈妈们伤心，成为了<strong>笑面恶魔</strong>（）</li>
-<li>获奖经历: 高中、大学阶段每学期获评得到了尽可能多的奖学金</li>
-<li>恋爱经历: 高中时期被很多人表白，但都中途被其他二姐妹截胡了，唯一正面表白的 Sou 也被以年纪太小为由拒绝（虽然最后还是在追逐战败下阵来，有情人终成眷属www）</li>
-</ul>
-<h2 id="Personal-Tendencies"><a href="#Personal-Tendencies" class="headerlink" title="Personal Tendencies"></a>Personal Tendencies</h2><ul>
-<li><p>尊敬着妈妈们与 Ren 老师，小时候 <del>(可能因 Sou 的问题而?)</del> 对 Keke 与 Sumire 两位阿姨抱有怨念直到长大后理解她们的难处之时</p>
-</li>
-<li><p>觉得家人们可爱又吵闹，有点烦人，不靠谱但却充满安全感。综合来看本人抱有十分恋家的情感</p>
-</li>
-<li><p>大学学习<code><ruby>人力资源<rt>Human Resources</rt></ruby>管理</code>专业，毕业后就职于某<ruby>猎头公司<rt>高级管理人员代理招募机构</rt></ruby></p>
-</li>
-<li><p>或许与专业或职业相关， Kanako <del><code>精通语言艺术</code></del> 且<code>情商很高</code>，穿着风格上日常以暖色系浅色系可爱风为主、职业装会扎马尾而非丸子头</p>
-</li>
-<li><p>梦想着平静的生活 <del><span class="hidiv">吉良·香菜子·吉影?</span></del> ，希望家人与朋友开心幸福，在这方面没有太多考虑世界上的其他人，</p>
-</li>
-<li><p><strong><em><ruby>平安名<rt>Heanna</rt></ruby><ruby>薮<rt>Sou</rt></ruby>单推人</em></strong></p>
-</li>
-</ul>
-<h2 id="Extra"><a href="#Extra" class="headerlink" title="Extra"></a>Extra</h2><ul>
-<li>人物形象设计: <code>一卡桑</code></li>
-</ul>
-<h3 id="More-Info"><a href="#More-Info" class="headerlink" title="More Info"></a>More Info</h3><details>
-<summary>
-以下内容的查看具有权限限制，需求权限等级为<code>sudo (最高权限)</code>
-<br>
-确认<strong>环境安全</strong>后请<code>点击此处</code>进行查看等操作
-<br>
-操作完成后请立刻<code>再次点击</code>以关闭
-</summary>
-<blockquote><p>关于香菜子和薮的告白，何时才是追逐战的终点<br>怕是要等香菜子真的做好那个心理准备，明白薮早就已经不是那个需要自己细心呵护小心保护的小妹妹了……才行吧。<br>即便香菜子很清楚自己对薮的感情，但她恐怕不敢面对，也没有足够的勇气把这份感情表露出来。<br>香菜子不像另外两位姐妹那样，那么坦然的面对自己。香菜子是有点……不只是有点，她是将自己的感情和真心藏起来的那种人。正因为她是那种凡事都面面俱到，尽在掌握的那种人，所以当她面对这样一份她自己控制不了，无法掌控的感情，一个让她应付不过来的薮的时候，她是无措的。香菜子会下意识的想要躲开，逃掉。把这份不可控，掩藏起来，躲开她。<br>毕竟一个一直表现的是个需要被保护，需要被爱护，需要被细心呵护的幼苗，有一天你突然发现她已经长成一棵大树了，她可以为你乘凉了。这种时候，会很惊喜，脑中会一片空白的。香菜子就是这种感觉。<br>自己小心翼翼守护的“幼苗”长大了。<br>香菜子一直有好好的观察身边的人，所以她是知道薮本身是个很坚强，很有自己主见，比起同龄人要稍显成熟的女孩子。薮有她幼稚、孩子气的地方，但这不影响她是个很独立、成熟的孩子。<br>香菜子一直看着她的，涩谷家三姐妹都一直看在眼里的。薮是个怎么样的孩子她们都很清楚，薮是她们的小妹妹。<br>但也正因为非常清楚，这样宛如家人一般的关系持续了太久。久得从薮有记忆开始便一直如此。<br>所以，香菜子也有说……在心里告诫自己，薮是妹妹，是比音羽还小的妹妹，是家人。自己对她的爱，爱护，呵护，保护，所做的一切……都是因为她是“我们”的小妹妹。<br>或许这样的心情……<br>香菜子给自己这样的心理暗示太久了，久得有点让她也感觉自己不应该去喜欢上她。<br>香菜子可能会怀疑自己对薮的心情到底算是什么？<br>她们的关系很复杂，宛如家人一般，又像是朋友，守护者与被守护的关系，她们是彼此那份不易察觉的孤独的慰籍。<br>有点复杂，却又非常简单。<br>在面对这样一个已经长大了的薮的时候，香菜子会无措其实还有一个原因。香菜子会下意识地想到“薮可能不需要我了”。<br>两个人的关系中，香菜子是长期扮演一个“守护者”的角色的。就好比是父母某天突然发现孩子懂事了，既高兴又有点寂寞的复杂感情。<br>香菜子会更多一层。因为她们俩并非血缘上的联系，她们俩本就是风中飘落的花瓣偶然间落在了一起，很轻地靠在一起的那种感觉。情感上来说，两个人并不会有特别多的交流。<br>香菜子不是个会主动透露自己的感情的人，薮会怕给人添麻烦而尽力掩藏。<br>两个人，一个是不表露，一个是怕添麻烦，都是往后缩不主动的类型。<br>薮就算后面妈妈们陪伴自己了，曾经的经历让她会在意这些别人不会在意但是她自身非常介意的，会去小心翼翼对待的细节。<br>薮在冲上去，狂轰滥炸地向香菜子告白的时候，其实也是会害怕给香菜子添麻烦的。但是她坚信香菜子是在意自己的，在乎自己的。<br>薮在两个人的关系当中一直是一个“被保护”的角色。虽然看似两个人的关系是香菜子主动，但其实一直是薮在主导。香菜子所做的这些事情都是以薮为出发点的，而并非她自身的愿望。或者说自身的愿望并非占大头，占大头的是那份需要帮助需要帮助的人的冲动。薮身上有让她共鸣，感同身受的点，所以她更加迫切的希望帮助她。<br>就有点类似……可堇那种……可可知道堇宠自己，也知道堇惯着自己，知道堇对自己的感情，所以有些有恃无恐的游刃有余。<br>薮对香菜子就差不多是这样的感觉。<br>可以理解为是……成年之后，两个人的位置调换了。<br>小时候是薮看不透香菜子，因为看不懂而本能的有点害怕她。<br>成年后的香菜子看不透薮，却被薮彻底撕破了笑容面具，给看透了。<br>薮能读懂香菜子掩藏在笑容背后真正的感情，察觉到细微的情感流露。<br>某种意义上，把千音和可堇的经历都给复刻了一遍。<br>感觉香菜子真的会用 you are my soul 来告白。<br>很肉麻，但是她们之间真的不需要那么热烈的告白。她们更接近于灵魂伴侣<br>你是我的灵魂，你是我的薮。<br>含蓄，却又热烈。</p>
-<footer><strong>空 黎天</strong><cite>关于 Kanako 与 Sou 之间的恋爱追逐战，以及相关推测</cite></footer></blockquote>
-<blockquote><p><del>我觉得我们这里也算是<code>可香</code>结社: 可堇的小公主与千香的小恶魔最终走到了一起, 这难道不是更好的<code>可香</code>吗? <code>手动滑稽</code></del></p>
-<footer><strong>凪坤</strong></footer></blockquote>
-</details>
-]]></content>
-      <tags>
-        <tag>Kanako (涩谷 香菜子)</tag>
-        <tag>Liella! Generation II, Liella!第二世代</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>「归档】 涩谷 千穗理</title>
     <url>/2021/11/06/archives/chihori/01/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>涩谷香音与岚千砂都家的长女。</p>
@@ -960,6 +812,154 @@ f(x) = \frac{\alpha_0}2 + \sum_{k=1}^{\infty} ({\alpha}_k \cos{kx} + {\beta}_k \
 ]]></content>
       <tags>
         <tag>Otoha (涩谷 音羽)</tag>
+        <tag>Liella! Generation II, Liella!第二世代</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>「归档】 涩谷 香菜子</title>
+    <url>/2021/11/06/archives/kanako/01/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>涩谷香音与岚千砂都家的女儿之一。</p>
+<span id="more"></span>
+<h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:right"></th>
+<th style="text-align:left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right"><ruby>中文姓名<rt>Name <code>in Chinese</code></rt></ruby></td>
+<td style="text-align:left">涩谷 香菜子</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>日文姓名<rt>Name <code>in Japanese</code></rt></ruby></td>
+<td style="text-align:left"><ruby>涩谷<rt>しぶや</rt></ruby> かなこ</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>罗马字音<rt>Name <code>in Roman</code></rt></ruby></td>
+<td style="text-align:left">Shibuya Kanako</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>出生地点<rt>Birthplace</rt></ruby></td>
+<td style="text-align:left">东京涩谷区</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>昵称<rt>Nickname</rt></ruby></td>
+<td style="text-align:left"><ruby>香菜姐<rt>かなね</rt></ruby></td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>学校<rt>Current College</rt></ruby></td>
+<td style="text-align:left"><code>??</code></td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>年级<rt>Grade</rt></ruby></td>
+<td style="text-align:left"><code>??</code></td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>身高<rt>Height</rt></ruby></td>
+<td style="text-align:left"><code>(24周岁)</code>153cm</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>体重<rt>Weight</rt></ruby></td>
+<td style="text-align:left"><code>(24周岁)</code>47.5kg</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>生日<rt>Birth</rt></ruby></td>
+<td style="text-align:left">5月22日</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>星座<rt>Constellation</rt></ruby></td>
+<td style="text-align:left">双子座</td>
+</tr>
+</tbody>
+</table>
+</div>
+<ul>
+<li><code>5月22日</code>的<ruby>诞生花<rt>Birth Flower</rt></ruby>为<code><ruby>倒挂金钟<rt>Ear Drops</rt></ruby></code>，其花语为<code>热烈之心</code></li>
+<li><code>5月</code>的<ruby>诞生石<rt>Birthstone</rt></ruby>为<code><ruby>翡翠(祖母绿)<rt>Emerald</rt></ruby></code>，象征幸福之石</li>
+</ul>
+<h2 id="Other-Biological-Features"><a href="#Other-Biological-Features" class="headerlink" title="Other Biological Features"></a>Other Biological Features</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:right"></th>
+<th style="text-align:left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right"><ruby>血型<rt>Blood Group</rt></ruby></td>
+<td style="text-align:left">A</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>发色<rt>Hair Color</rt></ruby></td>
+<td style="text-align:left">橙黄</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>瞳色<rt>Eye Color</rt></ruby></td>
+<td style="text-align:left">紫</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>音色<rt>Timbre</rt></ruby></td>
+<td style="text-align:left"><del><code>CV.早见沙织/龟仙人</code><span class="hidiv">并已在网易立项委托稔制作VOCALOID3声库</span></del> 参考 蝴蝶忍</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>惯用手<rt>Dominant Hand</rt></ruby></td>
+<td style="text-align:left">惯用右手</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>视力<rt></rt></ruby></td>
+<td style="text-align:left">正常</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><em>本部分记录截止时间为主人公<code>24周岁</code>，下同。</em></p>
+<ul>
+<li>手术史: 无</li>
+<li>特殊病史: 无</li>
+<li>疤痕: 无</li>
+</ul>
+<h2 id="Experiences"><a href="#Experiences" class="headerlink" title="Experiences"></a>Experiences</h2><ul>
+<li>早期精神体验: 幼时带着 Chihori 一起迷路让 Chisato 因为担心哭了出来，从此以后尽可能做成一个乖孩子，不想再看到妈妈们伤心，成为了<strong>笑面恶魔</strong>（）</li>
+<li>获奖经历: 高中、大学阶段每学期获评得到了尽可能多的奖学金</li>
+<li>恋爱经历: 高中时期被很多人表白，但都中途被其他二姐妹截胡了，唯一正面表白的 Sou 也被以年纪太小为由拒绝（虽然最后还是在追逐战败下阵来，有情人终成眷属www）</li>
+</ul>
+<h2 id="Personal-Tendencies"><a href="#Personal-Tendencies" class="headerlink" title="Personal Tendencies"></a>Personal Tendencies</h2><ul>
+<li><p>尊敬着妈妈们与 Ren 老师，小时候 <del>(可能因 Sou 的问题而?)</del> 对 Keke 与 Sumire 两位阿姨抱有怨念直到长大后理解她们的难处之时</p>
+</li>
+<li><p>觉得家人们可爱又吵闹，有点烦人，不靠谱但却充满安全感。综合来看本人抱有十分恋家的情感</p>
+</li>
+<li><p>大学学习<code><ruby>人力资源<rt>Human Resources</rt></ruby>管理</code>专业，毕业后就职于某<ruby>猎头公司<rt>高级管理人员代理招募机构</rt></ruby></p>
+</li>
+<li><p>或许与专业或职业相关， Kanako <del><code>精通语言艺术</code></del> 且<code>情商很高</code>，穿着风格上日常以暖色系浅色系可爱风为主、职业装会扎马尾而非丸子头</p>
+</li>
+<li><p>梦想着平静的生活 <del><span class="hidiv">吉良·香菜子·吉影?</span></del> ，希望家人与朋友开心幸福，在这方面没有太多考虑世界上的其他人，</p>
+</li>
+<li><p><strong><em><ruby>平安名<rt>Heanna</rt></ruby><ruby>薮<rt>Sou</rt></ruby>单推人</em></strong></p>
+</li>
+</ul>
+<h2 id="Extra"><a href="#Extra" class="headerlink" title="Extra"></a>Extra</h2><ul>
+<li>人物形象设计: <code>一卡桑</code></li>
+</ul>
+<h3 id="More-Info"><a href="#More-Info" class="headerlink" title="More Info"></a>More Info</h3><details>
+<summary>
+以下内容的查看具有权限限制，需求权限等级为<code>sudo (最高权限)</code>
+<br>
+确认<strong>环境安全</strong>后请<code>点击此处</code>进行查看等操作
+<br>
+操作完成后请立刻<code>再次点击</code>以关闭
+</summary>
+<blockquote><p>关于香菜子和薮的告白，何时才是追逐战的终点<br>怕是要等香菜子真的做好那个心理准备，明白薮早就已经不是那个需要自己细心呵护小心保护的小妹妹了……才行吧。<br>即便香菜子很清楚自己对薮的感情，但她恐怕不敢面对，也没有足够的勇气把这份感情表露出来。<br>香菜子不像另外两位姐妹那样，那么坦然的面对自己。香菜子是有点……不只是有点，她是将自己的感情和真心藏起来的那种人。正因为她是那种凡事都面面俱到，尽在掌握的那种人，所以当她面对这样一份她自己控制不了，无法掌控的感情，一个让她应付不过来的薮的时候，她是无措的。香菜子会下意识的想要躲开，逃掉。把这份不可控，掩藏起来，躲开她。<br>毕竟一个一直表现的是个需要被保护，需要被爱护，需要被细心呵护的幼苗，有一天你突然发现她已经长成一棵大树了，她可以为你乘凉了。这种时候，会很惊喜，脑中会一片空白的。香菜子就是这种感觉。<br>自己小心翼翼守护的“幼苗”长大了。<br>香菜子一直有好好的观察身边的人，所以她是知道薮本身是个很坚强，很有自己主见，比起同龄人要稍显成熟的女孩子。薮有她幼稚、孩子气的地方，但这不影响她是个很独立、成熟的孩子。<br>香菜子一直看着她的，涩谷家三姐妹都一直看在眼里的。薮是个怎么样的孩子她们都很清楚，薮是她们的小妹妹。<br>但也正因为非常清楚，这样宛如家人一般的关系持续了太久。久得从薮有记忆开始便一直如此。<br>所以，香菜子也有说……在心里告诫自己，薮是妹妹，是比音羽还小的妹妹，是家人。自己对她的爱，爱护，呵护，保护，所做的一切……都是因为她是“我们”的小妹妹。<br>或许这样的心情……<br>香菜子给自己这样的心理暗示太久了，久得有点让她也感觉自己不应该去喜欢上她。<br>香菜子可能会怀疑自己对薮的心情到底算是什么？<br>她们的关系很复杂，宛如家人一般，又像是朋友，守护者与被守护的关系，她们是彼此那份不易察觉的孤独的慰籍。<br>有点复杂，却又非常简单。<br>在面对这样一个已经长大了的薮的时候，香菜子会无措其实还有一个原因。香菜子会下意识地想到“薮可能不需要我了”。<br>两个人的关系中，香菜子是长期扮演一个“守护者”的角色的。就好比是父母某天突然发现孩子懂事了，既高兴又有点寂寞的复杂感情。<br>香菜子会更多一层。因为她们俩并非血缘上的联系，她们俩本就是风中飘落的花瓣偶然间落在了一起，很轻地靠在一起的那种感觉。情感上来说，两个人并不会有特别多的交流。<br>香菜子不是个会主动透露自己的感情的人，薮会怕给人添麻烦而尽力掩藏。<br>两个人，一个是不表露，一个是怕添麻烦，都是往后缩不主动的类型。<br>薮就算后面妈妈们陪伴自己了，曾经的经历让她会在意这些别人不会在意但是她自身非常介意的，会去小心翼翼对待的细节。<br>薮在冲上去，狂轰滥炸地向香菜子告白的时候，其实也是会害怕给香菜子添麻烦的。但是她坚信香菜子是在意自己的，在乎自己的。<br>薮在两个人的关系当中一直是一个“被保护”的角色。虽然看似两个人的关系是香菜子主动，但其实一直是薮在主导。香菜子所做的这些事情都是以薮为出发点的，而并非她自身的愿望。或者说自身的愿望并非占大头，占大头的是那份需要帮助需要帮助的人的冲动。薮身上有让她共鸣，感同身受的点，所以她更加迫切的希望帮助她。<br>就有点类似……可堇那种……可可知道堇宠自己，也知道堇惯着自己，知道堇对自己的感情，所以有些有恃无恐的游刃有余。<br>薮对香菜子就差不多是这样的感觉。<br>可以理解为是……成年之后，两个人的位置调换了。<br>小时候是薮看不透香菜子，因为看不懂而本能的有点害怕她。<br>成年后的香菜子看不透薮，却被薮彻底撕破了笑容面具，给看透了。<br>薮能读懂香菜子掩藏在笑容背后真正的感情，察觉到细微的情感流露。<br>某种意义上，把千音和可堇的经历都给复刻了一遍。<br>感觉香菜子真的会用 you are my soul 来告白。<br>很肉麻，但是她们之间真的不需要那么热烈的告白。她们更接近于灵魂伴侣<br>你是我的灵魂，你是我的薮。<br>含蓄，却又热烈。</p>
+<footer><strong>空 黎天</strong><cite>关于 Kanako 与 Sou 之间的恋爱追逐战，以及相关推测</cite></footer></blockquote>
+<blockquote><p><del>我觉得我们这里也算是<code>可香</code>结社: 可堇的小公主与千香的小恶魔最终走到了一起, 这难道不是更好的<code>可香</code>吗? <code>手动滑稽</code></del></p>
+<footer><strong>凪坤</strong></footer></blockquote>
+</details>
+]]></content>
+      <tags>
+        <tag>Kanako (涩谷 香菜子)</tag>
         <tag>Liella! Generation II, Liella!第二世代</tag>
       </tags>
   </entry>
