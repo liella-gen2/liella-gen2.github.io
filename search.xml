@@ -1,174 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>「pixiv】 青空 葵 老師的Liella!相關作品臨時搬運 #01</title>
-    <url>/2021/11/03/aozora-aoi-01/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><div class="table-container">
-<table>
-<thead>
-<tr>
-<th>author</th>
-<th>Pixiv Artwork ID</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>青空 葵</td>
-<td><a href="https://www.pixiv.net/artworks/93872998/"><code>93872998</code></a></td>
-</tr>
-</tbody>
-</table>
-</div>
-<blockquote>
-<p><a href="https://www.pixiv.net/" title="插畫交流網站 pixiv"><strong><em>pixiv</em></strong></a> 上 <a href="https://www.pixiv.net/users/23006893/" title="pixiv畫師 青空 葵 (id=23006893)"><strong><em>青空 葵</em></strong></a> 老師昨天晚上更新了一個 <a href="https://zh.moegirl.org.cn/Liella!" title="萌娘百科詞條 Liella!"><strong><em>Liella!</em></strong></a> 相關作品的合集，裏面有一共5p <del>，其中的<a href="https://www.pixiv.net/artworks/93872998/#3">p2</a>似乎是新出的呢</del> 看錯了的説，後來才發現原來人家之前早就出了</p>
-</blockquote>
-<span id="more"></span>
-<h2 id="Artworks"><a href="#Artworks" class="headerlink" title="Artworks"></a>Artworks</h2><ul>
-<li><p>【イラスト集 委託中です🌟】</p>
-<ol>
-<li><p><a href="https://www.pixiv.net/artworks/93872998/#1"><code>p0</code></a><br><img src="/2021/11/03/aozora-aoi-01/93872998_p0.jpeg" alt></p>
-</li>
-<li><p><a href="https://www.pixiv.net/artworks/93872998/#2"><code>p1</code></a><br><img src="/2021/11/03/aozora-aoi-01/93872998_p1.jpeg" alt></p>
-</li>
-<li><p><a href="https://www.pixiv.net/artworks/93872998/#3"><code>p2</code></a><br><img src="/2021/11/03/aozora-aoi-01/93872998_p2.jpeg" alt></p>
-</li>
-<li><p><a href="https://www.pixiv.net/artworks/93872998/#4"><code>p3</code></a><br><img src="/2021/11/03/aozora-aoi-01/93872998_p3.jpeg" alt></p>
-</li>
-<li><p><a href="https://www.pixiv.net/artworks/93872998/#5"><code>p4</code></a><br><img src="/2021/11/03/aozora-aoi-01/93872998_p4.jpeg" alt></p>
-</li>
-</ol>
-<ul>
-<li><p><a href="https://www.pixiv.net/artworks/93872998/">artwork<code>93872998</code></a>中的留言</p>
-<blockquote><p><a href="https://www.melonbooks.co.jp/detail/detail.php?product_id=1107298">https://www.melonbooks.co.jp/detail/detail.php?product_id=1107298</a><br>↑メロンブックスリンク</p>
-<p>久しぶりに宣伝を失礼致します✨</p>
-<p>現在『スーパースター!!イラスト集』を<br>第3巻までメロンブックスさんにお取り扱い頂いております。<br>(描き下ろしイラストも数点収録🎉)</p>
-<p>売り切れていた第1巻も<br>少しだけ復活していますのでこの機会に🌟</p>
-<footer><strong>-</strong><cite><a href="https://www.pixiv.net/artworks/93872998/">青空 葵</a></cite></footer></blockquote>
-</li>
-</ul>
-</li>
-</ul>
-<h2 id="Extra"><a href="#Extra" class="headerlink" title="Extra"></a>Extra</h2><p>感謝 <a href="https://www.pixiv.net/users/23006893/" title="pixiv畫師 青空 葵 (id=23006893)"><strong><em>青空 葵</em></strong></a> 老師沒有對轉載進行限制<code>XD</code><br>雖然來遲了但今天又是吹爆葵老師的一天呢~</p>
-]]></content>
-      <tags>
-        <tag>Liella! on pixiv</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Highlight!</title>
-    <url>/2021/10/24/code-highlight/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>To make sure that all the code blocks highlighted correctly. All the code samples are come from the demo of <a href="https://highlightjs.org/">https://highlightjs.org/</a> …</p>
-<figure class="highlight plaintext"><figcaption><span>Sharing the World</span></figcaption><table><tr><td class="code"><pre><span class="line">Sharing our World</span><br><span class="line">Sharing our World</span><br><span class="line">I can see this future is right now</span><br><span class="line">Cause my voice is always going around</span><br></pre></td></tr></table></figure>
-<span id="more"></span>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#x27;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span><br></pre></td></tr></table></figure>
-<figure class="highlight rust"><table><tr><td class="code"><pre><span class="line"><span class="meta">#[derive(Debug)]</span></span><br><span class="line"><span class="keyword">pub</span> <span class="class"><span class="keyword">enum</span> <span class="title">State</span></span> &#123;</span><br><span class="line">    Start,</span><br><span class="line">    Transient,</span><br><span class="line">    Closed,</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">impl</span> <span class="built_in">From</span>&lt;&amp;<span class="symbol">&#x27;a</span> <span class="built_in">str</span>&gt; <span class="keyword">for</span> State &#123;</span><br><span class="line">    <span class="function"><span class="keyword">fn</span> <span class="title">from</span></span>(s: &amp;<span class="symbol">&#x27;a</span> <span class="built_in">str</span>) -&gt; <span class="keyword">Self</span> &#123;</span><br><span class="line">        <span class="keyword">match</span> s &#123;</span><br><span class="line">            <span class="string">&quot;start&quot;</span> =&gt; State::Start,</span><br><span class="line">            <span class="string">&quot;closed&quot;</span> =&gt; State::Closed,</span><br><span class="line">            _ =&gt; <span class="built_in">unreachable!</span>(),</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">[</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="attr">&quot;title&quot;</span>: <span class="string">&quot;apples&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;count&quot;</span>: [<span class="number">12000</span>, <span class="number">20000</span>],</span><br><span class="line">    <span class="attr">&quot;description&quot;</span>: &#123;<span class="attr">&quot;text&quot;</span>: <span class="string">&quot;...&quot;</span>, <span class="attr">&quot;sensitive&quot;</span>: <span class="literal">false</span>&#125;</span><br><span class="line">  &#125;,</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="attr">&quot;title&quot;</span>: <span class="string">&quot;oranges&quot;</span>,</span><br><span class="line">    <span class="attr">&quot;count&quot;</span>: [<span class="number">17500</span>, <span class="literal">null</span>],</span><br><span class="line">    <span class="attr">&quot;description&quot;</span>: &#123;<span class="attr">&quot;text&quot;</span>: <span class="string">&quot;...&quot;</span>, <span class="attr">&quot;sensitive&quot;</span>: <span class="literal">false</span>&#125;</span><br><span class="line">  &#125;</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">@requires_authorization</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">somefunc</span>(<span class="params">param1=<span class="string">&#x27;&#x27;</span>, param2=<span class="number">0</span></span>):</span></span><br><span class="line">    <span class="string">r&#x27;&#x27;&#x27;A docstring&#x27;&#x27;&#x27;</span></span><br><span class="line">    <span class="keyword">if</span> param1 &gt; param2: <span class="comment"># interesting</span></span><br><span class="line">        <span class="built_in">print</span> <span class="string">&#x27;Gre\&#x27;ater&#x27;</span></span><br><span class="line">    <span class="keyword">return</span> (param2 - param1 + <span class="number">1</span> + <span class="number">0b10l</span>) <span class="keyword">or</span> <span class="literal">None</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">SomeClass</span>:</span></span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>message = <span class="string">&#x27;&#x27;&#x27;interpreter</span></span><br><span class="line"><span class="string"><span class="meta">... </span>prompt&#x27;&#x27;&#x27;</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">title</span>&gt;</span>Title<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="css"><span class="selector-tag">body</span> &#123;<span class="attribute">width</span>: <span class="number">500px</span>;&#125;</span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;application/javascript&quot;</span>&gt;</span><span class="javascript"></span></span><br><span class="line"><span class="javascript">  <span class="function"><span class="keyword">function</span> <span class="title">$init</span>(<span class="params"></span>) </span>&#123;<span class="keyword">return</span> <span class="literal">true</span>;&#125;</span></span><br><span class="line"><span class="javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">p</span> <span class="attr">checked</span> <span class="attr">class</span>=<span class="string">&quot;title&quot;</span> <span class="attr">id</span>=<span class="string">&#x27;title&#x27;</span>&gt;</span>Title<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">  <span class="comment">&lt;!-- here goes the rest of the page --&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">$initHighlight</span>(<span class="params">block, cls</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">try</span> &#123;</span><br><span class="line">    <span class="keyword">if</span> (cls.search(<span class="regexp">/\bno\-highlight\b/</span>) != -<span class="number">1</span>)</span><br><span class="line">      <span class="keyword">return</span> process(block, <span class="literal">true</span>, <span class="number">0x0F</span>) +</span><br><span class="line">             <span class="string">` class=&quot;<span class="subst">$&#123;cls&#125;</span>&quot;`</span>;</span><br><span class="line">  &#125; <span class="keyword">catch</span> (e) &#123;</span><br><span class="line">    <span class="comment">/* handle exception */</span></span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span> / <span class="number">2</span>; i &lt; classes.length; i++) &#123;</span><br><span class="line">    <span class="keyword">if</span> (checkCondition(classes[i]) === <span class="literal">undefined</span>)</span><br><span class="line">      <span class="built_in">console</span>.log(<span class="string">&#x27;undefined&#x27;</span>);</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">return</span> (</span><br><span class="line">    <span class="xml"><span class="tag">&lt;<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="xml">      <span class="tag">&lt;<span class="name">web-component</span>&gt;</span>&#123;block&#125;<span class="tag">&lt;/<span class="name">web-component</span>&gt;</span></span></span><br><span class="line"><span class="xml">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line">  )</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">export</span> $initHighlight;</span><br></pre></td></tr></table></figure>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">int</span> argc, <span class="keyword">char</span> *argv[])</span> </span>&#123;</span><br><span class="line">  <span class="comment">/* An annoying &quot;Hello World&quot; example */</span></span><br><span class="line">  <span class="keyword">for</span> (<span class="keyword">auto</span> i = <span class="number">0</span>; i &lt; <span class="number">0xFFFF</span>; i++)</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;Hello, World!&quot;</span> &lt;&lt; endl;</span><br><span class="line">  <span class="keyword">char</span> c = <span class="string">&#x27;\n&#x27;</span>;</span><br><span class="line">  unordered_map &lt;string, vector&lt;string&gt; &gt; m;</span><br><span class="line">  m[<span class="string">&quot;key&quot;</span>] = <span class="string">&quot;\\\\&quot;</span>; <span class="comment">// this is an error</span></span><br><span class="line">  <span class="keyword">return</span> <span class="number">-2e3</span> + <span class="number">12l</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> &quot;topic&quot; (</span><br><span class="line">    &quot;id&quot; serial <span class="keyword">NOT</span> <span class="keyword">NULL</span> <span class="keyword">PRIMARY</span> KEY,</span><br><span class="line">    &quot;forum_id&quot; <span class="type">integer</span> <span class="keyword">NOT</span> <span class="keyword">NULL</span>,</span><br><span class="line">    &quot;subject&quot; <span class="type">varchar</span>(<span class="number">255</span>) <span class="keyword">NOT</span> <span class="keyword">NULL</span></span><br><span class="line">);</span><br><span class="line"><span class="keyword">ALTER</span> <span class="keyword">TABLE</span> &quot;topic&quot;</span><br><span class="line"><span class="keyword">ADD</span> <span class="keyword">CONSTRAINT</span> forum_id <span class="keyword">FOREIGN</span> KEY (&quot;forum_id&quot;)</span><br><span class="line"><span class="keyword">REFERENCES</span> &quot;forum&quot; (&quot;id&quot;);</span><br><span class="line"><span class="comment">-- Initials</span></span><br><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> &quot;topic&quot; (&quot;forum_id&quot;, &quot;subject&quot;)</span><br><span class="line"><span class="keyword">values</span> (<span class="number">2</span>, <span class="string">&#x27;D&#x27;&#x27;artagnian&#x27;</span>);</span><br></pre></td></tr></table></figure>
-<figure class="highlight objectivec"><table><tr><td class="code"><pre><span class="line"><span class="meta">#import <span class="meta-string">&lt;UIKit/UIKit.h&gt;</span></span></span><br><span class="line"><span class="meta">#import <span class="meta-string">&quot;Dependency.h&quot;</span></span></span><br><span class="line"><span class="class"><span class="keyword">@protocol</span> <span class="title">WorldDataSource</span></span></span><br><span class="line"><span class="keyword">@optional</span></span><br><span class="line">- (<span class="built_in">NSString</span>*)worldName;</span><br><span class="line"><span class="keyword">@required</span></span><br><span class="line">- (<span class="built_in">BOOL</span>)allowsToLive;</span><br><span class="line"><span class="keyword">@end</span></span><br><span class="line"><span class="keyword">@property</span> (<span class="keyword">nonatomic</span>, <span class="keyword">readonly</span>) <span class="built_in">NSString</span> *title;</span><br><span class="line">- (<span class="keyword">IBAction</span>) show;</span><br><span class="line"><span class="keyword">@end</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span> John Smith &lt;john.smith@example.com&gt;</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="keyword">package</span> l2f.gameserver.model;</span><br><span class="line"><span class="keyword">public</span> <span class="keyword">abstract</span> <span class="class"><span class="keyword">class</span> <span class="title">L2Char</span> <span class="keyword">extends</span> <span class="title">L2Object</span> </span>&#123;</span><br><span class="line">  <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> Short ERROR = <span class="number">0x0001</span>;</span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">moveTo</span><span class="params">(<span class="keyword">int</span> x, <span class="keyword">int</span> y, <span class="keyword">int</span> z)</span> </span>&#123;</span><br><span class="line">    _ai = <span class="keyword">null</span>;</span><br><span class="line">    log(<span class="string">&quot;Should not be called&quot;</span>);</span><br><span class="line">    <span class="keyword">if</span> (<span class="number">1</span> &gt; <span class="number">5</span>) &#123; <span class="comment">// wtf!?</span></span><br><span class="line">      <span class="keyword">return</span>;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> Foundation</span><br><span class="line"><span class="keyword">@objc</span> <span class="class"><span class="keyword">class</span> <span class="title">Person</span>: <span class="title">Entity</span> </span>&#123;</span><br><span class="line">  <span class="keyword">var</span> name: <span class="type">String</span>!</span><br><span class="line">  <span class="keyword">var</span> age:  <span class="type">Int</span>!</span><br><span class="line">  <span class="function"><span class="keyword">init</span>(<span class="params">name</span>: <span class="type">String</span>, <span class="params">age</span>: <span class="type">Int</span>)</span> &#123;</span><br><span class="line">    <span class="comment">/* <span class="comment">/* ... */</span> */</span></span><br><span class="line">  &#125;</span><br><span class="line">  <span class="comment">// Return a descriptive string for this person</span></span><br><span class="line">  <span class="function"><span class="keyword">func</span> <span class="title">description</span>(<span class="params">offset</span>: <span class="type">Int</span> <span class="operator">=</span> <span class="number">0</span>)</span> -&gt; <span class="type">String</span> &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="string">&quot;<span class="subst">\(name)</span> is <span class="subst">\(age <span class="operator">+</span> offset)</span> years old&quot;</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="keyword">@font-face</span> &#123;</span><br><span class="line">  <span class="attribute">font-family</span>: Chunkfive; <span class="attribute">src</span>: <span class="built_in">url</span>(<span class="string">&#x27;Chunkfive.otf&#x27;</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-tag">body</span>, <span class="selector-class">.usertext</span> &#123;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#F0F0F0</span>; <span class="attribute">background</span>: <span class="number">#600</span>;</span><br><span class="line">  <span class="attribute">font-family</span>: Chunkfive, sans;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">@import</span> url(print.css);</span><br><span class="line"><span class="keyword">@media</span> print &#123;</span><br><span class="line">  <span class="selector-tag">a</span><span class="selector-attr">[href^=http]</span><span class="selector-pseudo">::after</span> &#123;</span><br><span class="line">    <span class="attribute">content</span>: <span class="built_in">attr</span>(href)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight ruby"><table><tr><td class="code"><pre><span class="line"><span class="comment"># The Greeter class</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Greeter</span></span></span><br><span class="line">  <span class="function"><span class="keyword">def</span> <span class="title">initialize</span><span class="params">(name)</span></span></span><br><span class="line">    <span class="variable">@name</span> = name.capitalize</span><br><span class="line">  <span class="keyword">end</span></span><br><span class="line">  <span class="function"><span class="keyword">def</span> <span class="title">salute</span></span></span><br><span class="line">    puts <span class="string">&quot;Hello <span class="subst">#&#123;<span class="variable">@name</span>&#125;</span>!&quot;</span></span><br><span class="line">  <span class="keyword">end</span></span><br><span class="line"><span class="keyword">end</span></span><br><span class="line">g = Greeter.new(<span class="string">&quot;world&quot;</span>)</span><br><span class="line">g.salute</span><br></pre></td></tr></table></figure>
-<figure class="highlight makefile"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Makefile</span></span><br><span class="line">BUILDDIR      = _build</span><br><span class="line">EXTRAS       ?= <span class="variable">$(BUILDDIR)</span>/extras</span><br><span class="line"><span class="meta"><span class="meta-keyword">.PHONY</span>: main clean</span></span><br><span class="line"><span class="section">main:</span></span><br><span class="line">	@echo <span class="string">&quot;Building main facility...&quot;</span></span><br><span class="line">	build_main <span class="variable">$(BUILDDIR)</span></span><br><span class="line"><span class="section">clean:</span></span><br><span class="line">	rm -rf <span class="variable">$(BUILDDIR)</span>/*</span><br></pre></td></tr></table></figure>
-<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"><span class="keyword">import</span> <span class="string">&quot;fmt&quot;</span></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">    ch := <span class="built_in">make</span>(<span class="keyword">chan</span> <span class="keyword">float64</span>)</span><br><span class="line">    ch &lt;- <span class="number">1.0e10</span>    <span class="comment">// magic number</span></span><br><span class="line">    x, ok := &lt;- ch</span><br><span class="line">    <span class="keyword">defer</span> fmt.Println(<span class="string">`exitting now\`</span>)</span><br><span class="line">    <span class="keyword">go</span> <span class="built_in">println</span>(<span class="built_in">len</span>(<span class="string">&quot;hello world!&quot;</span>))</span><br><span class="line">    <span class="keyword">return</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"><span class="comment">###### CONFIG</span></span><br><span class="line">ACCEPTED_HOSTS=<span class="string">&quot;/root/.hag_accepted.conf&quot;</span></span><br><span class="line">BE_VERBOSE=<span class="literal">false</span></span><br><span class="line"><span class="keyword">if</span> [ <span class="string">&quot;<span class="variable">$UID</span>&quot;</span> -ne 0 ]</span><br><span class="line"><span class="keyword">then</span></span><br><span class="line">  <span class="built_in">echo</span> <span class="string">&quot;Superuser rights required&quot;</span></span><br><span class="line">  <span class="built_in">exit</span> 2</span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="function"><span class="title">genApacheConf</span></span>()&#123;</span><br><span class="line">  <span class="built_in">echo</span> -e <span class="string">&quot;# Host <span class="variable">$&#123;HOME_DIR&#125;</span><span class="variable">$1</span>/<span class="variable">$2</span> :&quot;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight ini"><table><tr><td class="code"><pre><span class="line"><span class="comment">; boilerplate</span></span><br><span class="line"><span class="section">[package]</span></span><br><span class="line"><span class="attr">name</span> = <span class="string">&quot;some_name&quot;</span></span><br><span class="line"><span class="attr">authors</span> = [<span class="string">&quot;Author&quot;</span>]</span><br><span class="line"><span class="attr">description</span> = <span class="string">&quot;This is \</span></span><br><span class="line"><span class="string">a description&quot;</span></span><br><span class="line"><span class="section">[[lib]]</span></span><br><span class="line"><span class="attr">name</span> = <span class="variable">$&#123;NAME&#125;</span></span><br><span class="line"><span class="attr">default</span> = <span class="literal">True</span></span><br><span class="line"><span class="attr">auto</span> = <span class="literal">no</span></span><br><span class="line"><span class="attr">counter</span> = <span class="number">1_000</span></span><br></pre></td></tr></table></figure>
-]]></content>
-      <tags>
-        <tag>測試Testing!</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>「Superstar】Eps#12插入曲 Starlight Prologue 曲推</title>
-    <url>/2021/11/01/comments-starprologue/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote><p>Looking for light<br>いま動き始めた僕らの物語<br>どんな奇跡だって 起こすのさ</p>
-<footer><strong><br></strong><cite><a href="https://zh.moegirl.org.cn/Starlight_Prologue">Liella - Starlight Prologue</a></cite></footer></blockquote>
-<p><img src="/2021/11/01/comments-starprologue/starprologue-moment.jpeg" alt="Cover of &quot;Starlight Prologue&quot;, from av336162034"></p>
-<p>(Cover Image from <a href="https://www.bilibili.com/video/av336162034/"><code>av336162034</code></a>)</p>
-<h2 id="Intro-簡介"><a href="#Intro-簡介" class="headerlink" title="Intro (簡介)"></a>Intro (簡介)</h2><p><a href="https://zh.moegirl.org.cn/Starlight_Prologue" title="萌娘百科詞條 Starlight Prologue"><strong><em>Starlight Prologue</em></strong></a> <sup><a href="#fn_1" id="reffn_1">1</a></sup> 是《<a href="https://zh.moegirl.org.cn/LoveLive!Superstar!!">LoveLive!Superstar!!</a>》电视动画第12囘的插曲，由 <a href="https://zh.moegirl.org.cn/Liella!" title="萌娘百科詞條 Liella!"><strong><em>Liella!</em></strong></a> <sup><a href="#fn_2" id="reffn_2">2</a></sup> 演唱，收录于动画第三张插入曲单曲《<a href="https://zh.moegirl.org.cn/Nonfiction!!_Starlight_Prologue">ノンフィクション!!/Starlight Prologue</a>》中。该单曲于2021年10月20日发售。</p>
-<span id="more"></span>
-<h2 id="Staff-製作組"><a href="#Staff-製作組" class="headerlink" title="Staff (製作組)"></a>Staff (製作組)</h2><ul>
-<li>Lyrics (作詞): 宮嶋 淳子</li>
-<li>Composition (作曲): 小幡 康裕</li>
-<li>Arrangement (編曲): 山下 洋介</li>
-<li>String Arrangement (管弦樂編曲): 兼松 眾</li>
-</ul>
-<h2 id="Miscellaneous-雜談"><a href="#Miscellaneous-雜談" class="headerlink" title="Miscellaneous (雜談)"></a>Miscellaneous (雜談)</h2><ol>
-<li><p>本曲目爲番劇第12囘的Insertion，因此人們在對本曲目進行評價的時候經常與第12囘《Song for All》聯係在一起。<br> 該囘目因其中出現大量元素與<a href="https://zh.moegirl.org.cn/LoveLive!">LoveLive!</a><a href="https://zh.moegirl.org.cn/LoveLive!/TV动画作品#TV动画第二期">第二季</a><a href="https://www.bilibili.com/bangumi/play/ep80125/">第九囘《心之Melody》</a>衝撞性雷同，而被觀衆認定爲是編劇<a href="https://zh.moegirl.org.cn/花田十辉">花田十煇</a>複刻前作的產物。<br> 對應地，人們也常常把這首 <a href="https://zh.moegirl.org.cn/Starlight_Prologue" title="萌娘百科詞條 Starlight Prologue"><strong><em>Starlight Prologue</em></strong></a> 拿來和那一囘的插入曲目 <a href="https://zh.moegirl.org.cn/Snow_halation"><em>Snow Halation</em></a> <sup><a href="#fn_3" id="reffn_3">3</a></sup> 進行比較。<br> 在此，筆者不對劇情及與過往劇情相似部分作多餘評價。</p>
-</li>
-<li><p>這是本曲目在專輯中的封面:<img src="/2021/11/01/comments-starprologue/cover-starprologue.jpeg" alt="Cover of the Album, Episode &quot;Starlight Prologue&quot;">封面的構圖與一單 <a href="https://zh.moegirl.org.cn/起始是你的天空"><strong><em>始まりは君の空</em></strong></a> <sup><a href="#fn_4" id="reffn_4">4</a></sup> <code>みんなで叶える物語盤(大家一起實現的故事盤)</code>封面的構圖完全一致;<img src="/2021/11/01/comments-starprologue/始まりは君の空A.jpeg" alt="Cover of the Album &quot;Hajimari wa kimi no sora&quot; (始まりは君の空), Episode &quot;みんなで叶える物語&quot;">不僅如此，其與專輯<a href="https://zh.moegirl.org.cn/Nonfiction!!_Starlight_Prologue">Nonfiction!!/Starlight Prologue</a>兩款當中另一個盤的封面(曲目 <a href="https://zh.moegirl.org.cn/Nonfiction!!"><strong><em>Nonfiction!!</em></strong></a> <sup><a href="#fn_5" id="reffn_5">5</a></sup>)相比，<a href="https://zh.moegirl.org.cn/平安名堇"><strong>堇</strong></a>和<a href="https://zh.moegirl.org.cn/涩谷香音"><strong>香音</strong></a>所作的動作亦十分相近，皆是向紙面外方向伸出左手…<img src="/2021/11/01/comments-starprologue/cover-nonfiction.jpeg" alt="Cover of the Album, Episode &quot;Nonfiction!!&quot;"></p>
-</li>
-<li><p><a href="https://zh.moegirl.org.cn/LoveLive!Superstar!!_Liella!_First_LoveLive!_Tour_~Starlines~" title="萌娘百科詞條 Liella! First LoveLive! Tour ~Starlines~">Liella! First LoveLive! Tour ~Starlines~</a><sup><a href="#fn_6" id="reffn_6">6</a></sup><a href="https://zh.moegirl.org.cn/LoveLive!Superstar!!_Liella!_First_LoveLive!_Tour_~Starlines~#群马公演" title="萌娘百科詞條 Liella! First LoveLive! Tour ~Starlines~ (群馬公演)">群馬公演</a>的兩天(<a href="https://zh.moegirl.org.cn/LoveLive!Superstar!!_Liella!_First_LoveLive!_Tour_~Starlines~#Day1（10.30）" title="萌娘百科詞條 Liella! First LoveLive! Tour ~Starlines~ (群馬公演, Day1)">Day1: Oct 30<sup>th</sup>, 2021</a> &amp; <a href="https://zh.moegirl.org.cn/LoveLive!Superstar!!_Liella!_First_LoveLive!_Tour_~Starlines~#Day2（10.31）" title="萌娘百科詞條 Liella! First LoveLive! Tour ~Starlines~ (群馬公演, Day2)">Day2: Oct 31<sup>st</sup>, 2021</a>)的節目單 <em><a href="https://zh.moegirl.org.cn/LoveLive!Superstar!!_Liella!_First_LoveLive!_Tour_~Starlines~#Day1（10.30）" title="萌娘百科詞條 Liella! First LoveLive! Tour ~Starlines~ (群馬公演, Day1)">完</a> <a href="https://zh.moegirl.org.cn/LoveLive!Superstar!!_Liella!_First_LoveLive!_Tour_~Starlines~#Day2（10.31）" title="萌娘百科詞條 Liella! First LoveLive! Tour ~Starlines~ (群馬公演, Day2)">全</a> <a href="https://zh.moegirl.org.cn/LoveLive!Superstar!!_Liella!_First_LoveLive!_Tour_~Starlines~#Day1（10.30）" title="萌娘百科詞條 Liella! First LoveLive! Tour ~Starlines~ (群馬公演, Day1)">一</a> <a href="https://zh.moegirl.org.cn/LoveLive!Superstar!!_Liella!_First_LoveLive!_Tour_~Starlines~#Day2（10.31）" title="萌娘百科詞條 Liella! First LoveLive! Tour ~Starlines~ (群馬公演, Day2)">致</a></em> ，兩次都在第18首，亦即Encore前的倒數第二首的位置上。</p>
-</li>
-<li><p>截至筆者編輯時間(2021年11月2日)，本曲目已在<a href="https://zh.moegirl.org.cn/LoveLive!Superstar!!_Liella!_First_LoveLive!_Tour_~Starlines~" title="萌娘百科詞條 Liella! First LoveLive! Tour ~Starlines~">Liella! First LoveLive! Tour ~Starlines~</a> <a href="https://zh.moegirl.org.cn/LoveLive!Superstar!!_Liella!_First_LoveLive!_Tour_~Starlines~#群马公演" title="萌娘百科詞條 Liella! First LoveLive! Tour ~Starlines~ (群馬公演)">群馬公演</a>的兩天(<a href="https://zh.moegirl.org.cn/LoveLive!Superstar!!_Liella!_First_LoveLive!_Tour_~Starlines~#Day1（10.30）" title="萌娘百科詞條 Liella! First LoveLive! Tour ~Starlines~ (群馬公演, Day1)">Day1: Oct 30<sup>th</sup>, 2021</a> &amp; <a href="https://zh.moegirl.org.cn/LoveLive!Superstar!!_Liella!_First_LoveLive!_Tour_~Starlines~#Day2（10.31）" title="萌娘百科詞條 Liella! First LoveLive! Tour ~Starlines~ (群馬公演, Day2)">Day2: Oct 31<sup>st</sup>, 2021</a>)各登場一次，在<a href="https://zh.moegirl.org.cn/LoveLive!Superstar!!_Liella!_First_LoveLive!_Tour_~Starlines~#Day2（10.31）" title="萌娘百科詞條 Liella! First LoveLive! Tour ~Starlines~ (群馬公演, Day2)">Day2</a>的<strong>live現場、以及諸多民間轉播的場合</strong>，臺下的觀衆們通過應援棒變色自行復現了番劇中地面裝飾燈釋放金色輝光的瞬間，效果及其震撼——<strong>這是大家一起實現的故事！</strong><br> 下面的視頻為一處轉播點的觀衆實現變色的實錄<br> (官方主場當然也有實現變色啦…場外就有大佬在講解與組織變色的計劃，但是導播沒有錄上<del>建議和花田十煇一起放飛<span class="hidiv">，建議讓提出此囘高强度巡演的策劃駝著他倆飛，這家夥才是真的罪大惡極</span></del>。)</p>
- <iframe src="//player.bilibili.com/player.html?aid=933946661&bvid=BV1sT4y1d7Qg&cid=434180384&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-
-</li>
-</ol>
-<h2 id="My-Personal-Opinion"><a href="#My-Personal-Opinion" class="headerlink" title="My Personal Opinion"></a>My Personal Opinion</h2><p>(筆者在此淺談自己對這首曲目的看法。)</p>
-<p>或許番劇劇情中有大量雷同、衝撞、致敬的成分，但與<em>Snow Halation</em>相比，<a href="https://zh.moegirl.org.cn/Starlight_Prologue" title="萌娘百科詞條 Starlight Prologue"><strong><em>Starlight Prologue</em></strong></a> 完全是背景、情感、風格、含義截然不同的另一首歌。<br>筆者在2015年入宅之時對<em>Snow Halation</em>有所耳聞，但當時并未深入研究，因此或許對於那支曲目并無太强的先入爲主之感。<br>在認真聽完兩首歌之後，在筆者個人看來，<em>Snow Halation</em>是<a href="https://zh.moegirl.org.cn/M&#39;s"><em>μ’s</em></a>成立已有較長時間，成員之間的羈絆趨於深厚，大家將自己的心願匯聚，共同化作的一首，大家共同完成的曲目，以此戰勝昔日的對手<a href="https://zh.moegirl.org.cn/A-RISE"><em>A-Rise</em></a>而挺進決賽。<br>但 <a href="https://zh.moegirl.org.cn/Starlight_Prologue" title="萌娘百科詞條 Starlight Prologue"><strong><em>Starlight Prologue</em></strong></a> 則是大家剛剛結成，準備出發的號角<span class="hidiv">(首 戰 敗 北)</span>，比起<em>Snow Halation</em>略帶悲傷的抒情<del>(在某些方面真的不輸通常意義上的情歌<span class="hidiv">，希：“計劃”通</span>)</del>，更多的是啓程時刻的希望與明亮之感。<br>如若真的要説這支曲目本身是在呼應誰的話，那麽筆者認爲應當是 <a href="https://zh.moegirl.org.cn/未来预报哈利路亚!"><strong><em>未来予報ハレルヤ！</em></strong></a> 。<br>正如歌詞中所説得一楊，如今， <a href="https://zh.moegirl.org.cn/Liella!" title="萌娘百科詞條 Liella!"><strong><em>Liella!</em></strong></a> 與<strong><em>喜歡Liella!的大家</em></strong>之間的故事才剛剛開始，到目前爲止，我們經厤著的有遺憾、有驚喜、也有滿足感，接下來，讓我們一起書寫下新的續篇。</p>
-<h2 id="From-Comments-評論區精選"><a href="#From-Comments-評論區精選" class="headerlink" title="From Comments (評論區精選)"></a>From Comments (評論區精選)</h2><p>(在此，請允許筆者引用<a href="https://www.bilibili.com/video/av336162034/#comment"><code>av336162034</code>評論區</a>中，筆者認爲非常值得的幾條，分享給大家)</p>
-<blockquote><p>开头每个人的solo都是在说自己和liella的故事啊！<br>可可:你我的相遇<br>香音:给予我莫大的勇气<br>堇:是你将我带到起跑线<br>千:但接下来就该轮到我了<br>恋:晴空万里的未来去创造吧！<br>我永远喜欢liella!</p>
-<footer><strong>av336162034評論區</strong><cite><a href="https://www.bilibili.com/video/av336162034/#reply5602500769">@是南边呀</a></cite></footer></blockquote>
-<blockquote><p>昨晚十二点半看完了最后一集…五味杂陈呀<br>目前（个人）认为曲调最好听的：私的幸福你≥wish song ≈ starlight≥未来预报<br>场面最震撼的：Tiny stars＝nonfiction ≥starlight<br>最有意义的：每一首歌</p>
-<footer><strong>av336162034評論區</strong><cite><a href="https://www.bilibili.com/video/av336162034/#reply5609277803">@葫闹</a></cite></footer></blockquote>
-<blockquote><p>随着12话的「Starlight Prologue」演出完成，星团的第一季圆满撒花，但真正的梦想不会止步于此的对吧？正如这集live的名字，星团在此刻唱响了星光般的「序曲」。每个人的信念，羁绊，成长，一点一点连结起来，转动着故事的齿轮，描绘着liella晴空万里的未来，想起最初看到朗读动画，看到第一集时对这次lovelive的期望与信心，如今我认为星团绝对做到了。尽管渺小，因为不是孤身一人，便能不放弃的向前，这样紧握着炽热信念的五人，追逐着同一个梦想，此般相遇如同是神赐予的吻。无论在哪一次元，liella的故事都刚刚翻开第一页，尽管会不安，犹豫，怀疑，但想要歌唱的心情将每一个团员心中怀抱的情感在五线谱上连结起来。而这个传递着热切希望的星团终会到达她们梦想中的彼方，school idol从第一话的无人问津到如今十二话登上梦中的舞台，她们最初的热爱便不再是虚构。<br>        感谢星团带给我的悸动，和永不言弃的决意<br>        撒，想要让歌声传达到宇的宙角落，那就在这片一切开始的天空迎接如风的未来，奏响梦想吧，liella！</p>
-<footer><strong>av336162034評論區</strong><cite><a href="https://www.bilibili.com/video/av336162034/#reply5601840114">@星环Starring</a></cite></footer></blockquote>
-<h2 id="Lyrics-歌詞"><a href="#Lyrics-歌詞" class="headerlink" title="Lyrics (歌詞)"></a>Lyrics (歌詞)</h2><figure class="highlight vocatag vocalyrics">
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="gutter">
-                            <pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br></pre>
-                        </td>
-                        <td class="code">
-                            <pre><span class="line">* 作詞: 宮嶋 淳子<br>* 作曲: 小幡 康裕<br>* 編曲: 山下 洋介<br>* 弦編曲: 兼松 衆<br><span class="base16colored-magenta"><br><span class="base16colored-orange">ちいさく瞬いた　胸の奥でまた<br>叶えにいこうよって憧れが騒ぐ</span><br><span class="base16colored-cyan">いそいで駆け出した　なんでもできるさ<br>出会いがくれた</span>大きな勇気<br><br><span class="base16colored-green">始まりは君から</span><br><span class="base16colored-red">でも次は僕から</span><br><span class="base16colored-blue">晴れわたる未来を創るよ</span><br>どこまでも走る<br><br>Looking for light<br>いま動き始めた僕らの物語<br><span class="base16colored-green">どんな奇跡だって</span><span class="base16colored-cyan">起こすのさ</span><br>キラキラ大空に舞い散る夢<br>かき集めてひとつひとつ<br>叶えてゆこう<br><br><span class="base16colored-blue">ぎゅっとね　結んでった僕らの願いは<br>思いもよらないカタチに変わってく</span><br><span class="base16colored-red">ときめきこぼれて　目と目あわせ笑った<br>どの瞬間も</span>宝物さ<br><br><span class="base16colored-green">振り返ればいつも</span><br><span class="base16colored-cyan">笑顔の君がいる</span><br><span class="base16colored-green">この時が続いて</span>ゆくように<br>もっと強くなる<br><br>Going the way<br>明日は何色に染まってゆくのだろう<br>果てしない希望があふれだす<br>キラキラ輝くセカイはきっと<br>まだ知らないはずむ鼓動<br>教えてくれる<br><br><span class="base16colored-red">信じる気持ちが揺らぐときは</span><br><span class="base16colored-blue">想いを歌にして伝えよう</span><br><span class="base16colored-green">涙は一番うれしい日に</span><br><span class="base16colored-cyan">とっておく</span>　そう決めたんだから<br><br><span class="base16colored-orange">Looking for light<br>いま動き始めた僕らの物語<br>どんな奇跡だって</span>起こすのさ<br>キラキラ大空に舞い散る夢<br>かき集めてひとつひとつ<br>叶えてゆこう<br><br><span class="base16colored-orange">君と煌めきを</span><br>描くよ　ずっと</span></span></pre>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </figure>
-<h2 id="Extra-額外項"><a href="#Extra-額外項" class="headerlink" title="Extra (額外項)"></a>Extra (額外項)</h2><p>筆者在此謹代表筆者個人，</p>
-<h3 id="預祝Liella-1stLive後面的公演順利進行！"><a href="#預祝Liella-1stLive後面的公演順利進行！" class="headerlink" title="預祝Liella!1stLive後面的公演順利進行！"></a>預祝<a href="https://zh.moegirl.org.cn/Liella!" title="萌娘百科詞條 Liella!"><strong><em>Liella!</em></strong></a><a href="https://zh.moegirl.org.cn/LoveLive!Superstar!!_Liella!_First_LoveLive!_Tour_~Starlines~" title="萌娘百科詞條 Liella! First LoveLive! Tour ~Starlines~"><code>1<sup>st</sup>Live</code></a>後面的公演順利進行！</h3><p><code>✿ヽ(°▽°)ノ✿</code></p>
-<h2 id="References-參考文獻"><a href="#References-參考文獻" class="headerlink" title="References (參考文獻)"></a>References (參考文獻)</h2><ol>
-<li>萌娘百科詞條 Starlight Prologue: <a href="https://zh.moegirl.org.cn/Starlight_Prologue">https://zh.moegirl.org.cn/Starlight_Prologue</a></li>
-<li>萌娘百科詞條 Nonfiction!!/Starlight Prologue: <a href="https://zh.moegirl.org.cn/Nonfiction!!_Starlight_Prologue">https://zh.moegirl.org.cn/Nonfiction!!_Starlight_Prologue</a></li>
-<li>「中字」Starlight Prologue（星光序言）-Liella!《LoveLive!Superstar!!》第12话插入歌 <a href="https://www.bilibili.com/video/av336162034/">av336162034</a> 2021-10-17</li>
-</ol>
-<blockquote id="fn_1">
-<sup>1</sup>. <a href="https://zh.moegirl.org.cn/Starlight_Prologue">萌娘百科詞條 Starlight Prologue</a><a href="#reffn_1" title="Jump back to footnote [1] in the text."> &#8617;</a>
-</blockquote>
-<blockquote id="fn_2">
-<sup>2</sup>. <a href="https://zh.moegirl.org.cn/Liella!">萌娘百科詞條 Liella!</a><a href="#reffn_2" title="Jump back to footnote [2] in the text."> &#8617;</a>
-</blockquote>
-<blockquote id="fn_3">
-<sup>3</sup>. <a href="https://zh.moegirl.org.cn/Snow_halation">萌娘百科詞條 Snow Halation</a><a href="#reffn_3" title="Jump back to footnote [3] in the text."> &#8617;</a>
-</blockquote>
-<blockquote id="fn_4">
-<sup>4</sup>. <a href="https://zh.moegirl.org.cn/起始是你的天空">萌娘百科詞條 始まりは君の空</a><a href="#reffn_4" title="Jump back to footnote [4] in the text."> &#8617;</a>
-</blockquote>
-<blockquote id="fn_5">
-<sup>5</sup>. <a href="https://zh.moegirl.org.cn/Nonfiction!!">萌娘百科詞條 Nonfiction!!</a><a href="#reffn_5" title="Jump back to footnote [5] in the text."> &#8617;</a>
-</blockquote>
-<blockquote id="fn_6">
-<sup>6</sup>. <a href="https://zh.moegirl.org.cn/LoveLive!Superstar!!_Liella!_First_LoveLive!_Tour_~Starlines~">萌娘百科詞條 Liella! First LoveLive! Tour ~Starlines~</a><a href="#reffn_6" title="Jump back to footnote [6] in the text."> &#8617;</a>
-</blockquote>
-<p>文字內容引用遵守《知識共享 署名-非商業性使用-相同方式共享 3.0》協議。</p>
-]]></content>
-      <tags>
-        <tag>吹爆!!</tag>
-        <tag>Kanon (涩谷 香音)</tag>
-        <tag>Kuku (唐 可可)</tag>
-        <tag>Chisato (岚 千砂都)</tag>
-        <tag>Sumire (平安名 堇)</tag>
-        <tag>Ren (叶月 恋)</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>敬啓，世界。</title>
     <url>/2021/10/12/holax-sekai/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="Intro"><a href="#Intro" class="headerlink" title="Intro"></a>Intro</h1><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -236,9 +68,9 @@
 <p><del>众所周知，这个团体只有4个是地球人：因为剩下的一个（<a href="https://zh.moegirl.org.cn/青山渚">青山渚</a>）是从外星来的。</del></p>
 <h2 id="Lyrics’-Test"><a href="#Lyrics’-Test" class="headerlink" title="Lyrics’ Test"></a>Lyrics’ Test</h2><figure class="highlight plaintext"><figcaption><span>Sumire-rap</span><a href="https://zh.moegirl.org.cn/Day1">Day1</a></figcaption><table><tr><td class="code"><pre><span class="line">作詞：KEN THE 390　作曲：めんま、KEN THE 390　編曲：家原正樹</span><br><span class="line"></span><br><span class="line">閉まったままのアンサーを解き放つよ今日</span><br><span class="line">ここから世界中へ　大きい夢</span><br><span class="line">一緒に叶えに行こう　手を繋いで　あの角の向こう</span><br><span class="line">いつも通りの景色　変えるレシピ　見つけられたよ</span><br><span class="line"></span><br><span class="line">...</span><br><span class="line"></span><br><span class="line">繰り返しのルーティンに色をつけるミュージック</span><br><span class="line">僕らだけがわかる合図　合わせていくチューニング</span><br><span class="line">唯一無二　それぞれ　代わりなんていない</span><br><span class="line">代わり映えしない　今　変えてきたい</span><br></pre></td></tr></table></figure>
 <h2 id="Test-of-Audio-Players"><a href="#Test-of-Audio-Players" class="headerlink" title="Test of Audio Players"></a>Test of Audio Players</h2>
-    <div id="aplayer-CJoOIWeN" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="1835533024" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme=" #39c5bb"></div>
+    <div id="aplayer-QPyAlqOR" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="1835533024" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme=" #39c5bb"></div>
 
-    <div id="aplayer-eWUKjaFE" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="125693052" data-server="netease" data-type="album" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme=" #39c5bb"></div>
+    <div id="aplayer-BVpAaxtJ" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="125693052" data-server="netease" data-type="album" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme=" #39c5bb"></div>
 <!-- meting "71853061" "netease" "album" "theme: #39c5bb" -->
 <!-- meting "38991091" "netease" "album" "theme: #39c5bb" -->
 <h2 id="Codeblock-Test"><a href="#Codeblock-Test" class="headerlink" title="Codeblock Test"></a>Codeblock Test</h2><figure class="highlight js"><figcaption><span>liella-starter.js</span><a href="https://liella.tv/">星象馆传送门</a></figcaption><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> http = <span class="built_in">require</span>(<span class="string">&quot;http&quot;</span>);</span><br><span class="line"><span class="keyword">const</span> hostname = <span class="string">&quot;127.0.0.1&quot;</span>;</span><br><span class="line"><span class="keyword">const</span> port = <span class="number">1337</span>;</span><br><span class="line">http.createServer(<span class="function">(<span class="params">req, res</span>) =&gt;</span> &#123;</span><br><span class="line">  res.writeHead(<span class="number">200</span>, &#123; <span class="string">&quot;Content-Type&quot;</span>: <span class="string">&quot;text/plain&quot;</span> &#125;);</span><br><span class="line">  res.end(<span class="string">&quot;できっこないよって思ってたことも 踏みだせばほら叶うんだ\n&quot;</span>);</span><br><span class="line">&#125;).listen(port, hostname, <span class="function">() =&gt;</span> &#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">`At http://<span class="subst">$&#123;hostname&#125;</span>:<span class="subst">$&#123;port&#125;</span>/ 今、始まるよSymphony`</span>);</span><br><span class="line">&#125;);</span><br><span class="line">(<span class="function">() =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">const</span> liella = <span class="built_in">require</span>(<span class="string">&quot;Liella&quot;</span>);</span><br><span class="line">    liella.restart(<span class="string">&quot;Generation II!&quot;</span>);</span><br><span class="line">    &#125;)();</span><br></pre></td></tr></table></figure>
@@ -255,19 +87,19 @@
 ]]></content>
       <tags>
         <tag>測試Testing!</tag>
+        <tag>Sou (平安名 薮)</tag>
+        <tag>Chihori (涩谷 千穗理)</tag>
+        <tag>Kanako (涩谷 香菜子)</tag>
+        <tag>Otoha (涩谷 音羽)</tag>
         <tag>Kanon (涩谷 香音)</tag>
         <tag>Kuku (唐 可可)</tag>
         <tag>Chisato (岚 千砂都)</tag>
         <tag>Sumire (平安名 堇)</tag>
         <tag>Ren (叶月 恋)</tag>
-        <tag>Sou (平安名 薮)</tag>
-        <tag>Chihori (涩谷 千穗理)</tag>
-        <tag>Kanako (涩谷 香菜子)</tag>
-        <tag>Otoha (涩谷 音羽)</tag>
       </tags>
   </entry>
   <entry>
-    <title></title>
+    <title>群宣</title>
     <url>/2021/10/25/lof-1e6baacd-1cd3c9d6d/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="https://imglf6.lf127.net/img/fc3e0f4e3b64df7b/RDJzS3ZVSzYwTXFjN2xDeG9uclNQS3g0YlkxWjRsWkIySVBScndTNFY5cz0.jpg" alt="群聊二维码"></p>
 <p>欢迎入群哟</p>
@@ -294,12 +126,12 @@
       </tags>
   </entry>
   <entry>
-    <title></title>
+    <title>涩谷 香菜子 与 平安名 薮</title>
     <url>/2021/10/20/lof-1e6baacd-1cd45c6ef/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="https://imglf5.lf127.net/img/6dce96137f60f4b6/RDJzS3ZVSzYwTXJWL3N0Wjkra0xrSm5Sc0hVdU96MERsM3U4Y0grRTJaRT0.jpg" alt="香菜子ト薮"></p>
 <p><strong>子世代警告</strong></p>
 <p><strong><em>盗设必究</em></strong></p>
-<p>是千音群内大家讨论出的关于香音和千砂都家的二女儿和可可和堇家的小公主。</p>
+<p>是千音群内大家讨论出的关于<strong>香音和千砂都家</strong>的二女儿和<strong>可可和堇家</strong>的小公主。</p>
 <span id="more"></span>
 <p><img src="https://imglf4.lf127.net/img/fc68524b2cffba46/RDJzS3ZVSzYwTXJWL3N0Wjkra0xrRmxuOTBRSDk3Mk84dEJqNnQwcHI4RT0.png" alt="千穗理ト香菜子ノDemo"><img src="https://imglf4.lf127.net/img/dcd170a6e3ef78dc/RDJzS3ZVSzYwTXJWL3N0Wjkra0xrQ1EycTZCVzNaanlhZDVFUi92UW9QVT0.png" alt="音羽ノDemo"><img src="https://imglf3.lf127.net/img/837d05f10c1d5d0a/RDJzS3ZVSzYwTXJWL3N0Wjkra0xrTlBON0tid0NjY0FaVWsxb3dvZlJ1OD0.png" alt="薮ノDemo"></p>
 <p><strong><em>盗设必究</em></strong></p>
@@ -339,7 +171,7 @@
 <p>这四个崽崽是群内讨论诞生的，大家一起养的崽崽。倾注了满满的爱的孩子们，所以说如果喜欢，严禁擅自抱图，一定要注明出处。盗设必究</p>
 <p>过几天千音群会搞群子博，如果不雷子世代这样的设定，到时候可以关注一下。关于孩子们，我们就不再打扰主tag，只放在群子博的相关合集里了。</p>
 <p>群内大佬云集，二创气氛活跃，粮巨多！还每天都有！欢迎来和大佬贴贴呀！</p>
-<p><del>群号我放在评论区哦～</del><br>（<a href="https://sandyzikun.github.io/">凪坤</a>：咕咕咕我还没写评论系统咕咕咕）<br>（<a href="https://sandyzikun.github.io/">凪坤</a>：群号我放到<code>About(关于)</code>页面上了）</p>
+<p>群号我放在评论区哦～</p>
 <p><code>♡(ŐωŐ人)</code></p>
 ]]></content>
       <tags>
@@ -431,142 +263,9 @@
       </tags>
   </entry>
   <entry>
-    <title>歌詞測試</title>
-    <url>/2021/11/06/lyrics-block/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>如題，是歌詞<code>染色</code>模塊測試。<br>之前還是萬年巨坑，突然就很順利地填上了。</p>
-<span id="more"></span>
-<h2 id="渲染效果"><a href="#渲染效果" class="headerlink" title="渲染效果"></a>渲染效果</h2><ul>
-<li>HarryP (針原 翼) (feat. RIN, MIKU) - 一閃光</li>
-</ul>
-<figure class="highlight vocatag vocalyrics">
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="gutter">
-                            <pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre>
-                        </td>
-                        <td class="code">
-                            <pre><span class="line"><span class="base16colored-orange">とくとく流れているのは あなたに縋りついた血だ<br>鮮血汩汩流出 瞬間染紅了你的衣襟<br><br>涙の代わりに込み上げて <span class="base16colored-cyan">燃えさかる幻影の炎だろう</span><span class="base16colored-orange"><br>取而代之的是泣血椎心 </span><span class="base16colored-cyan">是燃燒後火焰的殘影</span></span></span></pre>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </figure>
-<ul>
-<li>人形兔 (feat. 五色戰隊(洛天依、樂正綾、樂正龍牙、墨清弦、徵羽摩柯)) - Hear me!</li>
-</ul>
-<pre class="vocalyricsblock"><code><span class="base16colored-blue">洛天依: 放學後空無一人的操場<br>拉勾以後就不許臨陣脫逃　好不好<br><span class="base16colored-red">樂正綾: 肩上的吉他和小小夢想<br>要為它們長出堅強的翅膀　我知道<br><br><span class="base16colored-blue">徵羽摩柯: Can you hear me now?　麥克風在手中握緊不放<br><span class="base16colored-yellow">墨清弦: 　Can you hear me now?　不用在意任何疑惑目光<br><span class="base16colored-cyan">樂正龍牙: Can you hear me now?　有你在一定能實現願望<br></span></span></span></span></span>讓淚水與歡笑　逆光也閃耀</code></pre>
-]]></content>
-      <tags>
-        <tag>測試Testing!</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>千醬！我真的好喜歡你啊!!爲了你我要推導π的展開式！!!----</title>
-    <url>/2021/10/13/pi-chi-chan/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>有一天，群裏的朋友在萌娘百科上注意到</p>
-<p><img src="https://liella-gen2.github.io/imagehost/pi.jpeg" alt></p>
-<p>光是背出來怎麽夠呢??爲了千醬，我們當然要把它推導出來啊!!</p>
-<h2 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h2><p>如題，對於 $\mathrm{R}$ 上的任意周期函數 $f(x)$ ，…</p>
-<span id="more"></span>
-<p>可展開為三角級數</p>
-<script type="math/tex; mode=display">
-\begin{align}
-f(x) = \frac{\alpha_0}2 + \sum_{k=1}^{\infty} ({\alpha}_k \cos{kx} + {\beta}_k \sin{kx}) \\
-
-{\alpha}_k = \frac{1}{\pi} \int_{-\pi}^{\pi} {f(x) \cos{kx} \mathrm{d}x}, 其中 k = 0, 1, 2, \cdots \\
-{\beta}_k = \frac{1}{\pi} \int_{-\pi}^{\pi} {f(x) \sin{kx} \mathrm{d}x}, 其中 k = 1, 2, \cdots \\
-
-\end{align}</script><p>根據Fourier展開式，函數 $f(x)$ 中的Fourier係數展開如上。</p>
-<p>根據式 $(2), (3)$ 得到函數 $\psi(x) = x^2$ 與 $\phi(x) = x$ 的Fourier係數</p>
-<ol>
-<li><p>對於函數 $\psi(x) = x^2$ ，根據<ruby>積分第一類換元法<rt>凑微分法</rt></ruby>、分部積分公式、<ruby>Newton-Leibniz公式<rt>微積分基本定理</rt></ruby>等結論，我們得到</p>
-<script type="math/tex; mode=display">
- \begin{align*}
-
- {\alpha}_0
- &= \frac{1}{\pi} \int_{-\pi}^{\pi} x^2 \mathrm{d}x
-  = \frac{2}3 {\pi}^2, \\
-
- {\alpha}_k
- &= \frac{1}{\pi} \int_{-\pi}^{\pi} x^2 \cos{kx} \mathrm{d}x \\
- &= \frac{1}{\pi k^3} \int_{-\pi}^{\pi} {(kx)}^2 \cos{kx} \mathrm{d}{(kx)} \\
- &= \frac{1}{\pi k^3} \int_{-k\pi}^{k\pi} t^2 \cos t \mathrm{d}t \\
- &= \frac{1}{\pi k^3} \int_{-k\pi}^{k\pi} t^2 \mathrm{d}{(\sin t)} \\
- &= \frac{1}{\pi k^3} {[ \int t^2 \mathrm{d}{(\sin t)} ]}_{-k\pi}^{k\pi} \\
- &= \frac{1}{\pi k^3} {[ t^2 \sin t - \int \sin t \mathrm{d}{(t^2)} ]}_{-k\pi}^{k\pi} \\
- &= \frac{1}{\pi k^3} {[ t^2 \sin t - 2 \int t \sin t \mathrm{d}{t} ]}_{-k\pi}^{k\pi} \\
- &= \frac{1}{\pi k^3} {[ t^2 \sin t + 2 \int t \mathrm{d}{(\cos t)} ]}_{-k\pi}^{k\pi} \\
- &= \frac{1}{\pi k^3} {[ t^2 \sin t + 2[ t \cos t - \int \cos t \mathrm{d}t ]]}_{-k\pi}^{k\pi} \\
- &= \frac{1}{\pi k^3} {[ t^2 \sin t + 2[ t \cos t + \int \mathrm{d}{(\sin t)} ]]}_{-k\pi}^{k\pi} \\
- &= \frac{1}{\pi k^3} {[ t^2 \sin t + 2[ t \cos t + \sin t ]]}_{-k\pi}^{k\pi} \\
- &= \frac{2}{\pi k^3} {[ t \cos t ]}_{-k\pi}^{k\pi} \\
- &= \frac{2}{\pi k^3} {[{[ t \cos t ]}_{k\pi} - {[ t \cos t ]}_{-k\pi}]} \\
- &= \frac{2}{\pi k^3} {[ k\pi \cos(k\pi) - (-k\pi) \cos(-k\pi) ]} \\
- &= \frac{2}{\pi k^3} {[ k\pi \cos(k\pi) + k\pi \cos(k\pi) ]} \\
- &= \frac{4}{\pi k^3} k\pi \cos(k\pi) \\
- &= {(-1)}^k \frac{4}{k^2}, \\
-
- {\beta }_k
- &= \frac{1}{\pi} \int_{-\pi}^{\pi} x^2 \sin{kx} \mathrm{d}x
-  = 0, \\
-
- \end{align*}</script><p> 上述各項代入三角級數表達式得到</p>
-<script type="math/tex; mode=display">\psi(x) = \frac{ {\pi}^2}3 + 4 \sum_{k=1}^{\infty} \frac{ {(-1)}^k}{k^2} \cos{kx},</script><p> $x = \pi$ 時，得到</p>
-<script type="math/tex; mode=display">
- \begin{align*}
- {\pi}^2 = \psi(\pi)
- &= \frac{ {\pi}^2}3 + 4 \sum_{k=1}^{\infty} \frac{ {(-1)}^k}{k^2} \cos{k\pi} \\
- &= \frac{ {\pi}^2}3 + 4 \sum_{k=1}^{\infty} \frac{ {(-1)}^k}{k^2} {(-1)}^k \\
- &= \frac{ {\pi}^2}3 + 4 \sum_{k=1}^{\infty} \frac{1}{k^2}, \\
- \frac{2}3{\pi}^2 &= 4 \sum_{k=1}^{\infty} \frac{1}{k^2}, \\
- \frac{ {\pi}^2}6 &= \sum_{k=1}^{\infty} \frac{1}{k^2}, \\
- \therefore \pi &= \sqrt{6 \sum_{k=1}^{\infty} \frac{1}{k^2} }. \\
- \end{align*}</script></li>
-<li><p>對於函數 $\phi(x) = x$ ，與上述過程類似地，我們得到</p>
-<script type="math/tex; mode=display">
- \begin{align*}
-
- {\alpha}_k
- &= \frac{1}{\pi} \int_{-\pi}^{\pi} x \cos{kx} \mathrm{d}x
-  = 0, \\
-
- {\beta }_k
- &= \frac{1}{\pi} \int_{-\pi}^{\pi} x \sin{kx} \mathrm{d}x
-  = (-2) \frac{ {(-1)}^k}k, \\
-
- \phi(x) &= (-2) \sum_{k=1}^{\infty} { {(-1)}^k \frac{\sin{kx} }k }, \\
-
- \frac{\pi}2 = \phi(\frac{\pi}2)
- &= (-2) \sum_{k=1}^{\infty} { {(-1)}^k \frac{\sin{\frac{k}2\pi} }k } \\
- &= (-2) \sum_{m=1}^{\infty} \frac{ {(-1)}^m }{2m-1}, \\
-
- \therefore \pi &= (-4) \sum_{m=1}^{\infty} \frac{ {(-1)}^m }{2m-1}. \\
-
- \end{align*}</script></li>
-</ol>
-<p>綜上所述，我們得到 $\pi$ 的兩種三角級數形式的表達式</p>
-<script type="math/tex; mode=display">
-\begin{align*}
-\pi
-&= \sqrt{6 \sum_{k=1}^{\infty} \frac{1}{k^2} }
-= \sqrt{6(1 + \frac{1}4 + \frac{1}9 + \cdots + \frac{1}m + \cdots)},\\
-\pi
-&= (-4) \sum_{k=1}^{\infty} \frac{ {(-1)}^k }{2 k - 1}
-= 4[1 - \frac{1}3 + \frac{1}5 - \frac{1}7 + \cdots + \frac{ {(-1)}^m }{2 m - 1} + \cdots].\\
-\end{align*}</script><h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><ol>
-<li>復旦大學數學系: 《數學分析》第四版(下冊), 歐陽光中 朱學炎 金福臨 陳傳璋 編, 高等教育出版社, 2018年8月 (初版1978年5月).</li>
-</ol>
-]]></content>
-      <tags>
-        <tag>Chisato (岚 千砂都)</tag>
-        <tag>無窮級數</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>「归档】 涩谷 千穗理</title>
     <url>/2021/11/06/archives/chihori/01/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>涩谷香音与岚千砂都家的长女。</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><strong>涩谷香音</strong>与<strong>岚千砂都</strong>家的长女。</p>
 <span id="more"></span>
 <h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><div class="table-container">
 <table>
@@ -685,13 +384,143 @@ f(x) = \frac{\alpha_0}2 + \sum_{k=1}^{\infty} ({\alpha}_k \cos{kx} + {\beta}_k \
 ]]></content>
       <tags>
         <tag>Chihori (涩谷 千穗理)</tag>
+        <tag>Kanon (涩谷 香音)</tag>
+        <tag>Chisato (岚 千砂都)</tag>
+        <tag>Liella! Generation II, Liella!第二世代</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>「归档】 涩谷 音羽</title>
+    <url>/2021/11/06/archives/otoha/01/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><strong>涩谷香音</strong>与<strong>岚千砂都</strong>家，年龄最小的女儿。</p>
+<span id="more"></span>
+<h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:right"></th>
+<th style="text-align:left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right"><ruby>中文姓名<rt>Name <code>in Chinese</code></rt></ruby></td>
+<td style="text-align:left">涩谷 音羽</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>日文姓名<rt>Name <code>in Japanese</code></rt></ruby></td>
+<td style="text-align:left"><ruby>涩谷<rt>しぶや</rt></ruby> おとは</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>罗马字音<rt>Name <code>in Roman</code></rt></ruby></td>
+<td style="text-align:left">Shibuya Otoha</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>出生地点<rt>Birthplace</rt></ruby></td>
+<td style="text-align:left">东京都</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>昵称<rt>Nickname</rt></ruby></td>
+<td style="text-align:left">白</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>学校<rt>Current College</rt></ruby></td>
+<td style="text-align:left"><code>??</code></td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>年级<rt>Grade</rt></ruby></td>
+<td style="text-align:left"><code>??</code></td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>身高<rt>Height</rt></ruby></td>
+<td style="text-align:left"><code>(12周岁)</code>146cm</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>体重<rt>Weight</rt></ruby></td>
+<td style="text-align:left"><code>(12周岁)</code>69kg</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>生日<rt>Birth</rt></ruby></td>
+<td style="text-align:left"><code>??</code></td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>星座<rt>Constellation</rt></ruby></td>
+<td style="text-align:left">金牛座</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="Other-Biological-Features"><a href="#Other-Biological-Features" class="headerlink" title="Other Biological Features"></a>Other Biological Features</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:right"></th>
+<th style="text-align:left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right"><ruby>血型<rt>Blood Group</rt></ruby></td>
+<td style="text-align:left">B</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>发色<rt>Hair Color</rt></ruby></td>
+<td style="text-align:left">白</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>瞳色<rt>Eye Color</rt></ruby></td>
+<td style="text-align:left">红</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>音色<rt>Timbre</rt></ruby></td>
+<td style="text-align:left"><del><code>CV.伊达小百合</code></del> 参考 Kanon</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>惯用手<rt>Dominant Hand</rt></ruby></td>
+<td style="text-align:left">惯用右手</td>
+</tr>
+<tr>
+<td style="text-align:right"><ruby>视力<rt></rt></ruby></td>
+<td style="text-align:left">正常</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><em>本部分记录截止时间为主人公<code>12周岁</code>，下同。</em></p>
+<ul>
+<li>手术史: 无</li>
+<li>特殊病史: 无</li>
+<li>疤痕: 无</li>
+</ul>
+<h2 id="Experiences"><a href="#Experiences" class="headerlink" title="Experiences"></a>Experiences</h2><ul>
+<li>早期精神体验: 无</li>
+<li>获奖经历: 暂无</li>
+<li>恋爱经历: <span class="hidiv">Chihori suki</span></li>
+</ul>
+<h2 id="Personal-Tendencies"><a href="#Personal-Tendencies" class="headerlink" title="Personal Tendencies"></a>Personal Tendencies</h2><ul>
+<li>尊敬的人是家里的妈妈们和姐姐们，但不会以来她们，喜欢 Chihori 姐姐但尽量不会表现出来</li>
+<li>喜欢耍帅</li>
+<li>喜欢 Kanon 与 Chisato 的曲目</li>
+<li>穿着风格类似 Kanon</li>
+<li>偏消极，不爱人际交往，没有害怕之事，讨厌无聊之人，没有梦想一说，<del>疑似得到了折棒的节能精神真传</del></li>
+<li>经济状况收支平衡</li>
+<li>和 Kanon 与 Chisato 一样，喜欢烤苹果、番茄、汉堡肉、牛奶咖啡、章鱼烧、可乐、桃子等食物，讨厌吃青椒</li>
+</ul>
+<h2 id="Extra"><a href="#Extra" class="headerlink" title="Extra"></a>Extra</h2><ul>
+<li>人物形象设计: <code>w1175</code></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>Otoha (涩谷 音羽)</tag>
+        <tag>Kanon (涩谷 香音)</tag>
+        <tag>Chisato (岚 千砂都)</tag>
         <tag>Liella! Generation II, Liella!第二世代</tag>
       </tags>
   </entry>
   <entry>
     <title>「归档】 涩谷 香菜子</title>
     <url>/2021/11/06/archives/kanako/01/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>涩谷香音与岚千砂都家的女儿之一。</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><strong>涩谷香音</strong>与<strong>岚千砂都</strong>家的二女儿。</p>
 <span id="more"></span>
 <h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><div class="table-container">
 <table>
@@ -833,132 +662,8 @@ f(x) = \frac{\alpha_0}2 + \sum_{k=1}^{\infty} ({\alpha}_k \cos{kx} + {\beta}_k \
 ]]></content>
       <tags>
         <tag>Kanako (涩谷 香菜子)</tag>
-        <tag>Liella! Generation II, Liella!第二世代</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>「归档】 涩谷 音羽</title>
-    <url>/2021/11/06/archives/otoha/01/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>涩谷香音与岚千砂都家，年龄最小的女儿。</p>
-<span id="more"></span>
-<h2 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h2><div class="table-container">
-<table>
-<thead>
-<tr>
-<th style="text-align:right"></th>
-<th style="text-align:left"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:right"><ruby>中文姓名<rt>Name <code>in Chinese</code></rt></ruby></td>
-<td style="text-align:left">涩谷 音羽</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>日文姓名<rt>Name <code>in Japanese</code></rt></ruby></td>
-<td style="text-align:left"><ruby>涩谷<rt>しぶや</rt></ruby> おとは</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>罗马字音<rt>Name <code>in Roman</code></rt></ruby></td>
-<td style="text-align:left">Shibuya Otoha</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>出生地点<rt>Birthplace</rt></ruby></td>
-<td style="text-align:left">东京都</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>昵称<rt>Nickname</rt></ruby></td>
-<td style="text-align:left">白</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>学校<rt>Current College</rt></ruby></td>
-<td style="text-align:left"><code>??</code></td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>年级<rt>Grade</rt></ruby></td>
-<td style="text-align:left"><code>??</code></td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>身高<rt>Height</rt></ruby></td>
-<td style="text-align:left"><code>(12周岁)</code>146cm</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>体重<rt>Weight</rt></ruby></td>
-<td style="text-align:left"><code>(12周岁)</code>69kg</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>生日<rt>Birth</rt></ruby></td>
-<td style="text-align:left"><code>??</code></td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>星座<rt>Constellation</rt></ruby></td>
-<td style="text-align:left">金牛座</td>
-</tr>
-</tbody>
-</table>
-</div>
-<h2 id="Other-Biological-Features"><a href="#Other-Biological-Features" class="headerlink" title="Other Biological Features"></a>Other Biological Features</h2><div class="table-container">
-<table>
-<thead>
-<tr>
-<th style="text-align:right"></th>
-<th style="text-align:left"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:right"><ruby>血型<rt>Blood Group</rt></ruby></td>
-<td style="text-align:left">B</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>发色<rt>Hair Color</rt></ruby></td>
-<td style="text-align:left">白</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>瞳色<rt>Eye Color</rt></ruby></td>
-<td style="text-align:left">红</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>音色<rt>Timbre</rt></ruby></td>
-<td style="text-align:left"><del><code>CV.伊达小百合</code></del> 参考 Kanon</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>惯用手<rt>Dominant Hand</rt></ruby></td>
-<td style="text-align:left">惯用右手</td>
-</tr>
-<tr>
-<td style="text-align:right"><ruby>视力<rt></rt></ruby></td>
-<td style="text-align:left">正常</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p><em>本部分记录截止时间为主人公<code>12周岁</code>，下同。</em></p>
-<ul>
-<li>手术史: 无</li>
-<li>特殊病史: 无</li>
-<li>疤痕: 无</li>
-</ul>
-<h2 id="Experiences"><a href="#Experiences" class="headerlink" title="Experiences"></a>Experiences</h2><ul>
-<li>早期精神体验: 无</li>
-<li>获奖经历: 暂无</li>
-<li>恋爱经历: <span class="hidiv">Chihori suki</span></li>
-</ul>
-<h2 id="Personal-Tendencies"><a href="#Personal-Tendencies" class="headerlink" title="Personal Tendencies"></a>Personal Tendencies</h2><ul>
-<li>尊敬的人是家里的妈妈们和姐姐们，但不会以来她们，喜欢 Chihori 姐姐但尽量不会表现出来</li>
-<li>喜欢耍帅</li>
-<li>喜欢 Kanon 与 Chisato 的曲目</li>
-<li>穿着风格类似 Kanon</li>
-<li>偏消极，不爱人际交往，没有害怕之事，讨厌无聊之人，没有梦想一说，<del>疑似得到了折棒的节能精神真传</del></li>
-<li>经济状况收支平衡</li>
-<li>和 Kanon 与 Chisato 一样，喜欢烤苹果、番茄、汉堡肉、牛奶咖啡、章鱼烧、可乐、桃子等食物，讨厌吃青椒</li>
-</ul>
-<h2 id="Extra"><a href="#Extra" class="headerlink" title="Extra"></a>Extra</h2><ul>
-<li>人物形象设计: <code>w1175</code></li>
-</ul>
-]]></content>
-      <tags>
-        <tag>Otoha (涩谷 音羽)</tag>
+        <tag>Kanon (涩谷 香音)</tag>
+        <tag>Chisato (岚 千砂都)</tag>
         <tag>Liella! Generation II, Liella!第二世代</tag>
       </tags>
   </entry>
