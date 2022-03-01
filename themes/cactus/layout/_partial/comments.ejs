@@ -1,0 +1,58 @@
+<% if (page.comments) { %>
+    <% if (theme.disqus.enabled) { %>
+        <div class="blog-post-comments">
+            <div id="disqus_thread">
+                <noscript><%= __('comments.no_js') %></noscript>
+            </div>
+        </div>
+    <% } %>
+    <% if (theme.gitalk.enabled && false) { %>
+        <div id="gitalk-container"></div>
+        <script>
+            /* new Gitalk({
+                clientID: 'e46f6dec7c07145c652c',
+                clientSecret: 'd1a0b627f9b76d21bd3080d1777d0aa0ad55dd83',
+                accessToken:  '6a2f4d91a1f188a2089e70c2a7b63628f3e9e664',
+                repo: 'gitalk',
+                owner: 'gitalk',
+                admin: ['booxood', 'mamboer'],
+                id: 'Demo',
+                distractionFreeMode: true
+            }).render('gitalk-container'); */
+            new Gitalk({
+                clientID: "<%= theme.gitalk.clientID %>",
+                clientSecret: "<%= theme.gitalk.clientSecret %>",
+                id: window.location.pathname,
+                repo: "<%= theme.gitalk.repo %>",
+                owner: "<%= theme.gitalk.owner %>",
+                admin: "<%= theme.gitalk.admin %>",
+                distractionFreeMode: <%= theme.gitalk.distractionFreeMode %>
+            }).render('gitalk-container');
+        </script>
+    <% } %>
+    <% if (theme.valine.enabled) { %>
+        <hr />
+        <h1 id="message-board">Comment!!</h1>
+        <div id="valine-container"></div>
+        <script>
+            /* new Valine({
+            el: "#valine-container",
+            appId: "3GiiCyXCrGbOIH3EelCfJ6yw-gzGzoHsz",
+            appKey: "iuneD4hXPQImdHQSRE0aOcRF",
+            placeholder: "Just Go Go.",
+            avatar: "mp",
+            path: "/",
+            recordIP: true,
+            lang: "zh-cn",
+            visitor: true,
+            enableQQ: true,
+            }); */
+            new Valine({
+            el: "#valine-container",
+            appId: "<%= theme.valine.AppID %>",
+            appKey: "<%= theme.valine.AppKey %>",
+            placeholder: "<%= theme.valine.placeholder %>"
+            });
+        </script>
+    <% } %>
+<% } %>

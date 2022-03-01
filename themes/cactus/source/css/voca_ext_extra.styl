@@ -1,0 +1,40 @@
+// Inserted at the very bottom of `layout/styles.ejs`
+
+
+@import "_variables"
+@import "_colors/" + $colors
+/**
+ * @author sandyzikun
+ * @since Oct 2021
+ * Base16 Variables
+ */
+if hexo-config("base16") && hexo-config("base16.enabled")
+  @import "__base16/init"
+
+
+// GitHub Gists
+.gist .gist-file
+  &, & .gist-data
+    border-color: mix($color-background, $color-border)
+  .gist-meta
+    &, & a
+      color: $color-meta
+      background-color: $color-background
+
+// Valine
+#valine-container
+  margin-bottom: 3.9em
+
+.v
+  padding: 39px
+  border: 1.28px solid $color-border
+  border-radius: 12.8px
+  //box-shadow: 1.28px 1.28px 3.9px $color-border
+  @media (prefers-color-scheme: dark)
+    background-color: black
+  @media (prefers-color-scheme: light)
+    background-color: white
+  .vcount,
+  h1, h2, h3,
+  th, td, li
+    color: #1abcb0 //#1abc9c

@@ -1,0 +1,107 @@
+// Variables
+$base16-theme = hexo-config("base16.theme") || "solarized"
+$base16-light_background = hexo-config("base16.light_background")
+$base16-highlight_scheme = hexo-config("base16.highlight_scheme") || "atelier-light"
+$base16-maincolor = hexo-config("base16.maincolor") || "miku"
+$base16-linkcolor = hexo-config("base16.linkcolor") || "miku"
+
+@import "_themes/" + $base16-theme
+@import "_schemes/" + $base16-highlight_scheme
+
+if $base16-light_background
+  // by @sandyzikun (https://github.com/sandyzikun)
+
+  $color-background = lighten($base07, 66.7%)
+  $color-footer-mobile-1 = darken($color-background, 2%)
+  $color-footer-mobile-2 = $base07 // darken($color-background, 10%)
+
+  $color-background-code = $base07
+
+  $color-border = $base03
+
+  //$color-link = $base-cyan
+  $color-text = mix($base01, $base03)
+  $color-accent-3 = $base04
+  $color-accent-2 = mix($base01, $base02)
+  //$color-accent-1 = $base-yellow
+
+else
+  // by @sandyzikun (https://github.com/sandyzikun)
+
+  $color-background = darken($base00, 50%)
+  $color-footer-mobile-1 = lighten($color-background, 2%)
+  $color-footer-mobile-2 = $base00 // lighten($color-bcakground, 10%)
+
+  $color-background-code = $base00
+
+  $color-border = $base04
+
+  //$color-link = $base-orange
+  $color-text = mix($base05, $base04)
+  $color-accent-3 = $base03
+  $color-accent-2 = mix($base06, $base05)
+  //$color-accent-1 = $base-cyan
+
+$color-meta = $color-border
+$color-meta-code = lighten($color-meta, 10%)
+
+/**
+ * Both $color-accent-1 & $color-link could be one of $base-{
+  * `yellow`, `orange`, `red`, `magenta`
+  * `violet`, `blue`, `cyan`, `green`
+ * }
+ */
+if $base16-linkcolor == "cyan"
+  $color-link = $base-cyan
+else if $base16-linkcolor == "yellow"
+  $color-link = $base-yellow
+else if $base16-linkcolor == "orange"
+  $color-link = $base-orange
+else if $base16-linkcolor == "red"
+  $color-link = $base-red
+else if $base16-linkcolor == "magenta"
+  $color-link = $base-magenta
+else if $base16-linkcolor == "violet"
+  $color-link = $base-violet
+else if $base16-linkcolor == "blue"
+  $color-link = $base-blue
+else if $base16-linkcolor == "green"
+  $color-link = $base-green
+else
+  $color-link = #39c5bb //rgb(127.5, 127.5, 127.5)
+if $base16-maincolor == "cyan"
+  $color-accent-1 = $base-cyan
+else if $base16-maincolor == "yellow"
+  $color-accent-1 = $base-yellow
+else if $base16-maincolor == "orange"
+  $color-accent-1 = $base-orange
+else if $base16-maincolor == "red"
+  $color-accent-1 = $base-red
+else if $base16-maincolor == "magenta"
+  $color-accent-1 = $base-magenta
+else if $base16-maincolor == "violet"
+  $color-accent-1 = $base-violet
+else if $base16-maincolor == "blue"
+  $color-accent-1 = $base-blue
+else if $base16-maincolor == "green"
+  $color-accent-1 = $base-green
+else
+  $color-accent-1 = #39c5bb //rgb(127.5, 127.5, 127.5)
+$color-quote = $color-accent-1
+
+.base16colored-cyan
+  color: $base-cyan
+.base16colored-yellow
+  color: $base-yellow
+.base16colored-orange
+  color: $base-orange
+.base16colored-red
+  color: $base-red
+.base16colored-magenta
+  color: $base-magenta
+.base16colored-violet
+  color: $base-violet
+.base16colored-blue
+  color: $base-blue
+.base16colored-green
+  color: $base-green

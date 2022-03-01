@@ -1,0 +1,11 @@
+<span class="h2">
+  <i class="fa fa-thumbtack"></i>
+  Top!
+</span>
+<ul class="post-list">
+  <% site.posts.sort((theme.posts_overview.sort_updated ? 'updated' : 'date'), 'desc').each((post, k) => { %>
+    <% if (post.top) { %>
+      <%- partial('post-item', {post: post}) %>
+    <% } %>
+  <% }); %>
+</ul>

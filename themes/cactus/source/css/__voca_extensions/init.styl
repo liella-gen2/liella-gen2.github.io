@@ -1,0 +1,202 @@
+// Inserted at the very bottom of `source/css/style.styl`
+
+
+// Schemes of Self-config HTML Tags
+$tagscheme-code = hexo-config("tagscheme.code")
+$tagscheme-kbd = hexo-config("tagscheme.kbd")
+
+
+article .content
+  blockquote
+    &::before
+      font-size: 1.28em
+      font-family: "Font Awesome 5 Free"
+      content: "\f10d"
+  details
+    &>summary::marker
+      content: "+"
+    &[open]>summary::marker
+      content: "-"
+
+code, kbd, span.mono_inline
+  padding: 2px 4px
+  border-width: 1px
+  border-radius: 4px
+  -webkit-border-radius: 4px
+code
+  if $tagscheme-code == 1
+    color: $color-accent-1
+    border-style: solid
+    border-color: $color-background-code
+    background-color: $color-background-code
+  else
+    color: $color-text
+    border-style: dotted
+    border-color: $color-border
+    background-color: $color-background
+  pre &
+    color: $color-text
+    background-color: $color-background
+kbd
+  border-style: solid
+  if $tagscheme-kbd == 1
+    border-color: $color-border
+    background-color: $color-background-code
+    box-shadow: inset 0 -1px 0 $color-border
+  else if $tagscheme-kbd == 2
+    color: $color-background
+    border-color: $color-text
+    background-color: $color-text
+  else
+    border-color: $color-border
+    background-color: mix($color-background, $color-background-code)
+
+.hidiv // hover时显示的文案需要通过js修改tag的title, 这里我们在 `/source/js/main.js` 中进行了修改
+  color: $color-text
+  background-color: $color-text
+  text-shadow: none
+  transition: .39s
+  &:hover
+    background-color: $color-background
+
+#typedesc, .mjx-chtml .mjx-math
+  color: $color-text
+  color: saturate($color-text, 72.5%)
+  color: saturate($color-text, 164%)
+  color: saturate($color-text, 225%)
+  background-color: $color-background
+
+#typedesc
+  font-style: italic
+  &+.typed-cursor
+    font-weight: bold
+
+// GitHub Corner & Octo-cat animation
+if hexo-config("gh_corner")
+  @keyframes octocat-wave
+    0%, 100%
+      transform: rotate(0)
+    20%, 60%
+      transform: rotate(-25deg)
+    40%, 80%
+      transform: rotate(10deg)
+  @keyframes octocat-spin
+    0%
+      transform: rotate(0)
+    20%
+      transform: rotate(72deg)
+    40%
+      transform: rotate(144deg)
+    60%
+      transform: rotate(216deg)
+    80%
+      transform: rotate(288deg)
+    100%
+      transform: rotate(360deg)
+  if true
+    $gh_corner-octo-animation = octocat-spin 156ms infinite
+  else
+    $gh_corner-octo-animation = octocat-wave 560ms ease-in-out
+  .github-corner
+    svg
+      fill: $color-text
+      color: $color-background
+      position: fixed
+      top: 0
+      border: 0
+      right: 0
+    &:hover .octo-arm
+      animation: $gh_corner-octo-animation
+    @media (max-width: 500px)
+      & .octo-arm
+        animation: $gh_corner-octo-animation
+      &:hover .octo-arm
+        animation: none
+  #header-post
+    right: 3.9em
+
+#subtitle
+  h2
+    margin: 0
+    text-align: center
+
+
+section
+  h2, .h2
+    i.fa::before
+      color: darken($color-accent-3, 12.8%) //mix(darken($color-accent-1, 12.8%), darken($color-accent-1, 39%))
+
+.tagcloud a,
+.tag-cloud-tags a,
+.article-tag a,
+a.tag-link-link
+  &::before
+    content: "#"
+  .tag-link-count
+    color: $color-background
+    background-color: $color-border
+    margin-left: 3.9px
+
+a.tag-link-link .tag-link-count
+  padding: 2px 4px 0
+  border-width: 1px
+  border-radius: 4px 4px 0 0
+  -webkit-border-radius: 4px 4px 0 0
+
+.post-list
+  li.post-item.post-item-above
+    &, #archive &
+      margin-bottom: 0
+      .meta
+        min-width: 128px
+        padding-top: 12.8px
+        border-bottom: 1.28px dashed $color-border
+  .post-item
+    blockquote
+      margin: 0 39px
+      padding-left: 12.8px
+      border-left: .5px dashed $color-accent-3
+      &::before
+        margin-left: -1em
+        color: $color-quote
+        content: "\201C"
+        vertical-align: -.39em
+        font-size: 2.56em
+        line-height: .1em
+      p
+        margin-bottom: 0
+        img
+          max-width: 100%
+          height: auto
+    .post-item-contents
+      span, blockquote
+        padding-left: 3.9px
+      border-left: 1.28px dashed $color-border
+
+/*
+@media (min-width: 39rem)
+  #footer .footer-left
+    margin-right: 0
+    */
+
+@media screen and (min-width: 900px)
+  .content .post .content,
+  .post-list .post-item,
+  .project-list .project-item,
+  .tagcloud
+    a, a:hover
+      position: relative
+    a::after
+      content: ""
+      position: absolute
+      bottom: 0
+      left: auto
+      right: 0
+      width: 0
+      transition: .39s
+      background-color: rgba($color-link, .56)
+      height: 5.6px
+    a:hover::after
+      left: 0
+      right: auto
+      width: 100%

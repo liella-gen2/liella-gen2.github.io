@@ -1,0 +1,42 @@
+<li class="post-item post-item-above">
+  <div class="meta">
+    @<% if (post.author) { %><%- post.author %><% } else { %><%- config.author %><% } %>
+  </div>
+  <!--div>Images</div-->
+</li>
+<li class="post-item">
+  <%- partial('_partial/post/date', { post: post, class_name: 'meta' }) %>
+  <div class="post-item-contents">
+    <span class="post-item-title">
+      <span
+        <% if (post.accent == -1) { %>
+          style="text-decoration:line-through;"
+        <% } else if (post.accent == 1) { %>
+          style="font-style:italic;"
+        <% } else if (post.accent == 2) { %>
+          style="font-weight:bold;"
+        <% } else if (post.accent == 3) { %>
+          style="font-style:italic;font-weight:bold;"
+        <% } else { %>
+          style=""
+        <% } %>
+      >
+        <%- partial('_partial/post/title', { post: post, index: true, class_name: '' }) %>
+      </span>
+    </span>
+    <% if (post.abstract) { %>
+      <hr style="margin:3.9px 0px" />
+      <blockquote><%- markdown(post.abstract) %></blockquote>
+    <% } %>
+    <% if (post.excerpt && !(post.hide_excerpt)) { %>
+      <hr style="margin:3.9px 0px" />
+      <blockquote><%- post.excerpt %></blockquote>
+    <% } %>
+    <hr style="margin:3.9px 0px" />
+    <span class="post-item-tags">
+      <i class="fa fa-tag"></i>
+      <%- list_tags(post.tags, { show_count: true, style: "link", separator: "&nbsp;" }) %>
+    </span>
+    <hr />
+  </div>
+</li>
